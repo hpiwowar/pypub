@@ -1,0 +1,91 @@
+import re
+import time
+import urllib2
+from utils.cache import TimedCache
+from datasources import fieldname, datasourcesError
+from datasources import DataSource
+from datasources import urlopener
+from datasources.pubmed import filter_pmids
+from pyparsing import *
+
+base_url = """http://www.scirus.com/srsapp/search?"""
+query_prefix = """&q="""
+start_url_args = """sort=0&t=all"""
+end_url_args = """&g=a&dt=all&ff=all&ds=jnl&ds=nom&ds=web&sa=all"""
+
+journal_limits = """+(journal%3Acell+OR+journal%3Ascience+OR+journal%3ANature)&cn=all"""
+cohort_limits = """&co=AND&t=any&q=microarray*+%22genome-wide%22+%22expression+profile*%22+++%22transcription+profil*%22&cn=all"""
+date_limits = """&fdt=2007&tdt=2007"""
+
+page_start_prefix = """&p="""
+
+
+# Note to get more than 10 at a time, would need to learn how to set the cookie that gets set here:
+# http://www.scirus.com/srsapp/preferences
+
+class Scirus(DataSource):
+    def get_url_from_query(self, query, start=0):
+        full_url = base_url + start_url_args + query_prefix + query + journal_limits + cohort_limits + date_limits + end_url_args + page_start_prefix + str(start)
+        return(full_url)
+    
+    def get_page_from_url(self, url):
+        page = get_page_using_opener(url, urlopener)
+        return(page)
+
+    def get_citations_from_page(self, page):
+#        <font class="srctitle">Cancer Cell International</font>
+#<font class="authorname">Al-Romaih
+        fontStart,fontEnd = makeHTMLTags("font")
+
+        journal_start = '<font class="srctitle">'
+        journal_end = "</font>,"
+        journal_pattern = Suppress(journal_start) + SkipTo(journal_end)("journal") + Suppress(journal_end)
+        volume_pattern = Word(nums)("volume")
+        issue_pattern = Suppress("(") + Word(nums)("issue") + Suppress(")")
+        page_pattern = Suppress("p.") + Word(nums)("first_page") + Optional("-") + Optional(Word(nums))
+        year = Word(nums, exact=4) 
+        year_pattern = SkipTo(year).suppress() + year("year") + Suppress("</font>")
+        
+	    #author_start = '<font class="authorname">'
+        #author_end = ","
+        #author_pattern = Suppress(author_start) + SkipTo(author_end)("author") 
+        
+        citation_pattern = journal_pattern + volume_pattern + Optional(issue_pattern) + Suppress(",") + page_pattern + year_pattern
+        items_dict = get_dict_of_hits(citation_pattern, page)
+        return(items_dict)
+        
+    def get_DOIs_from_page(self, page):
+        DOI_pattern = Suppress("doi:") + Word(alphanums + "." + "/" + "-", min=5)
+        DOI_set = set(get_list_of_hits(DOI_pattern, page))
+        DOI_unique_list = list(DOI_set)
+        return(DOI_unique_list)
+        
+    def get_PMIDs_from_DOIs(self, DOIs):
+        annotated_DOIs = [doi + "[doi]" for doi in DOIs]
+        DOI_query_string = " OR ".join(annotated_DOIs)
+        PMIDs = filter_pmids("1", DOI_query_string)
+        return(PMIDs)
+
+def convert_items_to_lookup_strings(items):
+    lookup_strings = ["|".join([item['journal'], item['year'], item['volume'], item['first_page'], "", "test"]) for item in items]
+    for line in lookup_strings:
+        print(line)
+    return(lookup_strings)
+             
+@TimedCache(timeout_in_seconds=60*60*24*7)            
+def get_list_of_hits(pattern, text):
+    items = pattern.searchString(text)
+    flat_list = [item for [item] in items.asList()]
+    return(flat_list)
+    
+@TimedCache(timeout_in_seconds=60*60*24*7)            
+def get_dict_of_hits(pattern, text):
+    items = pattern.searchString(text)
+    return(items)
+    
+def get_page_using_opener(url, opener=None):
+    if not opener:
+        opener = urllib2.build_opener()
+    page = opener.open(url).read()
+    #time.sleep(1/3)
+    return(page)

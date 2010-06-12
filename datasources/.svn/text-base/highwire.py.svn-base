@@ -1,0 +1,44 @@
+import re
+import time
+import urllib2
+from utils.cache import TimedCache
+from datasources import fieldname, datasourcesError
+from datasources import DataSource
+from pyparsing import *
+
+
+# Note to get more than 10 at a time, would need to learn how to set the cookie that gets set here:
+# http://www.scirus.com/srsapp/preferences
+
+class Highwire(DataSource):
+    def get_citations_from_page(self, page):
+        stripWhitespace = lambda tokens: tokens[0].strip()
+        		        
+        year_pattern = Word(nums, exact=4)("year")
+        volume_pattern = Word(nums)("volume")
+        journal_pattern = SkipTo(volume_pattern)("journal")
+        journal_pattern.setParseAction(stripWhitespace)
+        page_pattern = Word(nums)("first_page") 
+        end_citation = Suppress('<A HREF="#more"')
+        
+        citation_pattern = year_pattern + journal_pattern + volume_pattern + Suppress(":") + page_pattern + end_citation
+        items = get_dict_of_hits(citation_pattern, page)
+        return(items)
+        
+def convert_items_to_lookup_strings(items):
+    lookup_strings = ["|".join([item['journal'], item['year'], item['volume'], item['first_page'], "", "test"]) for item in items]
+    for line in lookup_strings:
+        print(line)
+    return(lookup_strings)
+         
+@TimedCache(timeout_in_seconds=60*60*24*7)            
+def get_list_of_hits(pattern, text):
+    items = pattern.searchString(text)
+    flat_list = [item for [item] in items.asList()]
+    return(flat_list)
+    
+@TimedCache(timeout_in_seconds=60*60*24*7)            
+def get_dict_of_hits(pattern, text):
+    items = pattern.searchString(text)
+    return(items)
+    

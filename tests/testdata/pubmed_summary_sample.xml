@@ -1,0 +1,40 @@
+<DocSum>
+	<Item Name="Author" Type="String">Mehta RG</Item>
+	</Item>
+	<Item Name="LastAuthor" Type="String">Mehta RG</Item>
+	<Item Name="Title" Type="String">Deguelin inhibits growth of breast cancer cells by modulating the expression of key members of the Wnt signaling pathway.</Item>
+	<Item Name="Volume" Type="String">2</Item>
+	<Item Name="Issue" Type="String">11</Item>
+	<Item Name="Pages" Type="String">942-50</Item>
+	<Item Name="LangList" Type="List">
+		<Item Name="Lang" Type="String">English</Item>
+	</Item>
+	<Item Name="NlmUniqueID" Type="String">101479409</Item>
+	<Item Name="ISSN" Type="String">1940-6207</Item>
+	<Item Name="ESSN" Type="String">1940-6215</Item>
+	<Item Name="PubTypeList" Type="List">
+		<Item Name="PubType" Type="String">Journal Article</Item>
+	</Item>
+	<Item Name="RecordStatus" Type="String">PubMed - indexed for MEDLINE</Item>
+	<Item Name="PubStatus" Type="String">ppublish+epublish</Item>
+	<Item Name="ArticleIds" Type="List">
+		<Item Name="pii" Type="String">1940-6207.CAPR-08-0232</Item>
+		<Item Name="doi" Type="String">10.1158/1940-6207.CAPR-08-0232</Item>
+		<Item Name="pubmed" Type="String">19861542</Item>
+	</Item>
+	<Item Name="DOI" Type="String">10.1158/1940-6207.CAPR-08-0232</Item>
+	<Item Name="History" Type="List">
+		<Item Name="aheadofprint" Type="Date">2009/10/27 00:00</Item>
+		<Item Name="entrez" Type="Date">2009/10/29 06:00</Item>
+		<Item Name="pubmed" Type="Date">2009/10/29 06:00</Item>
+		<Item Name="medline" Type="Date">2010/01/13 06:00</Item>
+	</Item>
+	<Item Name="References" Type="List">
+		<Item Name="Comment in" Type="String">Cancer Prev Res (Phila Pa). 2009 Nov;2(11):915-8. PMID: 19861544</Item>
+	</Item>
+	<Item Name="HasAbstract" Type="Integer">1</Item>
+	<Item Name="PmcRefCount" Type="Integer">0</Item>
+	<Item Name="FullJournalName" Type="String">Cancer prevention research (Philadelphia, Pa.)</Item>
+	<Item Name="ELocationID" Type="String"></Item>
+	<Item Name="SO" Type="String">2009 Nov;2(11):942-50</Item>
+</DocSum>

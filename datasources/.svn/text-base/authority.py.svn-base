@@ -1,0 +1,341 @@
+#!/usr/bin/env python
+# encoding: utf-8
+"""
+Snappy documentation goes here
+@author: Heather Piwowar
+@contact:  hpiwowar@gmail.com
+@status:  playing around
+@todo:  look into eager loading of sqlalchemy queries
+@todo:  Maybe need monkeypatch for /Library/Frameworks/Python.framework/Versions/4.1.30101/lib/python2.5/site-packages/SQLAlchemy-0.5.2-py2.5.egg/sqlalchemy/databases/sqlite.py
+"""
+
+import datetime
+import sys
+import os
+import urllib
+import urllib2
+from sqlalchemy import *
+from sqlalchemy.orm import relation, backref
+from sqlalchemy.orm import sessionmaker
+from pyparsing import *
+from models import Session, metadata, engine
+from datasources import Session
+import pdb
+
+AUTHORITY_VERSION = "clust2008"
+AUTHORITY_URL = "http://128.248.65.210/cgi-bin/arrowsmith_uic/authority2.cgi"
+if __file__:
+    basepath = os.path.dirname(__file__)
+else:
+    basepath = os.path.dirname(os.getcwd())
+PICKLE_DIR = os.path.join(basepath, "../rawdata/authority")
+
+
+
+# Add datetimestamp column like this:  http://www.mail-archive.com/sqlalchemy-users@lists.sourceforge.net/msg01579.html
+
+authority_query = Table('authority_query_table', metadata, 
+    Column('query_key', Text(500), primary_key=True),
+    Column('query_data', Text(500)),    
+    Column('authority_version', Text(100)),
+    Column('url', Text(500)),
+    Column('num_clusters', Integer),    
+    Column('timestamp', DateTime, nullable=False),
+    useexisting=True,
+)
+
+authority_cluster = Table('authority_cluster_table', metadata, 
+#    Column('query_key', Text(500), ForeignKey('authority_query_table.query_key')),        
+    Column('cluster_key', Text(500), primary_key=True),            
+    Column('query_data', Text(500)),    
+    Column('cluster_number', Integer),
+    Column('cluster_size', Integer),
+    Column('first_names', Text(100)),
+    Column('middle_initials', Text(100)),
+    Column('last_names', Text(100)),
+    Column('first_year', Integer),
+    Column('last_year', Integer),
+    # Skipping Common affiliations words and email
+    # Skipping Frequent topics
+    Column('grants', Text(100)),
+    Column('timestamp', DateTime, nullable=False),    
+    useexisting=True,
+)
+
+article = Table('article_table', metadata, 
+    Column('pmid', Integer, primary_key=True),
+    Column('timestamp', DateTime, nullable=False),    
+    useexisting=True,
+)
+
+
+authority_cluster_article = Table('authority_cluster_article_table', metadata, 
+    Column('pmid', Integer, ForeignKey('article_table.pmid')), 
+    Column('cluster_key', Integer, ForeignKey('authority_cluster_table.cluster_key')),
+    useexisting=True,
+)    
+
+"""
+CREATE INDEX authority_cluster_article_clusterkey_idx on authority_cluster_article_table (cluster_key);
+CREATE INDEX authority_cluster_article_pmid_idx on authority_cluster_article_table (pmid);
+"""
+
+authority_query_cluster = Table('authority_query_cluster_table', metadata, 
+    Column('query_key', Integer, ForeignKey('authority_query_table.query_key')), 
+    Column('cluster_key', Integer, ForeignKey('authority_cluster_table.cluster_key')),
+    useexisting=True,
+)    
+
+"""
+CREATE INDEX authority_query_cluster_clusterkey_idx on authority_query_cluster_table (cluster_key);
+CREATE INDEX authority_query_cluster_querykey_idx on authority_query_cluster_table (query_key);
+"""
+
+metadata.create_all(bind=engine)
+
+def run(stmt):
+    rs = stmt.execute()
+    for row in rs:
+        print row
+        
+def list_of_dict_values_sorted_by_key(**mydict):
+    return([mydict[key] for key in sorted(mydict.keys())])
+
+def get_authority_query_primary_key(**kwargs):
+#    return (str(list_of_dict_values_sorted_by_key(**kwargs)))
+    return(str(kwargs["query_data"]) + str(kwargs["authority_version"]))
+    
+def get_authority_cluster_primary_key(**kwargs):
+    return(str(kwargs["query_data"]) + str(kwargs["authority_version"]) + str(kwargs["cluster_number"]))
+    
+class AuthorityQuery(object):
+    def __init__(self, **kwargs):
+        self.query_key = get_authority_query_primary_key(**kwargs)
+        self.query_data = str(kwargs["query_data"])
+        self.authority_version = kwargs["authority_version"]        
+        self.url = kwargs["url"]
+        if kwargs.has_key("num_clusters"):
+            self.num_clusters = kwargs["num_clusters"]
+        else:
+            self.num_clusters = None
+        self.timestamp = datetime.datetime.today()
+        
+    def __repr__(self):
+        return '<AuthorityQuery "%s" (%d)>' % (self.url, self.num_clusters)
+
+
+class AuthorityCluster(object):
+    def __init__(self, **kwargs):
+#        self.query_key = kwargs["query_data"] + kwargs["authority_version"]     
+        self.cluster_key = get_authority_cluster_primary_key(**kwargs)
+        self.query_data = str(kwargs["query_data"])
+        self.cluster_number = kwargs["cluster_number"]
+        self.cluster_size = kwargs["cluster_size"]
+        self.first_names = kwargs["first_names"]
+        self.middle_initials = kwargs["middle_initials"]
+        self.last_names = kwargs["last_names"]
+        self.first_year = kwargs["first_year"]
+        self.last_year = kwargs["last_year"]
+        self.grants = kwargs["grants"]  
+        self.timestamp = datetime.datetime.today()        
+
+    def __repr__(self):
+        return '<AuthorityCluster "%s" (%s, %s %s size=%s)>' % (self.cluster_number, self.last_names, self.first_names, self.middle_initials, self.cluster_size)
+
+
+class Article(object):
+    def __init__(self, pmid):
+        self.pmid = pmid
+        self.timestamp = datetime.datetime.today()        
+            
+    def __repr__(self):
+        return '<PMID "%s">' % (self.pmid)
+
+
+# "contextual" mapper function
+mapper = Session.mapper
+
+querymapper = mapper(AuthorityQuery, authority_query)
+
+#clustermapper = mapper(AuthorityCluster, authority_cluster, 
+#    properties={'cluster_query': relation(AuthorityQuery, backref='clusters'),
+#        primaryjoin=authority_cluster.c.query_key==authority_query.c.query_key, 
+#        foreign_keys=[authority_cluster.c.query_key]
+#    )
+#    }
+#)
+
+clustermapper = mapper(AuthorityCluster, authority_cluster, 
+    properties={'cluster_query': relation(AuthorityQuery, 
+    secondary=authority_query_cluster, backref='clusters')}
+)
+
+articlemapper = mapper(Article, article, 
+    properties={'clusters': relation(AuthorityCluster, 
+    secondary=authority_cluster_article, backref='pmids')}
+)
+
+
+class Authority(object):
+
+    def __init__(self, initdict={}, live=False):
+        self.initdict = initdict
+        self.live = live
+        self.version = AUTHORITY_VERSION
+        self.url = AUTHORITY_URL
+
+    def _getAuthorityUrlAsHttpGet(self, values):
+        url = self.url
+        values.update({'email':'hpiwowar@gmail.com', 'tool':'pypub'})   
+        for key in values.keys():
+            try:
+                values[key] = values[key].encode('utf-8') # Will be quoted by urlencode call below
+            except Exception, e:
+                pass # That's ok, maybe it is a number
+        data = urllib.urlencode(values)
+        fullurl = url + "?" + data
+        return(fullurl)        
+    
+    def _getAuthorityResponse(self, values=None):
+        "Allows option for canned data so we don't keep hitting the server in test"
+        if not values:
+            values = self.initdict
+            
+        fullurl = self._getAuthorityUrlAsHttpGet(values)
+            
+        if (self.live):
+            the_page = urllib2.urlopen(fullurl).read()
+        else:
+            the_page = '<html>\n<head>\n<title>search MEDLINE author names</title>\n<meta http-equiv="Content-Type" content="text/html">\n</head>\n<body bgcolor="#FFFFFF" text="#000000">\n<form name="form1" method="post" action="authority2.cgi">\n  last name  <input type="text" name="lastname" value="piwowar" tabindex="1">\n  first name (or initial) <input type="text" name="firstinit" value="heather" tabindex="2">\n  middle initial <select name="midinit" tabindex="3">\n<option selected="selected" value=".">any</option>\n<option value=".">any</option>\n<option value="-">none</option>\n<option value="a">a</option>\n<option value="b">b</option>\n<option value="c">c</option>\n<option value="d">d</option>\n<option value="e">e</option>\n<option value="f">f</option>\n<option value="g">g</option>\n<option value="h">h</option>\n<option value="i">i</option>\n<option value="j">j</option>\n<option value="k">k</option>\n<option value="l">l</option>\n<option value="m">m</option>\n<option value="n">n</option>\n<option value="o">o</option>\n<option value="p">p</option>\n<option value="q">q</option>\n<option value="r">r</option>\n<option value="s">s</option>\n<option value="t">t</option>\n<option value="u">u</option>\n<option value="v">v</option>\n<option value="w">w</option>\n<option value="x">x</option>\n<option value="y">y</option>\n<option value="z">z</option>\n</select>\n  common affiliation word(s)<input type="text" name="affl" value="Pittsburgh"tabindex="4"> \n<p>\n  <input type="submit" name="Submit" value="Submit" tabindex="5">\n  <input type="submit" name="Reset" value="Reset" tabindex="6">\n  <br>\n  <br>\n<table width="100%" border="1" cellspacing="0">\n  <tr>\n    <td width="2%">\n      <div align="center"><b>Cluster #</b></div>\n    </td>\n    <td width="2%">\n      <div align="right"><b>Cluster size</b></div>\n    </td>\n    <td width="5%">\n      <div align="right"><b>First name(s)</b></div>\n    </td>\n    <td width="2%">\n      <div align="right"><b>Middle initial(s)</b></div>\n    </td>\n    <td width="10%">\n      <div align="right"><b>Last name(s)</b></div>\n    </td>\n<!--    <td width="10%">\n      <div align="right"><b>Email(s)</b></div>\n    </td>\n-->\n    <td width="5%">\n      <div align="right"><b>Years</b></div>\n    </td>\n    <td width="22%">\n      <div align="right"><b>Common affiliation words (and email)</b></div>\n    </td>   \n    <td width="22%">\n      <div align="right"><b>Frequent topics</b></div>\n    </td>   \n    <td width="12%">\n      <div align="right"><b>Links to papers</b></div>\n    </td>\n    <td width="15%">\n      <div align="right"><b>Frequent Grant Numbers</b></div>\n    </td>\n    \n  </tr>\n<font color="red">There were no exact matches to the affiliation words in your query. Partial matches are shown below.</font><br><br>Total number of articles associated with this name: 2\n<br><tr>\n<td><div align="center">1</div></td>\n<td><div align="right">2</div></td>\n<td><div align="right">Heather</div></td>\n<td><div align="right">A</div></td>\n<td><div align="right">Piwowar</div></td>\n<td><div align="right">2007-2008</div></td>\n<td><div align="right">america cbmi.pitt.edu departmentofbiomedical informatic pennsylvania </div></td>\n<td><div align="right">-</div></td>\n<td><div align="left"><a href=http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=pubmed&list_uids=18767901,17375194 target="_blank">PubMed</a>&nbsp;<a href=http://128.248.65.210/cgi-bin/arrowsmith_uic/AnneOTate_summarize.cgi?t=au&q=18767901,17375194 target="_blank">Anne O\'Tate</a></div></td>\n<td><div align="right">-</div></td>\n</tr>\n</table>\n'
+        return(the_page)
+
+    def _extractAuthorityFields(self, raw_html):
+        trStart,trEnd = makeHTMLTags("tr")
+        tdStart,tdEnd = makeHTMLTags("td")
+        divStart,divEnd = makeHTMLTags("div")   
+        
+        colStart = tdStart.suppress() + divStart.suppress()
+        colEnd = divEnd.suppress() + tdEnd.suppress()
+        
+        convertToInt = lambda tokens: int(tokens[0])
+        Integer = Word(nums).setParseAction(convertToInt)                    
+        
+        cluster_number = colStart + Integer("cluster_number") + colEnd
+        cluster_size = colStart + Integer("cluster_size") + colEnd        
+        first_names = colStart + SkipTo(divEnd)("first_names") + colEnd
+        middle_initials = colStart + SkipTo(divEnd)("middle_initials") + colEnd        
+        last_names = colStart + SkipTo(divEnd)("last_names") + colEnd   
+        years = colStart + Integer("first_year") + Literal("-").suppress() + Integer("last_year") + colEnd             
+        affl = colStart + SkipTo(divEnd)("affl") + colEnd   
+        topics = colStart + SkipTo(divEnd)("topics") + colEnd   
+        links = colStart + SkipTo(divEnd)("links") + colEnd           
+        grants = colStart + SkipTo(divEnd)("grants") + colEnd   
+                                
+        pattern = trStart.suppress() + cluster_number + cluster_size + first_names + middle_initials + \
+            last_names + years + affl + topics + links + grants + trEnd.suppress()
+
+        rows = [dict(token) for token,s,e in pattern.scanString(raw_html)]
+        print rows
+        
+        # Now make a list of the pmids
+        for i in range(len(rows)):
+            rows[i]["pmids"] = self._extractPmids(rows[i]["links"])
+        
+        #for tokens,start,end in pattern.scanString(raw_html): 
+        #    print "%(first_year)s : %(last_year)s" % tokens
+        #    print tokens.first_year            
+        return(rows)
+        
+    def _extractPmids(self, raw_html):
+        pmid = Word(nums, min=4, max=12)
+        leading_text = Literal("list_uids=")
+        optional_comma = Optional(",")
+        pattern = leading_text.suppress() + OneOrMore(pmid.setResultsName("pmid") + optional_comma.suppress())
+        pmids = list(set(pattern.searchString(raw_html)[0]))  # set to get rid of dups
+        return(pmids)
+
+    def get_pmids(self):
+        the_page = self._getAuthorityResponse()
+        pmids = self._extractPmids(the_page)            
+        return(pmids)
+
+    def pickle_the_page(self, values, the_page):
+        import hashlib
+        import pickle
+
+        filename = os.path.join(PICKLE_DIR, hashlib.sha224(str(values)).hexdigest() + ".pkl")
+        pickle.dump(the_page, open(filename, "w"))
+        
+    def get_fields(self, values=None):
+        the_page = self._getAuthorityResponse(values)
+        
+        self.pickle_the_page(values, the_page)
+        
+        rows = self._extractAuthorityFields(the_page)            
+        return(rows)
+        
+    def get_or_set_AuthorityQuery(self, sess, **fields):
+        fields.update(dict(authority_version=AUTHORITY_VERSION))
+        auth_query_key = get_authority_query_primary_key(**fields)
+        auth_query = sess.query(AuthorityQuery).get(auth_query_key)
+        if not auth_query:
+            auth_query = AuthorityQuery(**fields)
+            sess.add(auth_query)
+        return(sess, auth_query)
+
+    def get_or_set_AuthorityCluster(self, sess, **fields):
+        fields.update(dict(authority_version=AUTHORITY_VERSION))
+        cluster_key = get_authority_cluster_primary_key(**fields)
+        print "Cluster key:", cluster_key
+        cluster_object = sess.query(AuthorityCluster).get(cluster_key)
+        if not cluster_object:
+            cluster_object = AuthorityCluster(**fields)
+            sess.add(cluster_object)
+        return(sess, cluster_object)
+
+    def get_Authority_ClusterKey(self, **values):
+        fullurl = self._getAuthorityUrlAsHttpGet(values)
+        cluster_key = get_authority_cluster_primary_key(**dict(authority_version=AUTHORITY_VERSION, url=fullurl, query_data=values, cluster_number=1))
+        return(cluster_key)
+        
+    def get_or_set_Article(self, sess, pmid):
+        article_key = pmid
+        article_object = sess.query(Article).get(article_key)
+        if not article_object:
+            article_object = Article(pmid)
+            sess.add(article_object)            
+        return(sess, article_object)        
+    
+    def populate(self, values=None):
+        # create a Session
+        if not values:
+            values = self.initdict
+        sess = Session()
+
+        model_count = 0
+        fullurl = self._getAuthorityUrlAsHttpGet(values)
+        print "*********", fullurl
+        (sess, query_model) = self.get_or_set_AuthorityQuery(sess, **dict(url=fullurl, query_data=values))
+        
+        cluster_rows = self.get_fields(values)
+        query_model.num_clusters = len(cluster_rows)
+        sess.flush()
+                
+        for row in cluster_rows:
+            row.update(dict(url=fullurl, query_data=values))  # add fullurl as part of the key
+            (sess, cluster_model) = self.get_or_set_AuthorityCluster(sess, **row)
+            if not cluster_model in query_model.clusters:
+                query_model.clusters.append(cluster_model)
+            sess.flush()            
+            for mypmid in row["pmids"]:
+                (sess, article_model) = self.get_or_set_Article(sess, mypmid)
+                if not article_model in cluster_model.pmids:
+                    cluster_model.pmids.append(article_model)           
+                #sess.flush()   # too slow             
+        
+        sess.flush()
+        sess.close()
+        return(query_model)
+
+        
+   # http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=pubmed&list_uids=18166502,17317291,17600099,17238319,16230050,16779082,16271676,16049227,15617980,15714624,15714623,15361003,15361001,15360896,15360860,15120658,14700412,12925547,12807805,12463938,12463914,12463844,12463832,12123149,11825163,11825148,11376542,11201458,11079859,11062233,10566352,10566322,9929287

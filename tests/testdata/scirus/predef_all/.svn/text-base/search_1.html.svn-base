@@ -1,0 +1,1196 @@
+
+		<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+		<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><head>
+	<title>((isolate* AND hybridiz* AND probe*) AND (microarray* OR "genome-wide" OR "expression profile*" OR "transcription profil*") ) (issn:1097-2765 OR issn:0092-8674 OR issn:0036-8075 OR issn:0028-0836 OR issn:1061-4036 OR issn:1061-4036 OR issn:1548-7091 OR issn:1465-7392) results on scirus.com, for scientific information</title>
+		
+			<meta http-equiv="Content-type" content="text/html; charset=UTF-8"/>
+			<meta name="generator" content="IT Global Infrastructure development team"/>
+			<meta name="Technical_Development" content="Elsevier IT Global Infrastructure and Development %26 FAST"/>
+			<meta name="author" content="Elsevier Global Infrastructure (IT) development team"/>
+			<meta name="Description" content="Scirus is the most comprehensive science-specific search engine on the Internet. Driven by the latest search engine technology, Scirus searches millions science-specific Web pages. Scirus has proved so successful at locating science-specific results on the Web that the Search Engine Watch Awards voted Scirus 'Best Specialty Search Engine' in 2001 and 2002 and 'Best Directory or Search Engine Website' Web Award from Web Marketing Association in 2004, 2005, 2006, and 2007" />
+		
+		<meta name="Copyright" content="Elsevier Ltd. 2001-2009">
+<meta name="Keywords" content="ELSEVIER, Scirus, scientific, information, Agricultural and Biological Sciences, Astronomy, Chemistry and Chemical Engineering, Computer Science, Earth and Planetary Sciences, Economics, Business and Management, Engineering, Energy and Technology, Environmental Sciences, Languages and Linguistics, Law, Life Sciences, Materials Science, Mathematics, Medicine, Neuroscience, Pharmacology, Physics, Psychology, Social and Behavioral Sciences, Sociology, citation, reference, index, search, bibliographic databases, bibliography, science, journal, periodical, proceedings, conferences, patents, books, published literature, author, subject, affiliation, ((isolate* AND hybridiz* AND probe*) AND (microarray* OR &quot;genome-wide&quot; OR &quot;expression profile*&quot; OR &quot;transcription profil*&quot;) ) (issn:1097-2765 OR issn:0092-8674 OR issn:0036-8075 OR issn:0028-0836 OR issn:1061-4036 OR issn:1061-4036 OR issn:1548-7091 OR issn:1465-7392)">
+<script type="text/javascript" src="/js/popups.js"></script><script type="text/javascript" src="/js/search.js"></script><script type="text/javascript" src="/js/checkbox.js"></script><script type="text/javascript" src="/js/topcheckbox.js"></script><script type="text/javascript" src="/js/init.js"></script><script type="text/javascript" src="/js/contextmenu.js"></script>
+<link type="text/css" rel="stylesheet" href="/stylesheets/scirus.css">
+<link type="text/css" rel="stylesheet" href="/stylesheets/default.css">
+		</head>
+	
+				<body onload="javascript:wordWrap();">
+			<a name="top"></a>
+<form action="" name="frm">
+<input name="q1" type="hidden" value="q=((isolate*+AND+hybridiz*+AND+probe*)+AND+(microarray*+OR+%22genome-wide%22+OR+%22expression+profile*%22+OR+%22transcription+profil*%22)+)+(issn%3A1097-2765+OR+issn%3A0092-8674+OR+issn%3A0036-8075+OR+issn%3A0028-0836+OR+issn%3A1061-4036+OR+issn%3A1061-4036+OR+issn%3A1548-7091+OR+issn%3A1465-7392)&amp;t=all&amp;dt=fta&amp;ds=nature&amp;ds=sd&amp;fdt=2007&amp;tdt=2007&amp;sort=0&amp;drill=yes">
+</form>
+<div class="container">
+<div class="resultscolleft" valign="bottom">
+<a href="/srsapp/"><img alt="Scirus - for scientific information only" height="48" width="166" border="0" src="/images/logo.gif"></a>
+</div>
+<div align="right" class="resultscolright">
+<font class="topLinks"><a href="javascript:basicToadv('/srsapp/')" title="Advanced search">Advanced search</a><span class="pinkSeparator"> | </span><a title="Preferences" href="/srsapp/preferences">Preferences</a><script type="text/javascript">
+							var cookieValue = readCookie("ScirusSavedResultsv2");
+							if (cookieValue != null && cookieValue != "\"null\"" && cookieValue != "\"\"" && cookieValue != "null" && cookieValue.length > 0){
+								document.write('<span class="pinkSeparator"> | </span><a href="/srsapp/saved" title="Saved results">Saved results</a>');
+							}
+						</script></font>
+</div>
+<div class="resultscolmiddle">
+<div class="middleSub">
+<form name="search" method="get" action="/srsapp/search">
+<input maxlength="255" size="40" name="q" id="q" type="text" value="((isolate* AND hybridiz* AND probe*) AND (microarray* OR &quot;genome-wide&quot; OR &quot;expression profile*&quot; OR &quot;transcription profil*&quot;) ) (issn:1097-2765 OR issn:0092-8674 OR issn:0036-8075 OR issn:0028-0836 OR issn:1061-4036 OR issn:1061-4036 OR issn:1548-7091 OR issn:1465-7392)"><img alt="" height="1" width="10" src="/images/sp.gif"><input value="Search" type="submit"><input value="all" name="t" type="hidden"><input value="0" name="sort" type="hidden"><input value="s" name="g" type="hidden">
+</form>
+</div>
+</div>
+</div>
+<div width="100%" align="bottom" class="headerAllText">
+				&nbsp;1-26 of 26 hits for&nbsp;<b>((isolate* AND hybridiz* AND probe*) AND (microarray* OR "genome-wide" OR "expression profile*" OR "transcription profil...</b>
+</div>
+<a xmlns:nav="com.elsevier.scirus.search.results.SearchNavigator" name="results"></a>
+<table xmlns:nav="com.elsevier.scirus.search.results.SearchNavigator" width="100%" cellspacing="0" cellpadding="0" border="0">
+<form target="ERESULT" name="emailresult" method="post" action="/srsapp/emailresults">
+<input value="" type="hidden" name="res"><input value="result" type="hidden" name="pagefrom">
+</form>
+<form target="EXRESULT" name="exportresult" method="post" action="/srsapp/exportresults">
+<input value="" type="hidden" name="res"><input value="result" type="hidden" name="pagefrom">
+</form>
+<thead>
+<tr class="resultshead">
+<td class="resultscol1"><img width="200" src="/images/sp.gif" height="1" alt=""></td><td class="resultscol2">
+<table width="98.5%" cellspacing="0" cellpadding="0" border="0">
+<tr>
+<td class="ribboncol1"><img width="10" src="/images/sp.gif" height="1" alt=""><img src="/images/checkboxfalse.gif" onclick="javascript:toggleAllItems(this);" id="masterCheck" alt="Click checkbox to select all results on this page"></td><td class="ribboncol2"><img width="5" src="/images/sp.gif" height="1" alt=""><a href="javascript:EmailResults();">Email</a>,&nbsp;<a href="javascript:SaveResults();">Save</a>&nbsp;or&nbsp;<a href="javascript:ExportResults();">Export</a>&nbsp;checked results
+									</td><td class="ribboncol3">
+												&nbsp;Sort by: 
+												<input value="0" type="radio" onclick="javascript:submitForm('sort', 0);" name="orderby" id="relevance" checked><label for="relevance">Relevance</label> &nbsp; <input value="1" type="radio" onclick="javascript:submitForm('sort', 1);" name="orderby" id="date"><label for="date">Date</label></td>
+</tr>
+</table>
+</td><td class="resultscol3"><img width="140" src="/images/sp.gif" height="1" alt=""></td>
+</tr>
+<tr>
+<td colspan="3"><img width="32" src="/images/sp.gif" height="2" alt=""></td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td valign="top" class="resultscol1" align="center">
+<table width="94%" summary="Left Navigation">
+<tr>
+<td>
+<form name="navresult" method="post" action="/srsapp/search"><input type="hidden" name="t" value="all"/><input type="hidden" name="fdt" value="2007"/><input type="hidden" name="tdt" value="2007"/><input type="hidden" name="sort" value="0"/><input type="hidden" name="drill" value="yes"/><input type="hidden" name="qs" value="q=((isolate*+AND+hybridiz*+AND+probe*)+AND+(microarray*+OR+%22genome-wide%22+OR+%22expression+profile*%22+OR+%22transcription+profil*%22)+)+(issn%3A1097-2765+OR+issn%3A0092-8674+OR+issn%3A0036-8075+OR+issn%3A0028-0836+OR+issn%3A1061-4036+OR+issn%3A1061-4036+OR+issn%3A1548-7091+OR+issn%3A1465-7392)&amp;t=all&amp;dt=fta&amp;ds=nature&amp;ds=sd&amp;fdt=2007&amp;tdt=2007&amp;drill=yes"><input value="0" type="hidden" name="p"><input value="no" type="hidden" name="nd"><input value="none" type="hidden" name="nds"><input value="none" type="hidden" name="nff"><input type="hidden" name="srcdata" value="jnl:26|sd:21|nature:5|@nom:0|@web:0"><input type="hidden" name="filedata" value="html:26|pdf:21|"><input type="hidden" name="refinedata" value="dna;ct;7#$SEP$#rna;ct;6#$SEP$#histone;ct;5#$SEP$#chromatin;ct;5#$SEP$#silencing;ct;4#$SEP$#cellcycle;ct;4#$SEP$#real-time pcr;ct;4#$SEP$#plasmid;ct;3#$SEP$#molneuro;ct;3#$SEP$#cell-cycle;ct;3#$SEP$#heterochromatin;ct;3#$SEP$#cell-cycle progression;ct;2#$SEP$#subunits;ct;2#$SEP$#target promoters;ct;2#$SEP$#cellbio;ct;2#$SEP$#apoptosis;ct;2#$SEP$#transposon;ct;2#$SEP$#circadian clock;ct;2#$SEP$#nuclear export;ct;2#$SEP$#histone h3;ct;2#$SEP$#nucleosomes;ct;2#$SEP$#acetylation;ct;2#$SEP$#amplification;ct;2#$SEP$#embryonic stem cells;ct;1#$SEP$#alpha-smooth muscle actin;ct;1#$SEP$#putative functions;ct;1#$SEP$#somatic cells;ct;1#$SEP$#reading frames;ct;1#$SEP$#retroviral transduction;ct;1#$SEP$#epicentre;ct;1#$SEP$#host species;ct;1#$SEP$#germ layers;ct;1#$SEP$#gram-positive;ct;1#$SEP$#gram positive;ct;1#$SEP$#selectable markers;ct;1#$SEP$#wild-type cells;ct;1#$SEP$#plasmids;ct;1#$SEP$#g1 progression;ct;1#$SEP$#beta-galactosidase activity;ct;1#$SEP$#g1 cyclins;ct;1#$SEP$#situ localization;ct;1#$SEP$#beta-galactosidase;ct;1#$SEP$#protein translation;ct;1#$SEP$#publishing group;ct;1#$SEP$#double-stranded dna;ct;1#$SEP$#chemical biology;ct;1#$SEP$#doubling;ct;1#$SEP$#analysis of gene expression;ct;1#$SEP$#microarrays;ct;1#$SEP$#microarray analysis;ct;1#$SEP$#high-throughput analysis;ct;1#$SEP$#tissue preparation;ct;1#$SEP$#degraded;ct;1#$SEP$#branched dna;ct;1#$SEP$#histology;ct;1#$SEP$#humdisease;ct;1#$SEP$#rearrangements;ct;1#$SEP$#pelizaeus-merzbacher disease;ct;1#$SEP$#genomic rearrangements;ct;1#$SEP$#replication fork;ct;1#$SEP$#junctional sequences;ct;1#$SEP$#complex rearrangements;ct;1#$SEP$#rearrangement;ct;1#$SEP$#multiplex pcr;ct;1#$SEP$#breakpoint;ct;1#$SEP$#tandem duplication;ct;1#$SEP$#cell-like;ct;1#$SEP$#embryonic stem;ct;1#$SEP$#embryonic;ct;1#$SEP$#fibroblasts;ct;1#$SEP$#pluripotent;ct;1#$SEP$#pyrophosphate;ct;1#$SEP$#phosphorylation;ct;1#$SEP$#in vitro;ct;1#$SEP$#stem-loop structure;ct;1#$SEP$#moleneuro;ct;1#$SEP$#molimmuno;ct;1#$SEP$#precursors;ct;1#$SEP$#tissue type;ct;1#$SEP$#tissue types;ct;1#$SEP$#">
+<div id="navigation" class="navigation">
+<div class="navigationHeader">
+<font class="TextEmph">Filter search results by</font>
+</div>
+<div>
+<img src="/images/sp.gif" height="1" alt=""></div>
+<div class="navigationHeaderSub">
+<font class="TextHeaderSmall">Content sources</font>
+</div>
+<div style="vertical-align:top" id="menu1" height="20" class="navigationSub">
+											&nbsp;<a href="javascript:toggleExpandNew('menu1')" class="leftnavigation"><img src="/images/icon_minus.gif" id="menu1subimg" border="0" alt="Collapse"></a>&nbsp;
+												<b><font class="TextSmall"><a href="javascript:submitForm('nds','jnl');" class="leftnavigation">Journal sources (26)</a></font></b>
+</div>
+<div>
+<div style="DISPLAY: block; MARGIN-BOTTOM: 4px" id="menu1subdiv">
+<ul id="menu1sub" class="navbar">
+<li class="bullet">
+<font class="TextSmall"><a class="leftnavigation" href="javascript:submitForm('nds','sd');">ScienceDirect (21)
+																</a></font>
+</li>
+<li class="bullet">
+<font class="TextSmall"><a class="leftnavigation" href="javascript:submitForm('nds','nature');">Nature Publishing Group (5)
+																</a></font>
+</li>
+</ul>
+<input value="101" type="hidden" name="menu1count" id="menu1count">
+</div>
+<div style="display: block; margin-bottom:5px;" id="menu1subdivmore" align="right">
+<script type="text/javascript">
+						displayLessMoreLinks("menu1");
+					</script>
+</div>
+<div style="width:100%; height:1px;" id="menu1sep" align="center">
+<div class="menusep">
+<img width="1" src="/images/sp.gif" height="1"></div>
+</div>
+<div id="menu2" class="navigationSub">
+									&nbsp;<img src="/images/icon_disabled.gif" border="0" alt="">&nbsp;<font class="TextGrey"><b>Preferred web</b></font>
+</div>
+<div style="DISPLAY: block; MARGIN-BOTTOM: 4px" id="menu2subdiv">
+<ul id="menu2sub" class="navbar"></ul>
+<input value="101" type="hidden" name="menu2count" id="menu2count">
+</div>
+<div style="DISPLAY: block; margin-bottom:5px;" id="menu2subdivmore" align="right">
+<script type="text/javascript">
+											displayLessMoreLinks("menu2");
+										</script>
+</div>
+<div style="width:100%; height:1px;" id="menu2sep" align="center">
+<div class="menusep">
+<img width="1" src="/images/sp.gif" height="1"></div>
+</div>
+<div class="navigationSub">
+									&nbsp;<img src="/images/icon_disabled.gif" border="0" alt=""><font class="TextGrey">&nbsp;<b>Other web</b></font>
+</div>
+</div>
+<div>
+<div id="menu3" class="navigationHeaderSub">
+<font class="TextHeaderSmall">File types</font>
+</div>
+<div style="DISPLAY: block; MARGIN-BOTTOM: 4px" id="menu3subdiv">
+<ul id="menu3sub" class="navbar">
+<li class="bullet">
+<font class="TextSmall"><a class="leftnavigation" href="javascript:submitForm('nff','html')">HTML (26)
+													</a></font>
+</li>
+<li class="bullet">
+<font class="TextSmall"><a class="leftnavigation" href="javascript:submitForm('nff','pdf')">PDF (21)
+													</a></font>
+</li>
+</ul>
+<input value="101" type="hidden" name="menu3count" id="menu3count">
+</div>
+<div style="DISPLAY: block; margin-bottom:3px;" id="menu3subdivmore" align="right">
+<script type="text/javascript">
+							displayLessMoreLinks("menu3");
+		   				 </script>
+</div>
+</div>
+</div>
+<br>
+<div class="refine">
+<div id="menu4" class="refineHeader">
+<img src="/images/icon_refine.gif" alt="">&nbsp;<font class="TextEmph">Refine your search</font>
+</div>
+<div class="refineData">
+<img src="/images/sp.gif" height="1" alt=""></div>
+<div class="refineData">
+<div style="DISPLAY: block; MARGIN-BOTTOM: 4px" id="menu4subdiv">
+<ul id="menu4sub" class="navbar">
+<li class="refinebullet">
+<a class="refinenavigation" href="search?q=((isolate*+AND+hybridiz*+AND+probe*)+AND+(microarray*+OR+%22genome-wide%22+OR+%22expression+profile*%22+OR+%22transcription+profil*%22)+)+(issn%3A1097-2765+OR+issn%3A0092-8674+OR+issn%3A0036-8075+OR+issn%3A0028-0836+OR+issn%3A1061-4036+OR+issn%3A1061-4036+OR+issn%3A1548-7091+OR+issn%3A1465-7392)&amp;t=all&amp;dt=fta&amp;ds=nature&amp;ds=sd&amp;fdt=2007&amp;tdt=2007&amp;sort=0&amp;drill=yes&amp;q=%22dna%22&amp;t=all&amp;g=r">dna</a>
+</li>
+<li class="refinebullet">
+<a class="refinenavigation" href="search?q=((isolate*+AND+hybridiz*+AND+probe*)+AND+(microarray*+OR+%22genome-wide%22+OR+%22expression+profile*%22+OR+%22transcription+profil*%22)+)+(issn%3A1097-2765+OR+issn%3A0092-8674+OR+issn%3A0036-8075+OR+issn%3A0028-0836+OR+issn%3A1061-4036+OR+issn%3A1061-4036+OR+issn%3A1548-7091+OR+issn%3A1465-7392)&amp;t=all&amp;dt=fta&amp;ds=nature&amp;ds=sd&amp;fdt=2007&amp;tdt=2007&amp;sort=0&amp;drill=yes&amp;q=%22rna%22&amp;t=all&amp;g=r">rna</a>
+</li>
+<li class="refinebullet">
+<a class="refinenavigation" href="search?q=((isolate*+AND+hybridiz*+AND+probe*)+AND+(microarray*+OR+%22genome-wide%22+OR+%22expression+profile*%22+OR+%22transcription+profil*%22)+)+(issn%3A1097-2765+OR+issn%3A0092-8674+OR+issn%3A0036-8075+OR+issn%3A0028-0836+OR+issn%3A1061-4036+OR+issn%3A1061-4036+OR+issn%3A1548-7091+OR+issn%3A1465-7392)&amp;t=all&amp;dt=fta&amp;ds=nature&amp;ds=sd&amp;fdt=2007&amp;tdt=2007&amp;sort=0&amp;drill=yes&amp;q=%22histone%22&amp;t=all&amp;g=r">histone</a>
+</li>
+<li class="refinebullet">
+<a class="refinenavigation" href="search?q=((isolate*+AND+hybridiz*+AND+probe*)+AND+(microarray*+OR+%22genome-wide%22+OR+%22expression+profile*%22+OR+%22transcription+profil*%22)+)+(issn%3A1097-2765+OR+issn%3A0092-8674+OR+issn%3A0036-8075+OR+issn%3A0028-0836+OR+issn%3A1061-4036+OR+issn%3A1061-4036+OR+issn%3A1548-7091+OR+issn%3A1465-7392)&amp;t=all&amp;dt=fta&amp;ds=nature&amp;ds=sd&amp;fdt=2007&amp;tdt=2007&amp;sort=0&amp;drill=yes&amp;q=%22chromatin%22&amp;t=all&amp;g=r">chromatin</a>
+</li>
+<li class="refinebullet">
+<a class="refinenavigation" href="search?q=((isolate*+AND+hybridiz*+AND+probe*)+AND+(microarray*+OR+%22genome-wide%22+OR+%22expression+profile*%22+OR+%22transcription+profil*%22)+)+(issn%3A1097-2765+OR+issn%3A0092-8674+OR+issn%3A0036-8075+OR+issn%3A0028-0836+OR+issn%3A1061-4036+OR+issn%3A1061-4036+OR+issn%3A1548-7091+OR+issn%3A1465-7392)&amp;t=all&amp;dt=fta&amp;ds=nature&amp;ds=sd&amp;fdt=2007&amp;tdt=2007&amp;sort=0&amp;drill=yes&amp;q=%22silencing%22&amp;t=all&amp;g=r">silencing</a>
+</li>
+<li class="refinebullet">
+<a class="refinenavigation" href="search?q=((isolate*+AND+hybridiz*+AND+probe*)+AND+(microarray*+OR+%22genome-wide%22+OR+%22expression+profile*%22+OR+%22transcription+profil*%22)+)+(issn%3A1097-2765+OR+issn%3A0092-8674+OR+issn%3A0036-8075+OR+issn%3A0028-0836+OR+issn%3A1061-4036+OR+issn%3A1061-4036+OR+issn%3A1548-7091+OR+issn%3A1465-7392)&amp;t=all&amp;dt=fta&amp;ds=nature&amp;ds=sd&amp;fdt=2007&amp;tdt=2007&amp;sort=0&amp;drill=yes&amp;q=%22cellcycle%22&amp;t=all&amp;g=r">cellcycle</a>
+</li>
+<li class="refinebullet">
+<a class="refinenavigation" href="search?q=((isolate*+AND+hybridiz*+AND+probe*)+AND+(microarray*+OR+%22genome-wide%22+OR+%22expression+profile*%22+OR+%22transcription+profil*%22)+)+(issn%3A1097-2765+OR+issn%3A0092-8674+OR+issn%3A0036-8075+OR+issn%3A0028-0836+OR+issn%3A1061-4036+OR+issn%3A1061-4036+OR+issn%3A1548-7091+OR+issn%3A1465-7392)&amp;t=all&amp;dt=fta&amp;ds=nature&amp;ds=sd&amp;fdt=2007&amp;tdt=2007&amp;sort=0&amp;drill=yes&amp;q=%22real-time+pcr%22&amp;t=all&amp;g=r">real-time pcr</a>
+</li>
+<li class="refinebullet">
+<a class="refinenavigation" href="search?q=((isolate*+AND+hybridiz*+AND+probe*)+AND+(microarray*+OR+%22genome-wide%22+OR+%22expression+profile*%22+OR+%22transcription+profil*%22)+)+(issn%3A1097-2765+OR+issn%3A0092-8674+OR+issn%3A0036-8075+OR+issn%3A0028-0836+OR+issn%3A1061-4036+OR+issn%3A1061-4036+OR+issn%3A1548-7091+OR+issn%3A1465-7392)&amp;t=all&amp;dt=fta&amp;ds=nature&amp;ds=sd&amp;fdt=2007&amp;tdt=2007&amp;sort=0&amp;drill=yes&amp;q=%22plasmid%22&amp;t=all&amp;g=r">plasmid</a>
+</li>
+<li class="refinebullet">
+<a class="refinenavigation" href="search?q=((isolate*+AND+hybridiz*+AND+probe*)+AND+(microarray*+OR+%22genome-wide%22+OR+%22expression+profile*%22+OR+%22transcription+profil*%22)+)+(issn%3A1097-2765+OR+issn%3A0092-8674+OR+issn%3A0036-8075+OR+issn%3A0028-0836+OR+issn%3A1061-4036+OR+issn%3A1061-4036+OR+issn%3A1548-7091+OR+issn%3A1465-7392)&amp;t=all&amp;dt=fta&amp;ds=nature&amp;ds=sd&amp;fdt=2007&amp;tdt=2007&amp;sort=0&amp;drill=yes&amp;q=%22molneuro%22&amp;t=all&amp;g=r">molneuro</a>
+</li>
+<li class="refinebullet">
+<a class="refinenavigation" href="search?q=((isolate*+AND+hybridiz*+AND+probe*)+AND+(microarray*+OR+%22genome-wide%22+OR+%22expression+profile*%22+OR+%22transcription+profil*%22)+)+(issn%3A1097-2765+OR+issn%3A0092-8674+OR+issn%3A0036-8075+OR+issn%3A0028-0836+OR+issn%3A1061-4036+OR+issn%3A1061-4036+OR+issn%3A1548-7091+OR+issn%3A1465-7392)&amp;t=all&amp;dt=fta&amp;ds=nature&amp;ds=sd&amp;fdt=2007&amp;tdt=2007&amp;sort=0&amp;drill=yes&amp;q=%22cell-cycle%22&amp;t=all&amp;g=r">cell-cycle</a>
+</li>
+<li class="refinebullet">
+<a class="refinenavigation" href="search?q=((isolate*+AND+hybridiz*+AND+probe*)+AND+(microarray*+OR+%22genome-wide%22+OR+%22expression+profile*%22+OR+%22transcription+profil*%22)+)+(issn%3A1097-2765+OR+issn%3A0092-8674+OR+issn%3A0036-8075+OR+issn%3A0028-0836+OR+issn%3A1061-4036+OR+issn%3A1061-4036+OR+issn%3A1548-7091+OR+issn%3A1465-7392)&amp;t=all&amp;dt=fta&amp;ds=nature&amp;ds=sd&amp;fdt=2007&amp;tdt=2007&amp;sort=0&amp;drill=yes&amp;q=%22heterochromatin%22&amp;t=all&amp;g=r">heterochromatin</a>
+</li>
+<li class="refinebullet">
+<a class="refinenavigation" href="search?q=((isolate*+AND+hybridiz*+AND+probe*)+AND+(microarray*+OR+%22genome-wide%22+OR+%22expression+profile*%22+OR+%22transcription+profil*%22)+)+(issn%3A1097-2765+OR+issn%3A0092-8674+OR+issn%3A0036-8075+OR+issn%3A0028-0836+OR+issn%3A1061-4036+OR+issn%3A1061-4036+OR+issn%3A1548-7091+OR+issn%3A1465-7392)&amp;t=all&amp;dt=fta&amp;ds=nature&amp;ds=sd&amp;fdt=2007&amp;tdt=2007&amp;sort=0&amp;drill=yes&amp;q=%22cell-cycle+progression%22&amp;t=all&amp;g=r">cell-cycle progression</a>
+</li>
+<li class="refinebullet">
+<a class="refinenavigation" href="search?q=((isolate*+AND+hybridiz*+AND+probe*)+AND+(microarray*+OR+%22genome-wide%22+OR+%22expression+profile*%22+OR+%22transcription+profil*%22)+)+(issn%3A1097-2765+OR+issn%3A0092-8674+OR+issn%3A0036-8075+OR+issn%3A0028-0836+OR+issn%3A1061-4036+OR+issn%3A1061-4036+OR+issn%3A1548-7091+OR+issn%3A1465-7392)&amp;t=all&amp;dt=fta&amp;ds=nature&amp;ds=sd&amp;fdt=2007&amp;tdt=2007&amp;sort=0&amp;drill=yes&amp;q=%22subunits%22&amp;t=all&amp;g=r">subunits</a>
+</li>
+<li class="refinebullet">
+<a class="refinenavigation" href="search?q=((isolate*+AND+hybridiz*+AND+probe*)+AND+(microarray*+OR+%22genome-wide%22+OR+%22expression+profile*%22+OR+%22transcription+profil*%22)+)+(issn%3A1097-2765+OR+issn%3A0092-8674+OR+issn%3A0036-8075+OR+issn%3A0028-0836+OR+issn%3A1061-4036+OR+issn%3A1061-4036+OR+issn%3A1548-7091+OR+issn%3A1465-7392)&amp;t=all&amp;dt=fta&amp;ds=nature&amp;ds=sd&amp;fdt=2007&amp;tdt=2007&amp;sort=0&amp;drill=yes&amp;q=%22target+promoters%22&amp;t=all&amp;g=r">target promoters</a>
+</li>
+<li class="refinebullet">
+<a class="refinenavigation" href="search?q=((isolate*+AND+hybridiz*+AND+probe*)+AND+(microarray*+OR+%22genome-wide%22+OR+%22expression+profile*%22+OR+%22transcription+profil*%22)+)+(issn%3A1097-2765+OR+issn%3A0092-8674+OR+issn%3A0036-8075+OR+issn%3A0028-0836+OR+issn%3A1061-4036+OR+issn%3A1061-4036+OR+issn%3A1548-7091+OR+issn%3A1465-7392)&amp;t=all&amp;dt=fta&amp;ds=nature&amp;ds=sd&amp;fdt=2007&amp;tdt=2007&amp;sort=0&amp;drill=yes&amp;q=%22cellbio%22&amp;t=all&amp;g=r">cellbio</a>
+</li>
+<li class="refinebullet">
+<a class="refinenavigation" href="search?q=((isolate*+AND+hybridiz*+AND+probe*)+AND+(microarray*+OR+%22genome-wide%22+OR+%22expression+profile*%22+OR+%22transcription+profil*%22)+)+(issn%3A1097-2765+OR+issn%3A0092-8674+OR+issn%3A0036-8075+OR+issn%3A0028-0836+OR+issn%3A1061-4036+OR+issn%3A1061-4036+OR+issn%3A1548-7091+OR+issn%3A1465-7392)&amp;t=all&amp;dt=fta&amp;ds=nature&amp;ds=sd&amp;fdt=2007&amp;tdt=2007&amp;sort=0&amp;drill=yes&amp;q=%22apoptosis%22&amp;t=all&amp;g=r">apoptosis</a>
+</li>
+<li class="refinebullet">
+<a class="refinenavigation" href="search?q=((isolate*+AND+hybridiz*+AND+probe*)+AND+(microarray*+OR+%22genome-wide%22+OR+%22expression+profile*%22+OR+%22transcription+profil*%22)+)+(issn%3A1097-2765+OR+issn%3A0092-8674+OR+issn%3A0036-8075+OR+issn%3A0028-0836+OR+issn%3A1061-4036+OR+issn%3A1061-4036+OR+issn%3A1548-7091+OR+issn%3A1465-7392)&amp;t=all&amp;dt=fta&amp;ds=nature&amp;ds=sd&amp;fdt=2007&amp;tdt=2007&amp;sort=0&amp;drill=yes&amp;q=%22transposon%22&amp;t=all&amp;g=r">transposon</a>
+</li>
+<li class="refinebullet">
+<a class="refinenavigation" href="search?q=((isolate*+AND+hybridiz*+AND+probe*)+AND+(microarray*+OR+%22genome-wide%22+OR+%22expression+profile*%22+OR+%22transcription+profil*%22)+)+(issn%3A1097-2765+OR+issn%3A0092-8674+OR+issn%3A0036-8075+OR+issn%3A0028-0836+OR+issn%3A1061-4036+OR+issn%3A1061-4036+OR+issn%3A1548-7091+OR+issn%3A1465-7392)&amp;t=all&amp;dt=fta&amp;ds=nature&amp;ds=sd&amp;fdt=2007&amp;tdt=2007&amp;sort=0&amp;drill=yes&amp;q=%22circadian+clock%22&amp;t=all&amp;g=r">circadian clock</a>
+</li>
+<li class="refinebullet">
+<a class="refinenavigation" href="search?q=((isolate*+AND+hybridiz*+AND+probe*)+AND+(microarray*+OR+%22genome-wide%22+OR+%22expression+profile*%22+OR+%22transcription+profil*%22)+)+(issn%3A1097-2765+OR+issn%3A0092-8674+OR+issn%3A0036-8075+OR+issn%3A0028-0836+OR+issn%3A1061-4036+OR+issn%3A1061-4036+OR+issn%3A1548-7091+OR+issn%3A1465-7392)&amp;t=all&amp;dt=fta&amp;ds=nature&amp;ds=sd&amp;fdt=2007&amp;tdt=2007&amp;sort=0&amp;drill=yes&amp;q=%22nuclear+export%22&amp;t=all&amp;g=r">nuclear export</a>
+</li>
+<li class="refinebullet">
+<a class="refinenavigation" href="search?q=((isolate*+AND+hybridiz*+AND+probe*)+AND+(microarray*+OR+%22genome-wide%22+OR+%22expression+profile*%22+OR+%22transcription+profil*%22)+)+(issn%3A1097-2765+OR+issn%3A0092-8674+OR+issn%3A0036-8075+OR+issn%3A0028-0836+OR+issn%3A1061-4036+OR+issn%3A1061-4036+OR+issn%3A1548-7091+OR+issn%3A1465-7392)&amp;t=all&amp;dt=fta&amp;ds=nature&amp;ds=sd&amp;fdt=2007&amp;tdt=2007&amp;sort=0&amp;drill=yes&amp;q=%22histone+h3%22&amp;t=all&amp;g=r">histone h3</a>
+</li>
+<li class="refinebullet">
+<a class="refinenavigation" href="search?q=((isolate*+AND+hybridiz*+AND+probe*)+AND+(microarray*+OR+%22genome-wide%22+OR+%22expression+profile*%22+OR+%22transcription+profil*%22)+)+(issn%3A1097-2765+OR+issn%3A0092-8674+OR+issn%3A0036-8075+OR+issn%3A0028-0836+OR+issn%3A1061-4036+OR+issn%3A1061-4036+OR+issn%3A1548-7091+OR+issn%3A1465-7392)&amp;t=all&amp;dt=fta&amp;ds=nature&amp;ds=sd&amp;fdt=2007&amp;tdt=2007&amp;sort=0&amp;drill=yes&amp;q=%22nucleosomes%22&amp;t=all&amp;g=r">nucleosomes</a>
+</li>
+<li class="refinebullet">
+<a class="refinenavigation" href="search?q=((isolate*+AND+hybridiz*+AND+probe*)+AND+(microarray*+OR+%22genome-wide%22+OR+%22expression+profile*%22+OR+%22transcription+profil*%22)+)+(issn%3A1097-2765+OR+issn%3A0092-8674+OR+issn%3A0036-8075+OR+issn%3A0028-0836+OR+issn%3A1061-4036+OR+issn%3A1061-4036+OR+issn%3A1548-7091+OR+issn%3A1465-7392)&amp;t=all&amp;dt=fta&amp;ds=nature&amp;ds=sd&amp;fdt=2007&amp;tdt=2007&amp;sort=0&amp;drill=yes&amp;q=%22acetylation%22&amp;t=all&amp;g=r">acetylation</a>
+</li>
+<li class="refinebullet">
+<a class="refinenavigation" href="search?q=((isolate*+AND+hybridiz*+AND+probe*)+AND+(microarray*+OR+%22genome-wide%22+OR+%22expression+profile*%22+OR+%22transcription+profil*%22)+)+(issn%3A1097-2765+OR+issn%3A0092-8674+OR+issn%3A0036-8075+OR+issn%3A0028-0836+OR+issn%3A1061-4036+OR+issn%3A1061-4036+OR+issn%3A1548-7091+OR+issn%3A1465-7392)&amp;t=all&amp;dt=fta&amp;ds=nature&amp;ds=sd&amp;fdt=2007&amp;tdt=2007&amp;sort=0&amp;drill=yes&amp;q=%22amplification%22&amp;t=all&amp;g=r">amplification</a>
+</li>
+<li class="refinebullet">
+<a class="refinenavigation" href="search?q=((isolate*+AND+hybridiz*+AND+probe*)+AND+(microarray*+OR+%22genome-wide%22+OR+%22expression+profile*%22+OR+%22transcription+profil*%22)+)+(issn%3A1097-2765+OR+issn%3A0092-8674+OR+issn%3A0036-8075+OR+issn%3A0028-0836+OR+issn%3A1061-4036+OR+issn%3A1061-4036+OR+issn%3A1548-7091+OR+issn%3A1465-7392)&amp;t=all&amp;dt=fta&amp;ds=nature&amp;ds=sd&amp;fdt=2007&amp;tdt=2007&amp;sort=0&amp;drill=yes&amp;q=%22embryonic+stem+cells%22&amp;t=all&amp;g=r">embryonic stem cells</a>
+</li>
+<li class="refinebullet">
+<a class="refinenavigation" href="search?q=((isolate*+AND+hybridiz*+AND+probe*)+AND+(microarray*+OR+%22genome-wide%22+OR+%22expression+profile*%22+OR+%22transcription+profil*%22)+)+(issn%3A1097-2765+OR+issn%3A0092-8674+OR+issn%3A0036-8075+OR+issn%3A0028-0836+OR+issn%3A1061-4036+OR+issn%3A1061-4036+OR+issn%3A1548-7091+OR+issn%3A1465-7392)&amp;t=all&amp;dt=fta&amp;ds=nature&amp;ds=sd&amp;fdt=2007&amp;tdt=2007&amp;sort=0&amp;drill=yes&amp;q=%22alpha-smooth+muscle+actin%22&amp;t=all&amp;g=r">alpha-smooth muscle actin</a>
+</li>
+<li class="refinebullet">
+<a class="refinenavigation" href="search?q=((isolate*+AND+hybridiz*+AND+probe*)+AND+(microarray*+OR+%22genome-wide%22+OR+%22expression+profile*%22+OR+%22transcription+profil*%22)+)+(issn%3A1097-2765+OR+issn%3A0092-8674+OR+issn%3A0036-8075+OR+issn%3A0028-0836+OR+issn%3A1061-4036+OR+issn%3A1061-4036+OR+issn%3A1548-7091+OR+issn%3A1465-7392)&amp;t=all&amp;dt=fta&amp;ds=nature&amp;ds=sd&amp;fdt=2007&amp;tdt=2007&amp;sort=0&amp;drill=yes&amp;q=%22putative+functions%22&amp;t=all&amp;g=r">putative functions</a>
+</li>
+<li class="refinebullet">
+<a class="refinenavigation" href="search?q=((isolate*+AND+hybridiz*+AND+probe*)+AND+(microarray*+OR+%22genome-wide%22+OR+%22expression+profile*%22+OR+%22transcription+profil*%22)+)+(issn%3A1097-2765+OR+issn%3A0092-8674+OR+issn%3A0036-8075+OR+issn%3A0028-0836+OR+issn%3A1061-4036+OR+issn%3A1061-4036+OR+issn%3A1548-7091+OR+issn%3A1465-7392)&amp;t=all&amp;dt=fta&amp;ds=nature&amp;ds=sd&amp;fdt=2007&amp;tdt=2007&amp;sort=0&amp;drill=yes&amp;q=%22somatic+cells%22&amp;t=all&amp;g=r">somatic cells</a>
+</li>
+<li class="refinebullet">
+<a class="refinenavigation" href="search?q=((isolate*+AND+hybridiz*+AND+probe*)+AND+(microarray*+OR+%22genome-wide%22+OR+%22expression+profile*%22+OR+%22transcription+profil*%22)+)+(issn%3A1097-2765+OR+issn%3A0092-8674+OR+issn%3A0036-8075+OR+issn%3A0028-0836+OR+issn%3A1061-4036+OR+issn%3A1061-4036+OR+issn%3A1548-7091+OR+issn%3A1465-7392)&amp;t=all&amp;dt=fta&amp;ds=nature&amp;ds=sd&amp;fdt=2007&amp;tdt=2007&amp;sort=0&amp;drill=yes&amp;q=%22reading+frames%22&amp;t=all&amp;g=r">reading frames</a>
+</li>
+<li class="refinebullet">
+<a class="refinenavigation" href="search?q=((isolate*+AND+hybridiz*+AND+probe*)+AND+(microarray*+OR+%22genome-wide%22+OR+%22expression+profile*%22+OR+%22transcription+profil*%22)+)+(issn%3A1097-2765+OR+issn%3A0092-8674+OR+issn%3A0036-8075+OR+issn%3A0028-0836+OR+issn%3A1061-4036+OR+issn%3A1061-4036+OR+issn%3A1548-7091+OR+issn%3A1465-7392)&amp;t=all&amp;dt=fta&amp;ds=nature&amp;ds=sd&amp;fdt=2007&amp;tdt=2007&amp;sort=0&amp;drill=yes&amp;q=%22retroviral+transduction%22&amp;t=all&amp;g=r">retroviral transduction</a>
+</li>
+<li class="refinebullet">
+<a class="refinenavigation" href="search?q=((isolate*+AND+hybridiz*+AND+probe*)+AND+(microarray*+OR+%22genome-wide%22+OR+%22expression+profile*%22+OR+%22transcription+profil*%22)+)+(issn%3A1097-2765+OR+issn%3A0092-8674+OR+issn%3A0036-8075+OR+issn%3A0028-0836+OR+issn%3A1061-4036+OR+issn%3A1061-4036+OR+issn%3A1548-7091+OR+issn%3A1465-7392)&amp;t=all&amp;dt=fta&amp;ds=nature&amp;ds=sd&amp;fdt=2007&amp;tdt=2007&amp;sort=0&amp;drill=yes&amp;q=%22epicentre%22&amp;t=all&amp;g=r">epicentre</a>
+</li>
+<li class="refinebullet">
+<a class="refinenavigation" href="search?q=((isolate*+AND+hybridiz*+AND+probe*)+AND+(microarray*+OR+%22genome-wide%22+OR+%22expression+profile*%22+OR+%22transcription+profil*%22)+)+(issn%3A1097-2765+OR+issn%3A0092-8674+OR+issn%3A0036-8075+OR+issn%3A0028-0836+OR+issn%3A1061-4036+OR+issn%3A1061-4036+OR+issn%3A1548-7091+OR+issn%3A1465-7392)&amp;t=all&amp;dt=fta&amp;ds=nature&amp;ds=sd&amp;fdt=2007&amp;tdt=2007&amp;sort=0&amp;drill=yes&amp;q=%22host+species%22&amp;t=all&amp;g=r">host species</a>
+</li>
+<li class="refinebullet">
+<a class="refinenavigation" href="search?q=((isolate*+AND+hybridiz*+AND+probe*)+AND+(microarray*+OR+%22genome-wide%22+OR+%22expression+profile*%22+OR+%22transcription+profil*%22)+)+(issn%3A1097-2765+OR+issn%3A0092-8674+OR+issn%3A0036-8075+OR+issn%3A0028-0836+OR+issn%3A1061-4036+OR+issn%3A1061-4036+OR+issn%3A1548-7091+OR+issn%3A1465-7392)&amp;t=all&amp;dt=fta&amp;ds=nature&amp;ds=sd&amp;fdt=2007&amp;tdt=2007&amp;sort=0&amp;drill=yes&amp;q=%22germ+layers%22&amp;t=all&amp;g=r">germ layers</a>
+</li>
+<li class="refinebullet">
+<a class="refinenavigation" href="search?q=((isolate*+AND+hybridiz*+AND+probe*)+AND+(microarray*+OR+%22genome-wide%22+OR+%22expression+profile*%22+OR+%22transcription+profil*%22)+)+(issn%3A1097-2765+OR+issn%3A0092-8674+OR+issn%3A0036-8075+OR+issn%3A0028-0836+OR+issn%3A1061-4036+OR+issn%3A1061-4036+OR+issn%3A1548-7091+OR+issn%3A1465-7392)&amp;t=all&amp;dt=fta&amp;ds=nature&amp;ds=sd&amp;fdt=2007&amp;tdt=2007&amp;sort=0&amp;drill=yes&amp;q=%22gram-positive%22&amp;t=all&amp;g=r">gram-positive</a>
+</li>
+<li class="refinebullet">
+<a class="refinenavigation" href="search?q=((isolate*+AND+hybridiz*+AND+probe*)+AND+(microarray*+OR+%22genome-wide%22+OR+%22expression+profile*%22+OR+%22transcription+profil*%22)+)+(issn%3A1097-2765+OR+issn%3A0092-8674+OR+issn%3A0036-8075+OR+issn%3A0028-0836+OR+issn%3A1061-4036+OR+issn%3A1061-4036+OR+issn%3A1548-7091+OR+issn%3A1465-7392)&amp;t=all&amp;dt=fta&amp;ds=nature&amp;ds=sd&amp;fdt=2007&amp;tdt=2007&amp;sort=0&amp;drill=yes&amp;q=%22gram+positive%22&amp;t=all&amp;g=r">gram positive</a>
+</li>
+<li class="refinebullet">
+<a class="refinenavigation" href="search?q=((isolate*+AND+hybridiz*+AND+probe*)+AND+(microarray*+OR+%22genome-wide%22+OR+%22expression+profile*%22+OR+%22transcription+profil*%22)+)+(issn%3A1097-2765+OR+issn%3A0092-8674+OR+issn%3A0036-8075+OR+issn%3A0028-0836+OR+issn%3A1061-4036+OR+issn%3A1061-4036+OR+issn%3A1548-7091+OR+issn%3A1465-7392)&amp;t=all&amp;dt=fta&amp;ds=nature&amp;ds=sd&amp;fdt=2007&amp;tdt=2007&amp;sort=0&amp;drill=yes&amp;q=%22selectable+markers%22&amp;t=all&amp;g=r">selectable markers</a>
+</li>
+<li class="refinebullet">
+<a class="refinenavigation" href="search?q=((isolate*+AND+hybridiz*+AND+probe*)+AND+(microarray*+OR+%22genome-wide%22+OR+%22expression+profile*%22+OR+%22transcription+profil*%22)+)+(issn%3A1097-2765+OR+issn%3A0092-8674+OR+issn%3A0036-8075+OR+issn%3A0028-0836+OR+issn%3A1061-4036+OR+issn%3A1061-4036+OR+issn%3A1548-7091+OR+issn%3A1465-7392)&amp;t=all&amp;dt=fta&amp;ds=nature&amp;ds=sd&amp;fdt=2007&amp;tdt=2007&amp;sort=0&amp;drill=yes&amp;q=%22wild-type+cells%22&amp;t=all&amp;g=r">wild-type cells</a>
+</li>
+<li class="refinebullet">
+<a class="refinenavigation" href="search?q=((isolate*+AND+hybridiz*+AND+probe*)+AND+(microarray*+OR+%22genome-wide%22+OR+%22expression+profile*%22+OR+%22transcription+profil*%22)+)+(issn%3A1097-2765+OR+issn%3A0092-8674+OR+issn%3A0036-8075+OR+issn%3A0028-0836+OR+issn%3A1061-4036+OR+issn%3A1061-4036+OR+issn%3A1548-7091+OR+issn%3A1465-7392)&amp;t=all&amp;dt=fta&amp;ds=nature&amp;ds=sd&amp;fdt=2007&amp;tdt=2007&amp;sort=0&amp;drill=yes&amp;q=%22plasmids%22&amp;t=all&amp;g=r">plasmids</a>
+</li>
+<li class="refinebullet">
+<a class="refinenavigation" href="search?q=((isolate*+AND+hybridiz*+AND+probe*)+AND+(microarray*+OR+%22genome-wide%22+OR+%22expression+profile*%22+OR+%22transcription+profil*%22)+)+(issn%3A1097-2765+OR+issn%3A0092-8674+OR+issn%3A0036-8075+OR+issn%3A0028-0836+OR+issn%3A1061-4036+OR+issn%3A1061-4036+OR+issn%3A1548-7091+OR+issn%3A1465-7392)&amp;t=all&amp;dt=fta&amp;ds=nature&amp;ds=sd&amp;fdt=2007&amp;tdt=2007&amp;sort=0&amp;drill=yes&amp;q=%22g1+progression%22&amp;t=all&amp;g=r">g1 progression</a>
+</li>
+<li class="refinebullet">
+<a class="refinenavigation" href="search?q=((isolate*+AND+hybridiz*+AND+probe*)+AND+(microarray*+OR+%22genome-wide%22+OR+%22expression+profile*%22+OR+%22transcription+profil*%22)+)+(issn%3A1097-2765+OR+issn%3A0092-8674+OR+issn%3A0036-8075+OR+issn%3A0028-0836+OR+issn%3A1061-4036+OR+issn%3A1061-4036+OR+issn%3A1548-7091+OR+issn%3A1465-7392)&amp;t=all&amp;dt=fta&amp;ds=nature&amp;ds=sd&amp;fdt=2007&amp;tdt=2007&amp;sort=0&amp;drill=yes&amp;q=%22beta-galactosidase+activity%22&amp;t=all&amp;g=r">beta-galactosidase activity</a>
+</li>
+<li class="refinebullet">
+<a class="refinenavigation" href="search?q=((isolate*+AND+hybridiz*+AND+probe*)+AND+(microarray*+OR+%22genome-wide%22+OR+%22expression+profile*%22+OR+%22transcription+profil*%22)+)+(issn%3A1097-2765+OR+issn%3A0092-8674+OR+issn%3A0036-8075+OR+issn%3A0028-0836+OR+issn%3A1061-4036+OR+issn%3A1061-4036+OR+issn%3A1548-7091+OR+issn%3A1465-7392)&amp;t=all&amp;dt=fta&amp;ds=nature&amp;ds=sd&amp;fdt=2007&amp;tdt=2007&amp;sort=0&amp;drill=yes&amp;q=%22g1+cyclins%22&amp;t=all&amp;g=r">g1 cyclins</a>
+</li>
+<li class="refinebullet">
+<a class="refinenavigation" href="search?q=((isolate*+AND+hybridiz*+AND+probe*)+AND+(microarray*+OR+%22genome-wide%22+OR+%22expression+profile*%22+OR+%22transcription+profil*%22)+)+(issn%3A1097-2765+OR+issn%3A0092-8674+OR+issn%3A0036-8075+OR+issn%3A0028-0836+OR+issn%3A1061-4036+OR+issn%3A1061-4036+OR+issn%3A1548-7091+OR+issn%3A1465-7392)&amp;t=all&amp;dt=fta&amp;ds=nature&amp;ds=sd&amp;fdt=2007&amp;tdt=2007&amp;sort=0&amp;drill=yes&amp;q=%22situ+localization%22&amp;t=all&amp;g=r">situ localization</a>
+</li>
+<li class="refinebullet">
+<a class="refinenavigation" href="search?q=((isolate*+AND+hybridiz*+AND+probe*)+AND+(microarray*+OR+%22genome-wide%22+OR+%22expression+profile*%22+OR+%22transcription+profil*%22)+)+(issn%3A1097-2765+OR+issn%3A0092-8674+OR+issn%3A0036-8075+OR+issn%3A0028-0836+OR+issn%3A1061-4036+OR+issn%3A1061-4036+OR+issn%3A1548-7091+OR+issn%3A1465-7392)&amp;t=all&amp;dt=fta&amp;ds=nature&amp;ds=sd&amp;fdt=2007&amp;tdt=2007&amp;sort=0&amp;drill=yes&amp;q=%22beta-galactosidase%22&amp;t=all&amp;g=r">beta-galactosidase</a>
+</li>
+<li class="refinebullet">
+<a class="refinenavigation" href="search?q=((isolate*+AND+hybridiz*+AND+probe*)+AND+(microarray*+OR+%22genome-wide%22+OR+%22expression+profile*%22+OR+%22transcription+profil*%22)+)+(issn%3A1097-2765+OR+issn%3A0092-8674+OR+issn%3A0036-8075+OR+issn%3A0028-0836+OR+issn%3A1061-4036+OR+issn%3A1061-4036+OR+issn%3A1548-7091+OR+issn%3A1465-7392)&amp;t=all&amp;dt=fta&amp;ds=nature&amp;ds=sd&amp;fdt=2007&amp;tdt=2007&amp;sort=0&amp;drill=yes&amp;q=%22protein+translation%22&amp;t=all&amp;g=r">protein translation</a>
+</li>
+<li class="refinebullet">
+<a class="refinenavigation" href="search?q=((isolate*+AND+hybridiz*+AND+probe*)+AND+(microarray*+OR+%22genome-wide%22+OR+%22expression+profile*%22+OR+%22transcription+profil*%22)+)+(issn%3A1097-2765+OR+issn%3A0092-8674+OR+issn%3A0036-8075+OR+issn%3A0028-0836+OR+issn%3A1061-4036+OR+issn%3A1061-4036+OR+issn%3A1548-7091+OR+issn%3A1465-7392)&amp;t=all&amp;dt=fta&amp;ds=nature&amp;ds=sd&amp;fdt=2007&amp;tdt=2007&amp;sort=0&amp;drill=yes&amp;q=%22publishing+group%22&amp;t=all&amp;g=r">publishing group</a>
+</li>
+<li class="refinebullet">
+<a class="refinenavigation" href="search?q=((isolate*+AND+hybridiz*+AND+probe*)+AND+(microarray*+OR+%22genome-wide%22+OR+%22expression+profile*%22+OR+%22transcription+profil*%22)+)+(issn%3A1097-2765+OR+issn%3A0092-8674+OR+issn%3A0036-8075+OR+issn%3A0028-0836+OR+issn%3A1061-4036+OR+issn%3A1061-4036+OR+issn%3A1548-7091+OR+issn%3A1465-7392)&amp;t=all&amp;dt=fta&amp;ds=nature&amp;ds=sd&amp;fdt=2007&amp;tdt=2007&amp;sort=0&amp;drill=yes&amp;q=%22double-stranded+dna%22&amp;t=all&amp;g=r">double-stranded dna</a>
+</li>
+<li class="refinebullet">
+<a class="refinenavigation" href="search?q=((isolate*+AND+hybridiz*+AND+probe*)+AND+(microarray*+OR+%22genome-wide%22+OR+%22expression+profile*%22+OR+%22transcription+profil*%22)+)+(issn%3A1097-2765+OR+issn%3A0092-8674+OR+issn%3A0036-8075+OR+issn%3A0028-0836+OR+issn%3A1061-4036+OR+issn%3A1061-4036+OR+issn%3A1548-7091+OR+issn%3A1465-7392)&amp;t=all&amp;dt=fta&amp;ds=nature&amp;ds=sd&amp;fdt=2007&amp;tdt=2007&amp;sort=0&amp;drill=yes&amp;q=%22chemical+biology%22&amp;t=all&amp;g=r">chemical biology</a>
+</li>
+<li class="refinebullet">
+<a class="refinenavigation" href="search?q=((isolate*+AND+hybridiz*+AND+probe*)+AND+(microarray*+OR+%22genome-wide%22+OR+%22expression+profile*%22+OR+%22transcription+profil*%22)+)+(issn%3A1097-2765+OR+issn%3A0092-8674+OR+issn%3A0036-8075+OR+issn%3A0028-0836+OR+issn%3A1061-4036+OR+issn%3A1061-4036+OR+issn%3A1548-7091+OR+issn%3A1465-7392)&amp;t=all&amp;dt=fta&amp;ds=nature&amp;ds=sd&amp;fdt=2007&amp;tdt=2007&amp;sort=0&amp;drill=yes&amp;q=%22doubling%22&amp;t=all&amp;g=r">doubling</a>
+</li>
+<li class="refinebullet">
+<a class="refinenavigation" href="search?q=((isolate*+AND+hybridiz*+AND+probe*)+AND+(microarray*+OR+%22genome-wide%22+OR+%22expression+profile*%22+OR+%22transcription+profil*%22)+)+(issn%3A1097-2765+OR+issn%3A0092-8674+OR+issn%3A0036-8075+OR+issn%3A0028-0836+OR+issn%3A1061-4036+OR+issn%3A1061-4036+OR+issn%3A1548-7091+OR+issn%3A1465-7392)&amp;t=all&amp;dt=fta&amp;ds=nature&amp;ds=sd&amp;fdt=2007&amp;tdt=2007&amp;sort=0&amp;drill=yes&amp;q=%22analysis+of+gene+expression%22&amp;t=all&amp;g=r">analysis of gene expression</a>
+</li>
+<li class="refinebullet">
+<a class="refinenavigation" href="search?q=((isolate*+AND+hybridiz*+AND+probe*)+AND+(microarray*+OR+%22genome-wide%22+OR+%22expression+profile*%22+OR+%22transcription+profil*%22)+)+(issn%3A1097-2765+OR+issn%3A0092-8674+OR+issn%3A0036-8075+OR+issn%3A0028-0836+OR+issn%3A1061-4036+OR+issn%3A1061-4036+OR+issn%3A1548-7091+OR+issn%3A1465-7392)&amp;t=all&amp;dt=fta&amp;ds=nature&amp;ds=sd&amp;fdt=2007&amp;tdt=2007&amp;sort=0&amp;drill=yes&amp;q=%22microarrays%22&amp;t=all&amp;g=r">microarrays</a>
+</li>
+<li class="refinebullet">
+<a class="refinenavigation" href="search?q=((isolate*+AND+hybridiz*+AND+probe*)+AND+(microarray*+OR+%22genome-wide%22+OR+%22expression+profile*%22+OR+%22transcription+profil*%22)+)+(issn%3A1097-2765+OR+issn%3A0092-8674+OR+issn%3A0036-8075+OR+issn%3A0028-0836+OR+issn%3A1061-4036+OR+issn%3A1061-4036+OR+issn%3A1548-7091+OR+issn%3A1465-7392)&amp;t=all&amp;dt=fta&amp;ds=nature&amp;ds=sd&amp;fdt=2007&amp;tdt=2007&amp;sort=0&amp;drill=yes&amp;q=%22microarray+analysis%22&amp;t=all&amp;g=r">microarray analysis</a>
+</li>
+<li class="refinebullet">
+<a class="refinenavigation" href="search?q=((isolate*+AND+hybridiz*+AND+probe*)+AND+(microarray*+OR+%22genome-wide%22+OR+%22expression+profile*%22+OR+%22transcription+profil*%22)+)+(issn%3A1097-2765+OR+issn%3A0092-8674+OR+issn%3A0036-8075+OR+issn%3A0028-0836+OR+issn%3A1061-4036+OR+issn%3A1061-4036+OR+issn%3A1548-7091+OR+issn%3A1465-7392)&amp;t=all&amp;dt=fta&amp;ds=nature&amp;ds=sd&amp;fdt=2007&amp;tdt=2007&amp;sort=0&amp;drill=yes&amp;q=%22high-throughput+analysis%22&amp;t=all&amp;g=r">high-throughput analysis</a>
+</li>
+<li class="refinebullet">
+<a class="refinenavigation" href="search?q=((isolate*+AND+hybridiz*+AND+probe*)+AND+(microarray*+OR+%22genome-wide%22+OR+%22expression+profile*%22+OR+%22transcription+profil*%22)+)+(issn%3A1097-2765+OR+issn%3A0092-8674+OR+issn%3A0036-8075+OR+issn%3A0028-0836+OR+issn%3A1061-4036+OR+issn%3A1061-4036+OR+issn%3A1548-7091+OR+issn%3A1465-7392)&amp;t=all&amp;dt=fta&amp;ds=nature&amp;ds=sd&amp;fdt=2007&amp;tdt=2007&amp;sort=0&amp;drill=yes&amp;q=%22tissue+preparation%22&amp;t=all&amp;g=r">tissue preparation</a>
+</li>
+<li class="refinebullet">
+<a class="refinenavigation" href="search?q=((isolate*+AND+hybridiz*+AND+probe*)+AND+(microarray*+OR+%22genome-wide%22+OR+%22expression+profile*%22+OR+%22transcription+profil*%22)+)+(issn%3A1097-2765+OR+issn%3A0092-8674+OR+issn%3A0036-8075+OR+issn%3A0028-0836+OR+issn%3A1061-4036+OR+issn%3A1061-4036+OR+issn%3A1548-7091+OR+issn%3A1465-7392)&amp;t=all&amp;dt=fta&amp;ds=nature&amp;ds=sd&amp;fdt=2007&amp;tdt=2007&amp;sort=0&amp;drill=yes&amp;q=%22degraded%22&amp;t=all&amp;g=r">degraded</a>
+</li>
+<li class="refinebullet">
+<a class="refinenavigation" href="search?q=((isolate*+AND+hybridiz*+AND+probe*)+AND+(microarray*+OR+%22genome-wide%22+OR+%22expression+profile*%22+OR+%22transcription+profil*%22)+)+(issn%3A1097-2765+OR+issn%3A0092-8674+OR+issn%3A0036-8075+OR+issn%3A0028-0836+OR+issn%3A1061-4036+OR+issn%3A1061-4036+OR+issn%3A1548-7091+OR+issn%3A1465-7392)&amp;t=all&amp;dt=fta&amp;ds=nature&amp;ds=sd&amp;fdt=2007&amp;tdt=2007&amp;sort=0&amp;drill=yes&amp;q=%22branched+dna%22&amp;t=all&amp;g=r">branched dna</a>
+</li>
+<li class="refinebullet">
+<a class="refinenavigation" href="search?q=((isolate*+AND+hybridiz*+AND+probe*)+AND+(microarray*+OR+%22genome-wide%22+OR+%22expression+profile*%22+OR+%22transcription+profil*%22)+)+(issn%3A1097-2765+OR+issn%3A0092-8674+OR+issn%3A0036-8075+OR+issn%3A0028-0836+OR+issn%3A1061-4036+OR+issn%3A1061-4036+OR+issn%3A1548-7091+OR+issn%3A1465-7392)&amp;t=all&amp;dt=fta&amp;ds=nature&amp;ds=sd&amp;fdt=2007&amp;tdt=2007&amp;sort=0&amp;drill=yes&amp;q=%22histology%22&amp;t=all&amp;g=r">histology</a>
+</li>
+<li class="refinebullet">
+<a class="refinenavigation" href="search?q=((isolate*+AND+hybridiz*+AND+probe*)+AND+(microarray*+OR+%22genome-wide%22+OR+%22expression+profile*%22+OR+%22transcription+profil*%22)+)+(issn%3A1097-2765+OR+issn%3A0092-8674+OR+issn%3A0036-8075+OR+issn%3A0028-0836+OR+issn%3A1061-4036+OR+issn%3A1061-4036+OR+issn%3A1548-7091+OR+issn%3A1465-7392)&amp;t=all&amp;dt=fta&amp;ds=nature&amp;ds=sd&amp;fdt=2007&amp;tdt=2007&amp;sort=0&amp;drill=yes&amp;q=%22humdisease%22&amp;t=all&amp;g=r">humdisease</a>
+</li>
+<li class="refinebullet">
+<a class="refinenavigation" href="search?q=((isolate*+AND+hybridiz*+AND+probe*)+AND+(microarray*+OR+%22genome-wide%22+OR+%22expression+profile*%22+OR+%22transcription+profil*%22)+)+(issn%3A1097-2765+OR+issn%3A0092-8674+OR+issn%3A0036-8075+OR+issn%3A0028-0836+OR+issn%3A1061-4036+OR+issn%3A1061-4036+OR+issn%3A1548-7091+OR+issn%3A1465-7392)&amp;t=all&amp;dt=fta&amp;ds=nature&amp;ds=sd&amp;fdt=2007&amp;tdt=2007&amp;sort=0&amp;drill=yes&amp;q=%22rearrangements%22&amp;t=all&amp;g=r">rearrangements</a>
+</li>
+<li class="refinebullet">
+<a class="refinenavigation" href="search?q=((isolate*+AND+hybridiz*+AND+probe*)+AND+(microarray*+OR+%22genome-wide%22+OR+%22expression+profile*%22+OR+%22transcription+profil*%22)+)+(issn%3A1097-2765+OR+issn%3A0092-8674+OR+issn%3A0036-8075+OR+issn%3A0028-0836+OR+issn%3A1061-4036+OR+issn%3A1061-4036+OR+issn%3A1548-7091+OR+issn%3A1465-7392)&amp;t=all&amp;dt=fta&amp;ds=nature&amp;ds=sd&amp;fdt=2007&amp;tdt=2007&amp;sort=0&amp;drill=yes&amp;q=%22pelizaeus-merzbacher+disease%22&amp;t=all&amp;g=r">pelizaeus-merzbacher disease</a>
+</li>
+<li class="refinebullet">
+<a class="refinenavigation" href="search?q=((isolate*+AND+hybridiz*+AND+probe*)+AND+(microarray*+OR+%22genome-wide%22+OR+%22expression+profile*%22+OR+%22transcription+profil*%22)+)+(issn%3A1097-2765+OR+issn%3A0092-8674+OR+issn%3A0036-8075+OR+issn%3A0028-0836+OR+issn%3A1061-4036+OR+issn%3A1061-4036+OR+issn%3A1548-7091+OR+issn%3A1465-7392)&amp;t=all&amp;dt=fta&amp;ds=nature&amp;ds=sd&amp;fdt=2007&amp;tdt=2007&amp;sort=0&amp;drill=yes&amp;q=%22genomic+rearrangements%22&amp;t=all&amp;g=r">genomic rearrangements</a>
+</li>
+<li class="refinebullet">
+<a class="refinenavigation" href="search?q=((isolate*+AND+hybridiz*+AND+probe*)+AND+(microarray*+OR+%22genome-wide%22+OR+%22expression+profile*%22+OR+%22transcription+profil*%22)+)+(issn%3A1097-2765+OR+issn%3A0092-8674+OR+issn%3A0036-8075+OR+issn%3A0028-0836+OR+issn%3A1061-4036+OR+issn%3A1061-4036+OR+issn%3A1548-7091+OR+issn%3A1465-7392)&amp;t=all&amp;dt=fta&amp;ds=nature&amp;ds=sd&amp;fdt=2007&amp;tdt=2007&amp;sort=0&amp;drill=yes&amp;q=%22replication+fork%22&amp;t=all&amp;g=r">replication fork</a>
+</li>
+<li class="refinebullet">
+<a class="refinenavigation" href="search?q=((isolate*+AND+hybridiz*+AND+probe*)+AND+(microarray*+OR+%22genome-wide%22+OR+%22expression+profile*%22+OR+%22transcription+profil*%22)+)+(issn%3A1097-2765+OR+issn%3A0092-8674+OR+issn%3A0036-8075+OR+issn%3A0028-0836+OR+issn%3A1061-4036+OR+issn%3A1061-4036+OR+issn%3A1548-7091+OR+issn%3A1465-7392)&amp;t=all&amp;dt=fta&amp;ds=nature&amp;ds=sd&amp;fdt=2007&amp;tdt=2007&amp;sort=0&amp;drill=yes&amp;q=%22junctional+sequences%22&amp;t=all&amp;g=r">junctional sequences</a>
+</li>
+<li class="refinebullet">
+<a class="refinenavigation" href="search?q=((isolate*+AND+hybridiz*+AND+probe*)+AND+(microarray*+OR+%22genome-wide%22+OR+%22expression+profile*%22+OR+%22transcription+profil*%22)+)+(issn%3A1097-2765+OR+issn%3A0092-8674+OR+issn%3A0036-8075+OR+issn%3A0028-0836+OR+issn%3A1061-4036+OR+issn%3A1061-4036+OR+issn%3A1548-7091+OR+issn%3A1465-7392)&amp;t=all&amp;dt=fta&amp;ds=nature&amp;ds=sd&amp;fdt=2007&amp;tdt=2007&amp;sort=0&amp;drill=yes&amp;q=%22complex+rearrangements%22&amp;t=all&amp;g=r">complex rearrangements</a>
+</li>
+<li class="refinebullet">
+<a class="refinenavigation" href="search?q=((isolate*+AND+hybridiz*+AND+probe*)+AND+(microarray*+OR+%22genome-wide%22+OR+%22expression+profile*%22+OR+%22transcription+profil*%22)+)+(issn%3A1097-2765+OR+issn%3A0092-8674+OR+issn%3A0036-8075+OR+issn%3A0028-0836+OR+issn%3A1061-4036+OR+issn%3A1061-4036+OR+issn%3A1548-7091+OR+issn%3A1465-7392)&amp;t=all&amp;dt=fta&amp;ds=nature&amp;ds=sd&amp;fdt=2007&amp;tdt=2007&amp;sort=0&amp;drill=yes&amp;q=%22rearrangement%22&amp;t=all&amp;g=r">rearrangement</a>
+</li>
+<li class="refinebullet">
+<a class="refinenavigation" href="search?q=((isolate*+AND+hybridiz*+AND+probe*)+AND+(microarray*+OR+%22genome-wide%22+OR+%22expression+profile*%22+OR+%22transcription+profil*%22)+)+(issn%3A1097-2765+OR+issn%3A0092-8674+OR+issn%3A0036-8075+OR+issn%3A0028-0836+OR+issn%3A1061-4036+OR+issn%3A1061-4036+OR+issn%3A1548-7091+OR+issn%3A1465-7392)&amp;t=all&amp;dt=fta&amp;ds=nature&amp;ds=sd&amp;fdt=2007&amp;tdt=2007&amp;sort=0&amp;drill=yes&amp;q=%22multiplex+pcr%22&amp;t=all&amp;g=r">multiplex pcr</a>
+</li>
+<li class="refinebullet">
+<a class="refinenavigation" href="search?q=((isolate*+AND+hybridiz*+AND+probe*)+AND+(microarray*+OR+%22genome-wide%22+OR+%22expression+profile*%22+OR+%22transcription+profil*%22)+)+(issn%3A1097-2765+OR+issn%3A0092-8674+OR+issn%3A0036-8075+OR+issn%3A0028-0836+OR+issn%3A1061-4036+OR+issn%3A1061-4036+OR+issn%3A1548-7091+OR+issn%3A1465-7392)&amp;t=all&amp;dt=fta&amp;ds=nature&amp;ds=sd&amp;fdt=2007&amp;tdt=2007&amp;sort=0&amp;drill=yes&amp;q=%22breakpoint%22&amp;t=all&amp;g=r">breakpoint</a>
+</li>
+<li class="refinebullet">
+<a class="refinenavigation" href="search?q=((isolate*+AND+hybridiz*+AND+probe*)+AND+(microarray*+OR+%22genome-wide%22+OR+%22expression+profile*%22+OR+%22transcription+profil*%22)+)+(issn%3A1097-2765+OR+issn%3A0092-8674+OR+issn%3A0036-8075+OR+issn%3A0028-0836+OR+issn%3A1061-4036+OR+issn%3A1061-4036+OR+issn%3A1548-7091+OR+issn%3A1465-7392)&amp;t=all&amp;dt=fta&amp;ds=nature&amp;ds=sd&amp;fdt=2007&amp;tdt=2007&amp;sort=0&amp;drill=yes&amp;q=%22tandem+duplication%22&amp;t=all&amp;g=r">tandem duplication</a>
+</li>
+<li class="refinebullet">
+<a class="refinenavigation" href="search?q=((isolate*+AND+hybridiz*+AND+probe*)+AND+(microarray*+OR+%22genome-wide%22+OR+%22expression+profile*%22+OR+%22transcription+profil*%22)+)+(issn%3A1097-2765+OR+issn%3A0092-8674+OR+issn%3A0036-8075+OR+issn%3A0028-0836+OR+issn%3A1061-4036+OR+issn%3A1061-4036+OR+issn%3A1548-7091+OR+issn%3A1465-7392)&amp;t=all&amp;dt=fta&amp;ds=nature&amp;ds=sd&amp;fdt=2007&amp;tdt=2007&amp;sort=0&amp;drill=yes&amp;q=%22cell-like%22&amp;t=all&amp;g=r">cell-like</a>
+</li>
+<li class="refinebullet">
+<a class="refinenavigation" href="search?q=((isolate*+AND+hybridiz*+AND+probe*)+AND+(microarray*+OR+%22genome-wide%22+OR+%22expression+profile*%22+OR+%22transcription+profil*%22)+)+(issn%3A1097-2765+OR+issn%3A0092-8674+OR+issn%3A0036-8075+OR+issn%3A0028-0836+OR+issn%3A1061-4036+OR+issn%3A1061-4036+OR+issn%3A1548-7091+OR+issn%3A1465-7392)&amp;t=all&amp;dt=fta&amp;ds=nature&amp;ds=sd&amp;fdt=2007&amp;tdt=2007&amp;sort=0&amp;drill=yes&amp;q=%22embryonic+stem%22&amp;t=all&amp;g=r">embryonic stem</a>
+</li>
+<li class="refinebullet">
+<a class="refinenavigation" href="search?q=((isolate*+AND+hybridiz*+AND+probe*)+AND+(microarray*+OR+%22genome-wide%22+OR+%22expression+profile*%22+OR+%22transcription+profil*%22)+)+(issn%3A1097-2765+OR+issn%3A0092-8674+OR+issn%3A0036-8075+OR+issn%3A0028-0836+OR+issn%3A1061-4036+OR+issn%3A1061-4036+OR+issn%3A1548-7091+OR+issn%3A1465-7392)&amp;t=all&amp;dt=fta&amp;ds=nature&amp;ds=sd&amp;fdt=2007&amp;tdt=2007&amp;sort=0&amp;drill=yes&amp;q=%22embryonic%22&amp;t=all&amp;g=r">embryonic</a>
+</li>
+<li class="refinebullet">
+<a class="refinenavigation" href="search?q=((isolate*+AND+hybridiz*+AND+probe*)+AND+(microarray*+OR+%22genome-wide%22+OR+%22expression+profile*%22+OR+%22transcription+profil*%22)+)+(issn%3A1097-2765+OR+issn%3A0092-8674+OR+issn%3A0036-8075+OR+issn%3A0028-0836+OR+issn%3A1061-4036+OR+issn%3A1061-4036+OR+issn%3A1548-7091+OR+issn%3A1465-7392)&amp;t=all&amp;dt=fta&amp;ds=nature&amp;ds=sd&amp;fdt=2007&amp;tdt=2007&amp;sort=0&amp;drill=yes&amp;q=%22fibroblasts%22&amp;t=all&amp;g=r">fibroblasts</a>
+</li>
+<li class="refinebullet">
+<a class="refinenavigation" href="search?q=((isolate*+AND+hybridiz*+AND+probe*)+AND+(microarray*+OR+%22genome-wide%22+OR+%22expression+profile*%22+OR+%22transcription+profil*%22)+)+(issn%3A1097-2765+OR+issn%3A0092-8674+OR+issn%3A0036-8075+OR+issn%3A0028-0836+OR+issn%3A1061-4036+OR+issn%3A1061-4036+OR+issn%3A1548-7091+OR+issn%3A1465-7392)&amp;t=all&amp;dt=fta&amp;ds=nature&amp;ds=sd&amp;fdt=2007&amp;tdt=2007&amp;sort=0&amp;drill=yes&amp;q=%22pluripotent%22&amp;t=all&amp;g=r">pluripotent</a>
+</li>
+<li class="refinebullet">
+<a class="refinenavigation" href="search?q=((isolate*+AND+hybridiz*+AND+probe*)+AND+(microarray*+OR+%22genome-wide%22+OR+%22expression+profile*%22+OR+%22transcription+profil*%22)+)+(issn%3A1097-2765+OR+issn%3A0092-8674+OR+issn%3A0036-8075+OR+issn%3A0028-0836+OR+issn%3A1061-4036+OR+issn%3A1061-4036+OR+issn%3A1548-7091+OR+issn%3A1465-7392)&amp;t=all&amp;dt=fta&amp;ds=nature&amp;ds=sd&amp;fdt=2007&amp;tdt=2007&amp;sort=0&amp;drill=yes&amp;q=%22pyrophosphate%22&amp;t=all&amp;g=r">pyrophosphate</a>
+</li>
+<li class="refinebullet">
+<a class="refinenavigation" href="search?q=((isolate*+AND+hybridiz*+AND+probe*)+AND+(microarray*+OR+%22genome-wide%22+OR+%22expression+profile*%22+OR+%22transcription+profil*%22)+)+(issn%3A1097-2765+OR+issn%3A0092-8674+OR+issn%3A0036-8075+OR+issn%3A0028-0836+OR+issn%3A1061-4036+OR+issn%3A1061-4036+OR+issn%3A1548-7091+OR+issn%3A1465-7392)&amp;t=all&amp;dt=fta&amp;ds=nature&amp;ds=sd&amp;fdt=2007&amp;tdt=2007&amp;sort=0&amp;drill=yes&amp;q=%22phosphorylation%22&amp;t=all&amp;g=r">phosphorylation</a>
+</li>
+<li class="refinebullet">
+<a class="refinenavigation" href="search?q=((isolate*+AND+hybridiz*+AND+probe*)+AND+(microarray*+OR+%22genome-wide%22+OR+%22expression+profile*%22+OR+%22transcription+profil*%22)+)+(issn%3A1097-2765+OR+issn%3A0092-8674+OR+issn%3A0036-8075+OR+issn%3A0028-0836+OR+issn%3A1061-4036+OR+issn%3A1061-4036+OR+issn%3A1548-7091+OR+issn%3A1465-7392)&amp;t=all&amp;dt=fta&amp;ds=nature&amp;ds=sd&amp;fdt=2007&amp;tdt=2007&amp;sort=0&amp;drill=yes&amp;q=%22in+vitro%22&amp;t=all&amp;g=r">in vitro</a>
+</li>
+<li class="refinebullet">
+<a class="refinenavigation" href="search?q=((isolate*+AND+hybridiz*+AND+probe*)+AND+(microarray*+OR+%22genome-wide%22+OR+%22expression+profile*%22+OR+%22transcription+profil*%22)+)+(issn%3A1097-2765+OR+issn%3A0092-8674+OR+issn%3A0036-8075+OR+issn%3A0028-0836+OR+issn%3A1061-4036+OR+issn%3A1061-4036+OR+issn%3A1548-7091+OR+issn%3A1465-7392)&amp;t=all&amp;dt=fta&amp;ds=nature&amp;ds=sd&amp;fdt=2007&amp;tdt=2007&amp;sort=0&amp;drill=yes&amp;q=%22stem-loop+structure%22&amp;t=all&amp;g=r">stem-loop structure</a>
+</li>
+<li class="refinebullet">
+<a class="refinenavigation" href="search?q=((isolate*+AND+hybridiz*+AND+probe*)+AND+(microarray*+OR+%22genome-wide%22+OR+%22expression+profile*%22+OR+%22transcription+profil*%22)+)+(issn%3A1097-2765+OR+issn%3A0092-8674+OR+issn%3A0036-8075+OR+issn%3A0028-0836+OR+issn%3A1061-4036+OR+issn%3A1061-4036+OR+issn%3A1548-7091+OR+issn%3A1465-7392)&amp;t=all&amp;dt=fta&amp;ds=nature&amp;ds=sd&amp;fdt=2007&amp;tdt=2007&amp;sort=0&amp;drill=yes&amp;q=%22moleneuro%22&amp;t=all&amp;g=r">moleneuro</a>
+</li>
+<li class="refinebullet">
+<a class="refinenavigation" href="search?q=((isolate*+AND+hybridiz*+AND+probe*)+AND+(microarray*+OR+%22genome-wide%22+OR+%22expression+profile*%22+OR+%22transcription+profil*%22)+)+(issn%3A1097-2765+OR+issn%3A0092-8674+OR+issn%3A0036-8075+OR+issn%3A0028-0836+OR+issn%3A1061-4036+OR+issn%3A1061-4036+OR+issn%3A1548-7091+OR+issn%3A1465-7392)&amp;t=all&amp;dt=fta&amp;ds=nature&amp;ds=sd&amp;fdt=2007&amp;tdt=2007&amp;sort=0&amp;drill=yes&amp;q=%22molimmuno%22&amp;t=all&amp;g=r">molimmuno</a>
+</li>
+<li class="refinebullet">
+<a class="refinenavigation" href="search?q=((isolate*+AND+hybridiz*+AND+probe*)+AND+(microarray*+OR+%22genome-wide%22+OR+%22expression+profile*%22+OR+%22transcription+profil*%22)+)+(issn%3A1097-2765+OR+issn%3A0092-8674+OR+issn%3A0036-8075+OR+issn%3A0028-0836+OR+issn%3A1061-4036+OR+issn%3A1061-4036+OR+issn%3A1548-7091+OR+issn%3A1465-7392)&amp;t=all&amp;dt=fta&amp;ds=nature&amp;ds=sd&amp;fdt=2007&amp;tdt=2007&amp;sort=0&amp;drill=yes&amp;q=%22precursors%22&amp;t=all&amp;g=r">precursors</a>
+</li>
+<li class="refinebullet">
+<a class="refinenavigation" href="search?q=((isolate*+AND+hybridiz*+AND+probe*)+AND+(microarray*+OR+%22genome-wide%22+OR+%22expression+profile*%22+OR+%22transcription+profil*%22)+)+(issn%3A1097-2765+OR+issn%3A0092-8674+OR+issn%3A0036-8075+OR+issn%3A0028-0836+OR+issn%3A1061-4036+OR+issn%3A1061-4036+OR+issn%3A1548-7091+OR+issn%3A1465-7392)&amp;t=all&amp;dt=fta&amp;ds=nature&amp;ds=sd&amp;fdt=2007&amp;tdt=2007&amp;sort=0&amp;drill=yes&amp;q=%22tissue+type%22&amp;t=all&amp;g=r">tissue type</a>
+</li>
+<li class="refinebullet">
+<a class="refinenavigation" href="search?q=((isolate*+AND+hybridiz*+AND+probe*)+AND+(microarray*+OR+%22genome-wide%22+OR+%22expression+profile*%22+OR+%22transcription+profil*%22)+)+(issn%3A1097-2765+OR+issn%3A0092-8674+OR+issn%3A0036-8075+OR+issn%3A0028-0836+OR+issn%3A1061-4036+OR+issn%3A1061-4036+OR+issn%3A1548-7091+OR+issn%3A1465-7392)&amp;t=all&amp;dt=fta&amp;ds=nature&amp;ds=sd&amp;fdt=2007&amp;tdt=2007&amp;sort=0&amp;drill=yes&amp;q=%22tissue+types%22&amp;t=all&amp;g=r">tissue types</a>
+</li>
+</ul>
+<input value="102" type="hidden" name="menu4count" id="menu4count">
+</div>
+<div style="DISPLAY: block;" id="menu4subdivmore" align="right">
+<script type="text/javascript">
+							displayLessMoreLinks("menu4");
+		   				 </script>
+</div>
+</div>
+</div>
+</form>
+<img width="1" src="/images/sp.gif" height="1" alt="" onload="javascript:initialize('none','none','none','none')"></td>
+</tr>
+</table>
+</td><td valign="top" class="resultscol2">
+<form name="results" method="post" action="/srsapp/saved">
+<input value="Saved Results" type="hidden" name="title"><input value="" type="hidden" name="save">
+<table width="100%" summary="Search Results" class="sideborder" cellspacing="0" cellpadding="0" border="0">
+<tr>
+<td><img width="1" src="/images/sp.gif" height="1" border="0"></td><td>
+<table width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td>
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tr>
+<td class="searchresultscol1"><input type="checkbox" onclick="javascript:displayPerPageMessage();javascript:toggleMasterItem(this);" name="r" value="7xAx90694e473bce6ff77e77a7eb1860ed7cxsciencedirect"><input type="hidden" name="er" value="20070803@7xAx90694e473bce6ff77e77a7eb1860ed7cxsciencedirect|http://www.sciencedirect.com/science?_ob=GatewayURL&amp;_origin=ScienceSearch&amp;_method=citationSearch&amp;_piikey=S1097276507004844&amp;_version=1&amp;_returnURL=&amp;md5=a0cd54065c51d00c86d94630ddbd3ad0|sd|Genome-Wide Replication-Independent Histone H3 Exchange Occurs Predominantly at Promoters and Implicates H3 K56...|"></td><td class="searchresultscol2"><img width="1" src="/images/sp.gif" height="1" alt=""><br>
+<b>1.
+						</b></td><td valign="top" colspan="2"><a name="url" href="/srsapp/sciruslink?src=sd&amp;url=http%3A%2F%2Fwww.sciencedirect.com%2Fscience%3F_ob%3DGatewayURL%26_origin%3DScienceSearch%26_method%3DcitationSearch%26_piikey%3DS1097276507004844%26_version%3D1%26_returnURL%3Dhttp%253A%252F%252Fwww.scirus.com%252Fsrsapp%252Fsearch%253Fq%253D%2528%2528isolate*%252BAND%252Bhybridiz*%252BAND%252Bprobe*%2529%252BAND%252B%2528microarray*%252BOR%252B%252522genome-wide%252522%252BOR%252B%252522expression%252Bprofile*%252522%252BOR%252B%252522transcription%252Bprofil*%252522%2529%252B%2529%252B%2528issn%25253A1097-2765%252BOR%252Bissn%25253A0092-8674%252BOR%252Bissn%25253A0036-8075%252BOR%252Bissn%25253A0028-0836%252BOR%252Bissn%25253A1061-4036%252BOR%252Bissn%25253A1061-4036%252BOR%252Bissn%25253A1548-7091%252BOR%252Bissn%25253A1465-7392%2529%2526t%253Dall%2526dt%253Dfta%2526ds%253Dnature%2526ds%253Dsd%2526fdt%253D2007%2526tdt%253D2007%2526sort%253D0%2526drill%253Dyes%2526p%253D0%26md5%3D5ccb13b17747a7d342e1ba4bdd1b46f0">Genome-Wide Replication-Independent Histone H3 Exchange Occurs Predominantly at Promoters and Implicates H3 K56...</a>
+<br>
+<font class="authorname">Rufiange, A. / Jacques, P.E. / Bhat, W. / Robert, F. / Nourani, A.
+				,
+				</font><font class="srctitle">Molecular Cell</font>,	
+	27
+			(3),
+	
+		p.393-405,
+	<font class="date">Aug 2007</font>
+<br>...chromatin. Nuclei were <b>isolated</b> from a strain expressing...averaging the ratio for all the <b>probes</b> covering that gene (see...with high-density tiling <b>microarray</b>, is plotted (green). The...inFigure 1D, except that only <b>probes</b> covering the promoter region...value over a gene. Article <b>Genome</b>-<b>Wide</b> Replication-Independent...Using a high-resolution, <b>microarray</b>-based, histone H3 replacement...Importantly, despite strict <b>genome</b>-<b>wide</b> correlation with transcription...</td>
+</tr>
+<tr>
+<td valign="top" colspan="2"><img width="1" src="/images/sp.gif" height="1" alt=""></td><td width="10%" valign="middle" nowrap="nowrap"><b>Published journal article available from</b></td><td valign="middle">&nbsp;
+						<img border="0" src="/images/logos/sd_logo.gif" width="123" height="20" alt="ScienceDirect" title="ScienceDirect"></td>
+</tr>
+<tr>
+<td valign="top" colspan="2"><img width="1" src="/images/sp.gif" height="1" alt=""></td><td colspan="2"><a href="search?q=((isolate*+AND+hybridiz*+AND+probe*)+AND+(microarray*+OR+%22genome-wide%22+OR+%22expression+profile*%22+OR+%22transcription+profil*%22)+)+(issn%3A1097-2765+OR+issn%3A0092-8674+OR+issn%3A0036-8075+OR+issn%3A0028-0836+OR+issn%3A1061-4036+OR+issn%3A1061-4036+OR+issn%3A1548-7091+OR+issn%3A1465-7392)&amp;t=all&amp;dt=fta&amp;ds=nature&amp;ds=sd&amp;fdt=2007&amp;tdt=2007&amp;sort=0&amp;drill=yes&amp;sr=%22dna%22+%22histone+h3%22+%22histone%22+%22nucleosomes%22+%22acetylation%22+%22inactive+genes%22+%22chromatin%22+%22chromatin+assembly%22+%22intergenic+regions%22+%22active+genes%22+%22transcribed+genes%22">similar results</a></td>
+</tr>
+<tr>
+<td width="1" height="8" colspan="4"><img width="1" src="/images/sp.gif" height="8" alt=""></td>
+</tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tr>
+<td class="searchresultscol1"><input type="checkbox" onclick="javascript:displayPerPageMessage();javascript:toggleMasterItem(this);" name="r" value="7xAx5da445b7c2fe7ed173bd123d94362c0axcr1038"><input type="hidden" name="er" value="20070101@7xAx5da445b7c2fe7ed173bd123d94362c0axcr1038|http://dx.doi.org/10.1038/nmeth946|nature|SCALEs: multiscale analysis of library enrichment|10.1038/nmeth946"></td><td class="searchresultscol2"><img width="1" src="/images/sp.gif" height="1" alt=""><br>
+<b>2.
+						</b></td><td valign="top" colspan="2"><a name="url" href="/srsapp/sciruslink?src=nature&amp;url=http%3A%2F%2Fdx.doi.org%2F10.1038%2Fnmeth946">SCALEs: multiscale analysis of library enrichment</a>
+<br>
+<font class="authorname">Lynch, Michael D  /  Warnecke, Tanya  /  Gill, Ryan T
+				,
+				</font><font class="srctitle">Nature Methods</font>,	
+	4
+			(1),
+	
+		p.87-93,
+	<font class="date">Jan 2007</font>
+<br>
+			doi:10.1038/nmeth946<br>...We report a <b>genome</b>-<b>wide</b>, multiscale...SCALEs, (ii) <b>microarray</b> studies of...not always <b>genome</b>-<b>wide</b> or quantitative...although <b>transcriptional</b> <b>profiling</b> is <b>genome</b>-<b>wide</b>, now easy...followed by a <b>microarray</b> and multiscale...</td>
+</tr>
+<tr>
+<td valign="top" colspan="2"><img width="1" src="/images/sp.gif" height="1" alt=""></td><td width="10%" valign="middle" nowrap="nowrap"><b>Published journal article available from </b></td><td valign="middle">&nbsp;
+						<img border="0" src="/images/logos/nature_logo.gif" width="216" height="48" alt="Nature Publishing Group" title="Nature Publishing Group"></td>
+</tr>
+<tr>
+<td valign="top" colspan="2"><img width="1" src="/images/sp.gif" height="1" alt=""></td><td colspan="2"><a href="search?q=((isolate*+AND+hybridiz*+AND+probe*)+AND+(microarray*+OR+%22genome-wide%22+OR+%22expression+profile*%22+OR+%22transcription+profil*%22)+)+(issn%3A1097-2765+OR+issn%3A0092-8674+OR+issn%3A0036-8075+OR+issn%3A0028-0836+OR+issn%3A1061-4036+OR+issn%3A1061-4036+OR+issn%3A1548-7091+OR+issn%3A1465-7392)&amp;t=all&amp;dt=fta&amp;ds=nature&amp;ds=sd&amp;fdt=2007&amp;tdt=2007&amp;sort=0&amp;drill=yes&amp;sr=%22genomic+libraries%22+%22microarray%22+%22library+construction%22+%22biofilm+formation%22+%22genomic+library%22+%22exonuclease+iii%22+%22genomic+regions%22+%22plasmid%22+%22biofilm%22+%22phenotype%22">similar results</a></td>
+</tr>
+<tr>
+<td width="1" height="8" colspan="4"><img width="1" src="/images/sp.gif" height="8" alt=""></td>
+</tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tr>
+<td class="searchresultscol1"><input type="checkbox" onclick="javascript:displayPerPageMessage();javascript:toggleMasterItem(this);" name="r" value="7xAx252fd4f01e1c7c06561eea63b4a952afxsciencedirect"><input type="hidden" name="er" value="20071130@7xAx252fd4f01e1c7c06561eea63b4a952afxsciencedirect|http://www.sciencedirect.com/science?_ob=GatewayURL&amp;_origin=ScienceSearch&amp;_method=citationSearch&amp;_piikey=S0092867407014699&amp;_version=1&amp;_returnURL=&amp;md5=3a8eca8b4379eb828ea91a771f560408|sd|ChIP-Seq Data Reveal Nucleosome Architecture of Human Promoters|"></td><td class="searchresultscol2"><img width="1" src="/images/sp.gif" height="1" alt=""><br>
+<b>3.
+						</b></td><td valign="top" colspan="2"><a name="url" href="/srsapp/sciruslink?src=sd&amp;url=http%3A%2F%2Fwww.sciencedirect.com%2Fscience%3F_ob%3DGatewayURL%26_origin%3DScienceSearch%26_method%3DcitationSearch%26_piikey%3DS0092867407014699%26_version%3D1%26_returnURL%3Dhttp%253A%252F%252Fwww.scirus.com%252Fsrsapp%252Fsearch%253Fq%253D%2528%2528isolate*%252BAND%252Bhybridiz*%252BAND%252Bprobe*%2529%252BAND%252B%2528microarray*%252BOR%252B%252522genome-wide%252522%252BOR%252B%252522expression%252Bprofile*%252522%252BOR%252B%252522transcription%252Bprofil*%252522%2529%252B%2529%252B%2528issn%25253A1097-2765%252BOR%252Bissn%25253A0092-8674%252BOR%252Bissn%25253A0036-8075%252BOR%252Bissn%25253A0028-0836%252BOR%252Bissn%25253A1061-4036%252BOR%252Bissn%25253A1061-4036%252BOR%252Bissn%25253A1548-7091%252BOR%252Bissn%25253A1465-7392%2529%2526t%253Dall%2526dt%253Dfta%2526ds%253Dnature%2526ds%253Dsd%2526fdt%253D2007%2526tdt%253D2007%2526sort%253D0%2526drill%253Dyes%2526p%253D0%26md5%3D994611edb869fe263f3933dc5a5dcccb">ChIP-Seq Data Reveal Nucleosome Architecture of Human Promoters</a>
+<br>
+<font class="authorname">Schmid, C.D. / Bucher, P.
+				,
+				</font><font class="srctitle">Cell</font>,	
+	131
+			(5),
+	
+		p.831-832,
+	<font class="date">Nov 2007</font>
+<br>...specific subtypes of nucleosomes are <b>isolated</b> with the aid of antibodies against...mapped onto the genome either by <b>hybridization</b> to <b>probes</b> spotted on a <b>microarray</b> (ChIP on chip) or by direct sequencing...this study was the generation of a <b>genome</b>-<b>wide</b> map of a variety of histone modifications...effective alternative technique for <b>genome</b>-<b>wide</b> promoter mapping, complementing...</td>
+</tr>
+<tr>
+<td valign="top" colspan="2"><img width="1" src="/images/sp.gif" height="1" alt=""></td><td width="10%" valign="middle" nowrap="nowrap"><b>Published journal article available from</b></td><td valign="middle">&nbsp;
+						<img border="0" src="/images/logos/sd_logo.gif" width="123" height="20" alt="ScienceDirect" title="ScienceDirect"></td>
+</tr>
+<tr>
+<td valign="top" colspan="2"><img width="1" src="/images/sp.gif" height="1" alt=""></td><td colspan="2"><a href="search?q=((isolate*+AND+hybridiz*+AND+probe*)+AND+(microarray*+OR+%22genome-wide%22+OR+%22expression+profile*%22+OR+%22transcription+profil*%22)+)+(issn%3A1097-2765+OR+issn%3A0092-8674+OR+issn%3A0036-8075+OR+issn%3A0028-0836+OR+issn%3A1061-4036+OR+issn%3A1061-4036+OR+issn%3A1548-7091+OR+issn%3A1465-7392)&amp;t=all&amp;dt=fta&amp;ds=nature&amp;ds=sd&amp;fdt=2007&amp;tdt=2007&amp;sort=0&amp;drill=yes&amp;sr=%22nucleosome%22+%22histone%22+%22nucleosomes%22+%22dna-protein+complexes%22+%22chromatin%22+%22yeast+promoters%22+%22sequence+tags%22+%22protein-dna+complex%22+%22high-resolution+mapping%22+%22dna-binding+proteins%22">similar results</a></td>
+</tr>
+<tr>
+<td width="1" height="8" colspan="4"><img width="1" src="/images/sp.gif" height="8" alt=""></td>
+</tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tr>
+<td class="searchresultscol1"><input type="checkbox" onclick="javascript:displayPerPageMessage();javascript:toggleMasterItem(this);" name="r" value="7xAxa6e8875fd93f4f3a63e25a86c84cc5aexsciencedirect"><input type="hidden" name="er" value="20071019@7xAxa6e8875fd93f4f3a63e25a86c84cc5aexsciencedirect|http://www.sciencedirect.com/science?_ob=GatewayURL&amp;_origin=ScienceSearch&amp;_method=citationSearch&amp;_piikey=S0092867407011968&amp;_version=1&amp;_returnURL=&amp;md5=2af4b66fbda6e79dc488c6350b74a80b|sd|Systematic Gene Expression Mapping Clusters Nuclear Receptors According to Their Function in the Brain|"></td><td class="searchresultscol2"><img width="1" src="/images/sp.gif" height="1" alt=""><br>
+<b>4.
+						</b></td><td valign="top" colspan="2"><a name="url" href="/srsapp/sciruslink?src=sd&amp;url=http%3A%2F%2Fwww.sciencedirect.com%2Fscience%3F_ob%3DGatewayURL%26_origin%3DScienceSearch%26_method%3DcitationSearch%26_piikey%3DS0092867407011968%26_version%3D1%26_returnURL%3Dhttp%253A%252F%252Fwww.scirus.com%252Fsrsapp%252Fsearch%253Fq%253D%2528%2528isolate*%252BAND%252Bhybridiz*%252BAND%252Bprobe*%2529%252BAND%252B%2528microarray*%252BOR%252B%252522genome-wide%252522%252BOR%252B%252522expression%252Bprofile*%252522%252BOR%252B%252522transcription%252Bprofil*%252522%2529%252B%2529%252B%2528issn%25253A1097-2765%252BOR%252Bissn%25253A0092-8674%252BOR%252Bissn%25253A0036-8075%252BOR%252Bissn%25253A0028-0836%252BOR%252Bissn%25253A1061-4036%252BOR%252Bissn%25253A1061-4036%252BOR%252Bissn%25253A1548-7091%252BOR%252Bissn%25253A1465-7392%2529%2526t%253Dall%2526dt%253Dfta%2526ds%253Dnature%2526ds%253Dsd%2526fdt%253D2007%2526tdt%253D2007%2526sort%253D0%2526drill%253Dyes%2526p%253D0%26md5%3D945c5203b2f92500636156223b038699">Systematic Gene Expression Mapping Clusters Nuclear Receptors According to Their Function in the Brain</a>
+<br>
+<font class="authorname">Gofflot, F. / Chartoire, N. / Vasseur, L. / Heikkinen, S. / Dembele, D. / Le Merrer, J. / Auwerx, J.
+				,
+				</font><font class="srctitle">Cell</font>,	
+	131
+			(2),
+	
+		p.405-418,
+	<font class="date">Oct 2007</font>
+<br>...Comparison (A) Comparison of the <b>expression</b> <b>profiles</b> ofErrgammaandLxrbetain the brain...qRT-PCR data from NURSA, and <b>microarray</b> data from SymAtlas (top) and between...ubiquitously expressed, while the <b>expression</b> <b>profile</b> of the other 32 NRs was mostly...feeding and energy homeostasis. The <b>expression</b> <b>profiles</b> of these three NRs were also characterized...</td>
+</tr>
+<tr>
+<td valign="top" colspan="2"><img width="1" src="/images/sp.gif" height="1" alt=""></td><td width="10%" valign="middle" nowrap="nowrap"><b>Published journal article available from</b></td><td valign="middle">&nbsp;
+						<img border="0" src="/images/logos/sd_logo.gif" width="123" height="20" alt="ScienceDirect" title="ScienceDirect"></td>
+</tr>
+<tr>
+<td valign="top" colspan="2"><img width="1" src="/images/sp.gif" height="1" alt=""></td><td colspan="2"><a href="search?q=((isolate*+AND+hybridiz*+AND+probe*)+AND+(microarray*+OR+%22genome-wide%22+OR+%22expression+profile*%22+OR+%22transcription+profil*%22)+)+(issn%3A1097-2765+OR+issn%3A0092-8674+OR+issn%3A0036-8075+OR+issn%3A0028-0836+OR+issn%3A1061-4036+OR+issn%3A1061-4036+OR+issn%3A1548-7091+OR+issn%3A1465-7392)&amp;t=all&amp;dt=fta&amp;ds=nature&amp;ds=sd&amp;fdt=2007&amp;tdt=2007&amp;sort=0&amp;drill=yes&amp;sr=%22molneuro%22+%22sysneuro%22+%22expression+patterns%22+%22brain+structures%22+%22cortical+structures%22+%22adult+brain%22+%22energy+homeostasis%22+%22brain+functions%22+%22gabaergic+neurons%22+%22expression+pattern%22+%22clustering%22+%22anatomical%22">similar results</a></td>
+</tr>
+<tr>
+<td width="1" height="8" colspan="4"><img width="1" src="/images/sp.gif" height="8" alt=""></td>
+</tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tr>
+<td class="searchresultscol1"><input type="checkbox" onclick="javascript:displayPerPageMessage();javascript:toggleMasterItem(this);" name="r" value="7xAx748926e03982dac99cf56acd01b0216cxsciencedirect"><input type="hidden" name="er" value="20070921@7xAx748926e03982dac99cf56acd01b0216cxsciencedirect|http://www.sciencedirect.com/science?_ob=GatewayURL&amp;_origin=ScienceSearch&amp;_method=citationSearch&amp;_piikey=S1097276507004947&amp;_version=1&amp;_returnURL=&amp;md5=55a53f817ae8ad41736e5334f8138c2a|sd|Sir2 Deacetylates Histone H3 Lysine 56 to Regulate Telomeric Heterochromatin Structure in Yeast|"></td><td class="searchresultscol2"><img width="1" src="/images/sp.gif" height="1" alt=""><br>
+<b>5.
+						</b></td><td valign="top" colspan="2"><a name="url" href="/srsapp/sciruslink?src=sd&amp;url=http%3A%2F%2Fwww.sciencedirect.com%2Fscience%3F_ob%3DGatewayURL%26_origin%3DScienceSearch%26_method%3DcitationSearch%26_piikey%3DS1097276507004947%26_version%3D1%26_returnURL%3Dhttp%253A%252F%252Fwww.scirus.com%252Fsrsapp%252Fsearch%253Fq%253D%2528%2528isolate*%252BAND%252Bhybridiz*%252BAND%252Bprobe*%2529%252BAND%252B%2528microarray*%252BOR%252B%252522genome-wide%252522%252BOR%252B%252522expression%252Bprofile*%252522%252BOR%252B%252522transcription%252Bprofil*%252522%2529%252B%2529%252B%2528issn%25253A1097-2765%252BOR%252Bissn%25253A0092-8674%252BOR%252Bissn%25253A0036-8075%252BOR%252Bissn%25253A0028-0836%252BOR%252Bissn%25253A1061-4036%252BOR%252Bissn%25253A1061-4036%252BOR%252Bissn%25253A1548-7091%252BOR%252Bissn%25253A1465-7392%2529%2526t%253Dall%2526dt%253Dfta%2526ds%253Dnature%2526ds%253Dsd%2526fdt%253D2007%2526tdt%253D2007%2526sort%253D0%2526drill%253Dyes%2526p%253D0%26md5%3D8a1689f83caf6165fba5dd2f0b08161e">Sir2 Deacetylates Histone H3 Lysine 56 to Regulate Telomeric Heterochromatin Structure in Yeast</a>
+<br>
+<font class="authorname">Xu, F. / Zhang, Q. / Zhang, K. / Xie, W. / Grunstein, M.
+				,
+				</font><font class="srctitle">Molecular Cell</font>,	
+	27
+			(6),
+	
+		p.890-900,
+	<font class="date">Sep 2007</font>
+<br>...amplified, fragmented, labeled, and <b>hybridized</b> to GeneChipS. cerevisiaeTiling 1.0R...mixtures were resolved by 15% SDS-PAGE and <b>probed</b> with anti-H3 K56 Ac, anti-H4 K16 Ac...Substitution Mutants Yeast genomic DNA was <b>isolated</b> from wild-type (WT), K56G, K56Q, and...analysis using a 544 bp telomere VI-R DNA <b>probe</b> (indicated by a solid box in the gene...polymerase and an ectopic (dammethylase) <b>probe</b>. These data argue for two distinct processes...</td>
+</tr>
+<tr>
+<td valign="top" colspan="2"><img width="1" src="/images/sp.gif" height="1" alt=""></td><td width="10%" valign="middle" nowrap="nowrap"><b>Published journal article available from</b></td><td valign="middle">&nbsp;
+						<img border="0" src="/images/logos/sd_logo.gif" width="123" height="20" alt="ScienceDirect" title="ScienceDirect"></td>
+</tr>
+<tr>
+<td valign="top" colspan="2"><img width="1" src="/images/sp.gif" height="1" alt=""></td><td colspan="2"><a href="search?q=((isolate*+AND+hybridiz*+AND+probe*)+AND+(microarray*+OR+%22genome-wide%22+OR+%22expression+profile*%22+OR+%22transcription+profil*%22)+)+(issn%3A1097-2765+OR+issn%3A0092-8674+OR+issn%3A0036-8075+OR+issn%3A0028-0836+OR+issn%3A1061-4036+OR+issn%3A1061-4036+OR+issn%3A1548-7091+OR+issn%3A1465-7392)&amp;t=all&amp;dt=fta&amp;ds=nature&amp;ds=sd&amp;fdt=2007&amp;tdt=2007&amp;sort=0&amp;drill=yes&amp;sr=%22dna%22+%22silencing%22+%22histone+h3%22+%22histone%22+%22acetylation%22+%22telomeric+heterochromatin%22+%22heterochromatin%22+%22telomere%22+%22sir+proteins%22+%22deacetylation%22+%22telomeric+silencing%22">similar results</a></td>
+</tr>
+<tr>
+<td width="1" height="8" colspan="4"><img width="1" src="/images/sp.gif" height="8" alt=""></td>
+</tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tr>
+<td class="searchresultscol1"><input type="checkbox" onclick="javascript:displayPerPageMessage();javascript:toggleMasterItem(this);" name="r" value="7xAx1d266d2759268913e5f50ceeac8eb243xsciencedirect"><input type="hidden" name="er" value="20070525@7xAx1d266d2759268913e5f50ceeac8eb243xsciencedirect|http://www.sciencedirect.com/science?_ob=GatewayURL&amp;_origin=ScienceSearch&amp;_method=citationSearch&amp;_piikey=S1097276507002511&amp;_version=1&amp;_returnURL=&amp;md5=3019f383ab943b9a60bb6dcfc94a407f|sd|Evolutionarily Conserved Multisubunit RBL2/p130 and E2F4 Protein Complex Represses Human Cell Cycle-Dependent Genes in...|"></td><td class="searchresultscol2"><img width="1" src="/images/sp.gif" height="1" alt=""><br>
+<b>6.
+						</b></td><td valign="top" colspan="2"><a name="url" href="/srsapp/sciruslink?src=sd&amp;url=http%3A%2F%2Fwww.sciencedirect.com%2Fscience%3F_ob%3DGatewayURL%26_origin%3DScienceSearch%26_method%3DcitationSearch%26_piikey%3DS1097276507002511%26_version%3D1%26_returnURL%3Dhttp%253A%252F%252Fwww.scirus.com%252Fsrsapp%252Fsearch%253Fq%253D%2528%2528isolate*%252BAND%252Bhybridiz*%252BAND%252Bprobe*%2529%252BAND%252B%2528microarray*%252BOR%252B%252522genome-wide%252522%252BOR%252B%252522expression%252Bprofile*%252522%252BOR%252B%252522transcription%252Bprofil*%252522%2529%252B%2529%252B%2528issn%25253A1097-2765%252BOR%252Bissn%25253A0092-8674%252BOR%252Bissn%25253A0036-8075%252BOR%252Bissn%25253A0028-0836%252BOR%252Bissn%25253A1061-4036%252BOR%252Bissn%25253A1061-4036%252BOR%252Bissn%25253A1548-7091%252BOR%252Bissn%25253A1465-7392%2529%2526t%253Dall%2526dt%253Dfta%2526ds%253Dnature%2526ds%253Dsd%2526fdt%253D2007%2526tdt%253D2007%2526sort%253D0%2526drill%253Dyes%2526p%253D0%26md5%3Df751c056bcd1b785a07ddeb6442679f9">Evolutionarily Conserved Multisubunit RBL2/p130 and E2F4 Protein Complex Represses Human Cell Cycle-Dependent Genes in...</a>
+<br>
+<font class="authorname">Litovchick, L. / Sadasivam, S. / Florens, L. / Zhu, X. / Swanson, S.K. / Velmurugan, S. / Chen, R. / (...) / DeCaprio, J.A.
+				,
+				</font><font class="srctitle">Molecular Cell</font>,	
+	26
+			(4),
+	
+		p.539-551,
+	<font class="date">May 2007</font>
+<br>...independent experiments are shown. Figure 3 <b>Genome</b>-<b>Wide</b> In Vivo Promoter Binding Sites of...Representation of MAT scores of all <b>probes</b> along theCDC6promoter. Chromosome...represents all the genes present in the <b>microarray</b>, red curve shows genes whose promoters...knockdown of DREAM subunits. (D) RNA <b>isolated</b> from siRNA-transfected T98G cells...combination of proteomic, promoter <b>microarray</b>, gene expression, and bioinformatic...</td>
+</tr>
+<tr>
+<td valign="top" colspan="2"><img width="1" src="/images/sp.gif" height="1" alt=""></td><td width="10%" valign="middle" nowrap="nowrap"><b>Published journal article available from</b></td><td valign="middle">&nbsp;
+						<img border="0" src="/images/logos/sd_logo.gif" width="123" height="20" alt="ScienceDirect" title="ScienceDirect"></td>
+</tr>
+<tr>
+<td valign="top" colspan="2"><img width="1" src="/images/sp.gif" height="1" alt=""></td><td colspan="2"><a href="search?q=((isolate*+AND+hybridiz*+AND+probe*)+AND+(microarray*+OR+%22genome-wide%22+OR+%22expression+profile*%22+OR+%22transcription+profil*%22)+)+(issn%3A1097-2765+OR+issn%3A0092-8674+OR+issn%3A0036-8075+OR+issn%3A0028-0836+OR+issn%3A1061-4036+OR+issn%3A1061-4036+OR+issn%3A1548-7091+OR+issn%3A1465-7392)&amp;t=all&amp;dt=fta&amp;ds=nature&amp;ds=sd&amp;fdt=2007&amp;tdt=2007&amp;sort=0&amp;drill=yes&amp;sr=%22dna%22+%22cellcycle%22+%22cell+cycle-dependent%22+%22subunits%22+%22cell-cycle%22+%22cell+cycle-regulated%22+%22target+promoters%22+%22target+genes%22+%22cell-cycle+control%22+%22chromatin%22+%22family+proteins%22+%22binding+strength%22">similar results</a></td>
+</tr>
+<tr>
+<td width="1" height="8" colspan="4"><img width="1" src="/images/sp.gif" height="8" alt=""></td>
+</tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tr>
+<td class="searchresultscol1"><input type="checkbox" onclick="javascript:displayPerPageMessage();javascript:toggleMasterItem(this);" name="r" value="7xAxba4ac7345c08a34288af9543cf6188e2xsciencedirect"><input type="hidden" name="er" value="20070824@7xAxba4ac7345c08a34288af9543cf6188e2xsciencedirect|http://www.sciencedirect.com/science?_ob=GatewayURL&amp;_origin=ScienceSearch&amp;_method=citationSearch&amp;_piikey=S0092867407008501&amp;_version=1&amp;_returnURL=&amp;md5=25a092f61ca32ed8c5bb0924ef90c363|sd|Intrinsic Circadian Clock of the Mammalian Retina: Importance for Retinal Processing of Visual Information|"></td><td class="searchresultscol2"><img width="1" src="/images/sp.gif" height="1" alt=""><br>
+<b>7.
+						</b></td><td valign="top" colspan="2"><a name="url" href="/srsapp/sciruslink?src=sd&amp;url=http%3A%2F%2Fwww.sciencedirect.com%2Fscience%3F_ob%3DGatewayURL%26_origin%3DScienceSearch%26_method%3DcitationSearch%26_piikey%3DS0092867407008501%26_version%3D1%26_returnURL%3Dhttp%253A%252F%252Fwww.scirus.com%252Fsrsapp%252Fsearch%253Fq%253D%2528%2528isolate*%252BAND%252Bhybridiz*%252BAND%252Bprobe*%2529%252BAND%252B%2528microarray*%252BOR%252B%252522genome-wide%252522%252BOR%252B%252522expression%252Bprofile*%252522%252BOR%252B%252522transcription%252Bprofil*%252522%2529%252B%2529%252B%2528issn%25253A1097-2765%252BOR%252Bissn%25253A0092-8674%252BOR%252Bissn%25253A0036-8075%252BOR%252Bissn%25253A0028-0836%252BOR%252Bissn%25253A1061-4036%252BOR%252Bissn%25253A1061-4036%252BOR%252Bissn%25253A1548-7091%252BOR%252Bissn%25253A1465-7392%2529%2526t%253Dall%2526dt%253Dfta%2526ds%253Dnature%2526ds%253Dsd%2526fdt%253D2007%2526tdt%253D2007%2526sort%253D0%2526drill%253Dyes%2526p%253D0%26md5%3De8acda56378de2676f947c00b04e9874">Intrinsic Circadian Clock of the Mammalian Retina: Importance for Retinal Processing of Visual Information</a>
+<br>
+<font class="authorname">Storch, K.F. / Paz, C. / Signorovitch, J. / Raviola, E. / Pawlyk, B. / Li, T. / Weitz, Charles J.
+				,
+				</font><font class="srctitle">Cell</font>,	
+	130
+			(4),
+	
+		p.730-741,
+	<font class="date">Aug 2007</font>
+<br>...Mouse Eye (A and B) Three day <b>expression</b> <b>profiles</b> in which each column represents...discovery rate. (C) Validation of <b>microarray</b> profiles by quantitative reverse-transcriptase...in retina but not SCN. In situ <b>hybridization</b> to retina and SCN sections showing...inBmal1-/- mice. Next we performed <b>microarray</b> analysis to compare ocular gene <b>expression</b> <b>profiles</b> ofwild-type mice andBmal1-/- littermates...</td>
+</tr>
+<tr>
+<td valign="top" colspan="2"><img width="1" src="/images/sp.gif" height="1" alt=""></td><td width="10%" valign="middle" nowrap="nowrap"><b>Published journal article available from</b></td><td valign="middle">&nbsp;
+						<img border="0" src="/images/logos/sd_logo.gif" width="123" height="20" alt="ScienceDirect" title="ScienceDirect"></td>
+</tr>
+<tr>
+<td valign="top" colspan="2"><img width="1" src="/images/sp.gif" height="1" alt=""></td><td colspan="2"><a href="search?q=((isolate*+AND+hybridiz*+AND+probe*)+AND+(microarray*+OR+%22genome-wide%22+OR+%22expression+profile*%22+OR+%22transcription+profil*%22)+)+(issn%3A1097-2765+OR+issn%3A0092-8674+OR+issn%3A0036-8075+OR+issn%3A0028-0836+OR+issn%3A1061-4036+OR+issn%3A1061-4036+OR+issn%3A1548-7091+OR+issn%3A1465-7392)&amp;t=all&amp;dt=fta&amp;ds=nature&amp;ds=sd&amp;fdt=2007&amp;tdt=2007&amp;sort=0&amp;drill=yes&amp;sr=%22molneuro%22+%22circadian+clock%22+%22retina%22+%22rhythms%22+%22rhythmic+expression%22+%22mammalian+retina%22+%22circadian+clocks%22+%22circadian+rhythms%22+%22wild-type+mice%22+%22light-dark+cycle%22+%22false+discovery+rate%22">similar results</a></td>
+</tr>
+<tr>
+<td width="1" height="8" colspan="4"><img width="1" src="/images/sp.gif" height="8" alt=""></td>
+</tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tr>
+<td class="searchresultscol1"><input type="checkbox" onclick="javascript:displayPerPageMessage();javascript:toggleMasterItem(this);" name="r" value="7xAx0c8fdf805804227e820cbee8f5aed2aaxsciencedirect"><input type="hidden" name="er" value="20070413@7xAx0c8fdf805804227e820cbee8f5aed2aaxsciencedirect|http://www.sciencedirect.com/science?_ob=GatewayURL&amp;_origin=ScienceSearch&amp;_method=citationSearch&amp;_piikey=S1097276507001232&amp;_version=1&amp;_returnURL=&amp;md5=afa6778c29c9c576fc797bbf530b3c29|sd|S. pombe LSD1 Homologs Regulate Heterochromatin Propagation and Euchromatic Gene Transcription|"></td><td class="searchresultscol2"><img width="1" src="/images/sp.gif" height="1" alt=""><br>
+<b>8.
+						</b></td><td valign="top" colspan="2"><a name="url" href="/srsapp/sciruslink?src=sd&amp;url=http%3A%2F%2Fwww.sciencedirect.com%2Fscience%3F_ob%3DGatewayURL%26_origin%3DScienceSearch%26_method%3DcitationSearch%26_piikey%3DS1097276507001232%26_version%3D1%26_returnURL%3Dhttp%253A%252F%252Fwww.scirus.com%252Fsrsapp%252Fsearch%253Fq%253D%2528%2528isolate*%252BAND%252Bhybridiz*%252BAND%252Bprobe*%2529%252BAND%252B%2528microarray*%252BOR%252B%252522genome-wide%252522%252BOR%252B%252522expression%252Bprofile*%252522%252BOR%252B%252522transcription%252Bprofil*%252522%2529%252B%2529%252B%2528issn%25253A1097-2765%252BOR%252Bissn%25253A0092-8674%252BOR%252Bissn%25253A0036-8075%252BOR%252Bissn%25253A0028-0836%252BOR%252Bissn%25253A1061-4036%252BOR%252Bissn%25253A1061-4036%252BOR%252Bissn%25253A1548-7091%252BOR%252Bissn%25253A1465-7392%2529%2526t%253Dall%2526dt%253Dfta%2526ds%253Dnature%2526ds%253Dsd%2526fdt%253D2007%2526tdt%253D2007%2526sort%253D0%2526drill%253Dyes%2526p%253D0%26md5%3D12dbbf257d4f6f548f5e786ca57d5738">S. pombe LSD1 Homologs Regulate Heterochromatin Propagation and Euchromatic Gene Transcription</a>
+<br>
+<font class="authorname">Lan, F. / Zaratiegui, M. / Villen, J. / Vaughn, M.W. / Verdel, A. / Huarte, M. / Shi, Y. / (...) / Martienssen, R.A.
+				,
+				</font><font class="srctitle">Molecular Cell</font>,	
+	26
+			(1),
+	
+		p.89-101,
+	<font class="date">Apr 2007</font>
+<br>...for both spLsd1 and spLsd2. (C) <b>Microarray</b> analysis comparing <b>expression</b> <b>profiles</b> with spLsd1/2 distribution for...genes. In this visualization of <b>microarray</b> data, the leftmost column comparessplsd1Deltaexpression...cell viability. We also failed to <b>isolatesplsd2Deltastrain</b> through sporulation of a heterozygote...</td>
+</tr>
+<tr>
+<td valign="top" colspan="2"><img width="1" src="/images/sp.gif" height="1" alt=""></td><td width="10%" valign="middle" nowrap="nowrap"><b>Published journal article available from</b></td><td valign="middle">&nbsp;
+						<img border="0" src="/images/logos/sd_logo.gif" width="123" height="20" alt="ScienceDirect" title="ScienceDirect"></td>
+</tr>
+<tr>
+<td valign="top" colspan="2"><img width="1" src="/images/sp.gif" height="1" alt=""></td><td colspan="2"><a href="search?q=((isolate*+AND+hybridiz*+AND+probe*)+AND+(microarray*+OR+%22genome-wide%22+OR+%22expression+profile*%22+OR+%22transcription+profil*%22)+)+(issn%3A1097-2765+OR+issn%3A0092-8674+OR+issn%3A0036-8075+OR+issn%3A0028-0836+OR+issn%3A1061-4036+OR+issn%3A1061-4036+OR+issn%3A1548-7091+OR+issn%3A1465-7392)&amp;t=all&amp;dt=fta&amp;ds=nature&amp;ds=sd&amp;fdt=2007&amp;tdt=2007&amp;sort=0&amp;drill=yes&amp;sr=%22dna%22+%22heterochromatin%22+%22methylation%22+%22histone%22+%22demethylation%22+%22gene+transcription%22+%22silencing%22+%22growth+phenotype%22+%22target+promoters%22+%22methylase%22+%22microarray%22">similar results</a></td>
+</tr>
+<tr>
+<td width="1" height="8" colspan="4"><img width="1" src="/images/sp.gif" height="8" alt=""></td>
+</tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tr>
+<td class="searchresultscol1"><input type="checkbox" onclick="javascript:displayPerPageMessage();javascript:toggleMasterItem(this);" name="r" value="7xAx0c7b1b99ccb491549ff1943b65372eb6xsciencedirect"><input type="hidden" name="er" value="20070803@7xAx0c7b1b99ccb491549ff1943b65372eb6xsciencedirect|http://www.sciencedirect.com/science?_ob=GatewayURL&amp;_origin=ScienceSearch&amp;_method=citationSearch&amp;_piikey=S1097276507003735&amp;_version=1&amp;_returnURL=&amp;md5=8ccdc8946f45047dc9a8f354fefe8ec9|sd|A Hierarchical Network of Transcription Factors Governs Androgen Receptor-Dependent Prostate Cancer Growth|"></td><td class="searchresultscol2"><img width="1" src="/images/sp.gif" height="1" alt=""><br>
+<b>9.
+						</b></td><td valign="top" colspan="2"><a name="url" href="/srsapp/sciruslink?src=sd&amp;url=http%3A%2F%2Fwww.sciencedirect.com%2Fscience%3F_ob%3DGatewayURL%26_origin%3DScienceSearch%26_method%3DcitationSearch%26_piikey%3DS1097276507003735%26_version%3D1%26_returnURL%3Dhttp%253A%252F%252Fwww.scirus.com%252Fsrsapp%252Fsearch%253Fq%253D%2528%2528isolate*%252BAND%252Bhybridiz*%252BAND%252Bprobe*%2529%252BAND%252B%2528microarray*%252BOR%252B%252522genome-wide%252522%252BOR%252B%252522expression%252Bprofile*%252522%252BOR%252B%252522transcription%252Bprofil*%252522%2529%252B%2529%252B%2528issn%25253A1097-2765%252BOR%252Bissn%25253A0092-8674%252BOR%252Bissn%25253A0036-8075%252BOR%252Bissn%25253A0028-0836%252BOR%252Bissn%25253A1061-4036%252BOR%252Bissn%25253A1061-4036%252BOR%252Bissn%25253A1548-7091%252BOR%252Bissn%25253A1465-7392%2529%2526t%253Dall%2526dt%253Dfta%2526ds%253Dnature%2526ds%253Dsd%2526fdt%253D2007%2526tdt%253D2007%2526sort%253D0%2526drill%253Dyes%2526p%253D0%26md5%3D2a1ec9cfa9e79459f82b2fcbf579f4eb">A Hierarchical Network of Transcription Factors Governs Androgen Receptor-Dependent Prostate Cancer Growth</a>
+<br>
+<font class="authorname">Wang, Q. / Li, W. / Liu, X.S. / Carroll, J.S. / Janne, O.A. / Keeton, E.K. / Chinnaiyan, A.M. / (...) / Brown, M.
+				,
+				</font><font class="srctitle">Molecular Cell</font>,	
+	27
+			(3),
+	
+		p.380-392,
+	<font class="date">Aug 2007</font>
+<br>...Total RNA was <b>isolated</b> and amplified by...oligonucleotide <b>microarrays</b>. We find that the...data with gene <b>expression</b> <b>profiles</b> from prostate cancer...amplified, labeled, and <b>hybridized</b> to Affymetrix-tiled...examined the gene <b>expression</b> <b>profile</b> in LNCaP cells...using an expression <b>microarray</b>. LNCaP cells were...extracted and then <b>hybridized</b> to Affymetrix U133...AREs including <b>isolated</b> ARE half-sites...</td>
+</tr>
+<tr>
+<td valign="top" colspan="2"><img width="1" src="/images/sp.gif" height="1" alt=""></td><td width="10%" valign="middle" nowrap="nowrap"><b>Published journal article available from</b></td><td valign="middle">&nbsp;
+						<img border="0" src="/images/logos/sd_logo.gif" width="123" height="20" alt="ScienceDirect" title="ScienceDirect"></td>
+</tr>
+<tr>
+<td valign="top" colspan="2"><img width="1" src="/images/sp.gif" height="1" alt=""></td><td colspan="2"><a href="search?q=((isolate*+AND+hybridiz*+AND+probe*)+AND+(microarray*+OR+%22genome-wide%22+OR+%22expression+profile*%22+OR+%22transcription+profil*%22)+)+(issn%3A1097-2765+OR+issn%3A0092-8674+OR+issn%3A0036-8075+OR+issn%3A0028-0836+OR+issn%3A1061-4036+OR+issn%3A1061-4036+OR+issn%3A1548-7091+OR+issn%3A1465-7392)&amp;t=all&amp;dt=fta&amp;ds=nature&amp;ds=sd&amp;fdt=2007&amp;tdt=2007&amp;sort=0&amp;drill=yes&amp;sr=%22dna%22+%22cellcycle%22+%22lncap+cells%22+%22binding+regions%22+%22androgen%22+%22real-time+rt-pcr%22+%22silencing%22+%22androgen+receptor%22+%22chromatin%22+%22real-time+pcr%22+%22dna-binding%22+%22prostate-specific+antigen%22">similar results</a></td>
+</tr>
+<tr>
+<td width="1" height="8" colspan="4"><img width="1" src="/images/sp.gif" height="8" alt=""></td>
+</tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tr>
+<td class="searchresultscol1"><input type="checkbox" onclick="javascript:displayPerPageMessage();javascript:toggleMasterItem(this);" name="r" value="7xAx902b0f93c575bc9058ccefd5c69f3d20xsciencedirect"><input type="hidden" name="er" value="20070713@7xAx902b0f93c575bc9058ccefd5c69f3d20xsciencedirect|http://www.sciencedirect.com/science?_ob=GatewayURL&amp;_origin=ScienceSearch&amp;_method=citationSearch&amp;_piikey=S0092867407007830&amp;_version=1&amp;_returnURL=&amp;md5=06e34c7b467495c5c99281ea59f65eda|sd|ATM Prevents the Persistence and Propagation of Chromosome Breaks in Lymphocytes|"></td><td class="searchresultscol2"><img width="1" src="/images/sp.gif" height="1" alt=""><br>
+<b>10.
+						</b></td><td valign="top" colspan="2"><a name="url" href="/srsapp/sciruslink?src=sd&amp;url=http%3A%2F%2Fwww.sciencedirect.com%2Fscience%3F_ob%3DGatewayURL%26_origin%3DScienceSearch%26_method%3DcitationSearch%26_piikey%3DS0092867407007830%26_version%3D1%26_returnURL%3Dhttp%253A%252F%252Fwww.scirus.com%252Fsrsapp%252Fsearch%253Fq%253D%2528%2528isolate*%252BAND%252Bhybridiz*%252BAND%252Bprobe*%2529%252BAND%252B%2528microarray*%252BOR%252B%252522genome-wide%252522%252BOR%252B%252522expression%252Bprofile*%252522%252BOR%252B%252522transcription%252Bprofil*%252522%2529%252B%2529%252B%2528issn%25253A1097-2765%252BOR%252Bissn%25253A0092-8674%252BOR%252Bissn%25253A0036-8075%252BOR%252Bissn%25253A0028-0836%252BOR%252Bissn%25253A1061-4036%252BOR%252Bissn%25253A1061-4036%252BOR%252Bissn%25253A1548-7091%252BOR%252Bissn%25253A1465-7392%2529%2526t%253Dall%2526dt%253Dfta%2526ds%253Dnature%2526ds%253Dsd%2526fdt%253D2007%2526tdt%253D2007%2526sort%253D0%2526drill%253Dyes%2526p%253D0%26md5%3Dda00c6b622b4915d49873c3c2558fb4a">ATM Prevents the Persistence and Propagation of Chromosome Breaks in Lymphocytes</a>
+<br>
+<font class="authorname">Callen, E. / Jankovic, M. / Difilippantonio, S. / Daniel, J.A. / Chen, H.T. / Celeste, A. / Pellegrini, M. / (...) / Bredemeyer, A.L.
+				,
+				</font><font class="srctitle">Cell</font>,	
+	130
+			(1),
+	
+		p.63-75,
+	<font class="date">Jul 2007</font>
+<br>...combination of fluorescence in situ <b>hybridization</b> (FISH) <b>probes</b> for chromosome 12 (chr12...and IgHCalpha-specific <b>probes</b> (Ramiro et al., 2006a) showed...cell cycle. In contrast to <b>genome</b>-<b>wide</b> aberrations, breaks and translocations...VHand centromeric Calpha <b>probes</b> (Figure 2B). Both <b>probes</b>...</td>
+</tr>
+<tr>
+<td valign="top" colspan="2"><img width="1" src="/images/sp.gif" height="1" alt=""></td><td width="10%" valign="middle" nowrap="nowrap"><b>Published journal article available from</b></td><td valign="middle">&nbsp;
+						<img border="0" src="/images/logos/sd_logo.gif" width="123" height="20" alt="ScienceDirect" title="ScienceDirect"></td>
+</tr>
+<tr>
+<td valign="top" colspan="2"><img width="1" src="/images/sp.gif" height="1" alt=""></td><td colspan="2"><a href="search?q=((isolate*+AND+hybridiz*+AND+probe*)+AND+(microarray*+OR+%22genome-wide%22+OR+%22expression+profile*%22+OR+%22transcription+profil*%22)+)+(issn%3A1097-2765+OR+issn%3A0092-8674+OR+issn%3A0036-8075+OR+issn%3A0028-0836+OR+issn%3A1061-4036+OR+issn%3A1061-4036+OR+issn%3A1548-7091+OR+issn%3A1465-7392)&amp;t=all&amp;dt=fta&amp;ds=nature&amp;ds=sd&amp;fdt=2007&amp;tdt=2007&amp;sort=0&amp;drill=yes&amp;sr=%22chromosome+breaks%22+%22recombination%22+%22j+recombination%22+%22lymphocytes%22+%22aberrations%22+%22dna+double-strand%22+%22atm-deficient+mice%22+%22double-strand+breaks%22+%22genomic+instability%22+%22splenic+b+cells%22">similar results</a></td>
+</tr>
+<tr>
+<td width="1" height="8" colspan="4"><img width="1" src="/images/sp.gif" height="8" alt=""></td>
+</tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tr>
+<td class="searchresultscol1"><input type="checkbox" onclick="javascript:displayPerPageMessage();javascript:toggleMasterItem(this);" name="r" value="7xAx25454279de771e5a40e6f31a5dd01a84xsciencedirect"><input type="hidden" name="er" value="20070601@7xAx25454279de771e5a40e6f31a5dd01a84xsciencedirect|http://www.sciencedirect.com/science?_ob=GatewayURL&amp;_origin=ScienceSearch&amp;_method=citationSearch&amp;_piikey=S0092867407005417&amp;_version=1&amp;_returnURL=&amp;md5=02e49506a32cdb0d68ded200f5936a31|sd|Circadian Mutant Overtime Reveals F-box Protein FBXL3 Regulation of Cryptochrome and Period Gene Expression|"></td><td class="searchresultscol2"><img width="1" src="/images/sp.gif" height="1" alt=""><br>
+<b>11.
+						</b></td><td valign="top" colspan="2"><a name="url" href="/srsapp/sciruslink?src=sd&amp;url=http%3A%2F%2Fwww.sciencedirect.com%2Fscience%3F_ob%3DGatewayURL%26_origin%3DScienceSearch%26_method%3DcitationSearch%26_piikey%3DS0092867407005417%26_version%3D1%26_returnURL%3Dhttp%253A%252F%252Fwww.scirus.com%252Fsrsapp%252Fsearch%253Fq%253D%2528%2528isolate*%252BAND%252Bhybridiz*%252BAND%252Bprobe*%2529%252BAND%252B%2528microarray*%252BOR%252B%252522genome-wide%252522%252BOR%252B%252522expression%252Bprofile*%252522%252BOR%252B%252522transcription%252Bprofil*%252522%2529%252B%2529%252B%2528issn%25253A1097-2765%252BOR%252Bissn%25253A0092-8674%252BOR%252Bissn%25253A0036-8075%252BOR%252Bissn%25253A0028-0836%252BOR%252Bissn%25253A1061-4036%252BOR%252Bissn%25253A1061-4036%252BOR%252Bissn%25253A1548-7091%252BOR%252Bissn%25253A1465-7392%2529%2526t%253Dall%2526dt%253Dfta%2526ds%253Dnature%2526ds%253Dsd%2526fdt%253D2007%2526tdt%253D2007%2526sort%253D0%2526drill%253Dyes%2526p%253D0%26md5%3D2875266fdfe643aede3efd4b8a3d6f79">Circadian Mutant Overtime Reveals F-box Protein FBXL3 Regulation of Cryptochrome and Period Gene Expression</a>
+<br>
+<font class="authorname">Siepka, S.M. / Yoo, S.H. / Park, J. / Song, W. / Kumar, V. / Hu, Y. / Lee, C. / Takahashi, J.S.
+				,
+				</font><font class="srctitle">Cell</font>,	
+	129
+			(5),
+	
+		p.1011-1023,
+	<font class="date">Jun 2007</font>
+<br>...circadian rhythm inFbxl3mRNA expression in the liver. In situ <b>hybridization</b> ofFbxl3shows clear RNA expression in the suprachiasmatic...forCry1andPer2inOvtmmice could also be observed in the SCN using in situ <b>hybridization</b> (seeSupplemental Data). In addition, mRNA levels for the...interactions with CRY1, CRY2, PER1, and PER2 native proteins were <b>probed</b> on western blots (Figure 5A). Both FBXL3 and OVTM interacted...</td>
+</tr>
+<tr>
+<td valign="top" colspan="2"><img width="1" src="/images/sp.gif" height="1" alt=""></td><td width="10%" valign="middle" nowrap="nowrap"><b>Published journal article available from</b></td><td valign="middle">&nbsp;
+						<img border="0" src="/images/logos/sd_logo.gif" width="123" height="20" alt="ScienceDirect" title="ScienceDirect"></td>
+</tr>
+<tr>
+<td valign="top" colspan="2"><img width="1" src="/images/sp.gif" height="1" alt=""></td><td colspan="2"><a href="search?q=((isolate*+AND+hybridiz*+AND+probe*)+AND+(microarray*+OR+%22genome-wide%22+OR+%22expression+profile*%22+OR+%22transcription+profil*%22)+)+(issn%3A1097-2765+OR+issn%3A0092-8674+OR+issn%3A0036-8075+OR+issn%3A0028-0836+OR+issn%3A1061-4036+OR+issn%3A1061-4036+OR+issn%3A1548-7091+OR+issn%3A1465-7392)&amp;t=all&amp;dt=fta&amp;ds=nature&amp;ds=sd&amp;fdt=2007&amp;tdt=2007&amp;sort=0&amp;drill=yes&amp;sr=%22circadian+clock%22+%22real-time+pcr%22+%22ubiquitin+ligase%22+%22steady-state+mrna%22+%22mammalian%22+%22mrna+levels%22+%22cerebellum%22+%22transcription+rates%22+%22transcript+levels%22+%22constant+darkness%22">similar results</a></td>
+</tr>
+<tr>
+<td width="1" height="8" colspan="4"><img width="1" src="/images/sp.gif" height="8" alt=""></td>
+</tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tr>
+<td class="searchresultscol1"><input type="checkbox" onclick="javascript:displayPerPageMessage();javascript:toggleMasterItem(this);" name="r" value="7xAx86b4aac0725b7b91c29a1cc279ee4949xsciencedirect"><input type="hidden" name="er" value="20070608@7xAx86b4aac0725b7b91c29a1cc279ee4949xsciencedirect|http://www.sciencedirect.com/science?_ob=GatewayURL&amp;_origin=ScienceSearch&amp;_method=citationSearch&amp;_piikey=S1097276507003103&amp;_version=1&amp;_returnURL=&amp;md5=fe3c8155c085b2994a374d0a8b6bbeef|sd|Transactivation of miR-34a by p53 Broadly Influences Gene Expression and Promotes Apoptosis|"></td><td class="searchresultscol2"><img width="1" src="/images/sp.gif" height="1" alt=""><br>
+<b>12.
+						</b></td><td valign="top" colspan="2"><a name="url" href="/srsapp/sciruslink?src=sd&amp;url=http%3A%2F%2Fwww.sciencedirect.com%2Fscience%3F_ob%3DGatewayURL%26_origin%3DScienceSearch%26_method%3DcitationSearch%26_piikey%3DS1097276507003103%26_version%3D1%26_returnURL%3Dhttp%253A%252F%252Fwww.scirus.com%252Fsrsapp%252Fsearch%253Fq%253D%2528%2528isolate*%252BAND%252Bhybridiz*%252BAND%252Bprobe*%2529%252BAND%252B%2528microarray*%252BOR%252B%252522genome-wide%252522%252BOR%252B%252522expression%252Bprofile*%252522%252BOR%252B%252522transcription%252Bprofil*%252522%2529%252B%2529%252B%2528issn%25253A1097-2765%252BOR%252Bissn%25253A0092-8674%252BOR%252Bissn%25253A0036-8075%252BOR%252Bissn%25253A0028-0836%252BOR%252Bissn%25253A1061-4036%252BOR%252Bissn%25253A1061-4036%252BOR%252Bissn%25253A1548-7091%252BOR%252Bissn%25253A1465-7392%2529%2526t%253Dall%2526dt%253Dfta%2526ds%253Dnature%2526ds%253Dsd%2526fdt%253D2007%2526tdt%253D2007%2526sort%253D0%2526drill%253Dyes%2526p%253D0%26md5%3D5f96bd439f47947081b430e5f3f2c931">Transactivation of miR-34a by p53 Broadly Influences Gene Expression and Promotes Apoptosis</a>
+<br>
+<font class="authorname">Chang, T.C. / Wentzel, E.A. / Kent, O.A. / Ramachandran, K. / Mullendore, M. / Lee, K. / Feldmann, G. / (...) / Lowenstein, C.J.
+				,
+				</font><font class="srctitle">Molecular Cell</font>,	
+	26
+			(5),
+	
+		p.745-752,
+	<font class="date">Jun 2007</font>
+<br>...selected expression changes observed by <b>microarray</b> analysis. (C) Sites complementary...previously published analysis of <b>genome</b>-<b>wide</b> binding sites for p53 using chromatin...showed a dramatically altered gene <b>expression</b> <b>profile</b> with upregulation of 532 transcripts...changes, validating the quality of the <b>microarray</b> data set (Figure 4B). To determine...</td>
+</tr>
+<tr>
+<td valign="top" colspan="2"><img width="1" src="/images/sp.gif" height="1" alt=""></td><td width="10%" valign="middle" nowrap="nowrap"><b>Published journal article available from</b></td><td valign="middle">&nbsp;
+						<img border="0" src="/images/logos/sd_logo.gif" width="123" height="20" alt="ScienceDirect" title="ScienceDirect"></td>
+</tr>
+<tr>
+<td valign="top" colspan="2"><img width="1" src="/images/sp.gif" height="1" alt=""></td><td colspan="2"><a href="search?q=((isolate*+AND+hybridiz*+AND+probe*)+AND+(microarray*+OR+%22genome-wide%22+OR+%22expression+profile*%22+OR+%22transcription+profil*%22)+)+(issn%3A1097-2765+OR+issn%3A0092-8674+OR+issn%3A0036-8075+OR+issn%3A0028-0836+OR+issn%3A1061-4036+OR+issn%3A1061-4036+OR+issn%3A1548-7091+OR+issn%3A1465-7392)&amp;t=all&amp;dt=fta&amp;ds=nature&amp;ds=sd&amp;fdt=2007&amp;tdt=2007&amp;sort=0&amp;drill=yes&amp;sr=%22rna%22+%22cellcycle%22+%22apoptosis%22+%22genotoxic+stress%22+%22microarray%22+%22tumor+suppressor%22+%22primary+transcript%22+%22transcription+start%22+%22cell-cycle+progression%22+%22expression+profiling%22+%22pancreatic+cancer+cell+lines%22+%22cell-cycle%22">similar results</a></td>
+</tr>
+<tr>
+<td width="1" height="8" colspan="4"><img width="1" src="/images/sp.gif" height="8" alt=""></td>
+</tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tr>
+<td class="searchresultscol1"><input type="checkbox" onclick="javascript:displayPerPageMessage();javascript:toggleMasterItem(this);" name="r" value="7xAxc6cc4509002d16904d4790fd6b3d1343xsciencedirect"><input type="hidden" name="er" value="20070406@7xAxc6cc4509002d16904d4790fd6b3d1343xsciencedirect|http://www.sciencedirect.com/science?_ob=GatewayURL&amp;_origin=ScienceSearch&amp;_method=citationSearch&amp;_piikey=S0092867407003923&amp;_version=1&amp;_returnURL=&amp;md5=999d6d3b2978f3a9a6c006583354b10e|sd|A Role for Piwi and piRNAs in Germ Cell Maintenance and Transposon Silencing in Zebrafish|"></td><td class="searchresultscol2"><img width="1" src="/images/sp.gif" height="1" alt=""><br>
+<b>13.
+						</b></td><td valign="top" colspan="2"><a name="url" href="/srsapp/sciruslink?src=sd&amp;url=http%3A%2F%2Fwww.sciencedirect.com%2Fscience%3F_ob%3DGatewayURL%26_origin%3DScienceSearch%26_method%3DcitationSearch%26_piikey%3DS0092867407003923%26_version%3D1%26_returnURL%3Dhttp%253A%252F%252Fwww.scirus.com%252Fsrsapp%252Fsearch%253Fq%253D%2528%2528isolate*%252BAND%252Bhybridiz*%252BAND%252Bprobe*%2529%252BAND%252B%2528microarray*%252BOR%252B%252522genome-wide%252522%252BOR%252B%252522expression%252Bprofile*%252522%252BOR%252B%252522transcription%252Bprofil*%252522%2529%252B%2529%252B%2528issn%25253A1097-2765%252BOR%252Bissn%25253A0092-8674%252BOR%252Bissn%25253A0036-8075%252BOR%252Bissn%25253A0028-0836%252BOR%252Bissn%25253A1061-4036%252BOR%252Bissn%25253A1061-4036%252BOR%252Bissn%25253A1548-7091%252BOR%252Bissn%25253A1465-7392%2529%2526t%253Dall%2526dt%253Dfta%2526ds%253Dnature%2526ds%253Dsd%2526fdt%253D2007%2526tdt%253D2007%2526sort%253D0%2526drill%253Dyes%2526p%253D0%26md5%3Daa2f26892724810ef5f4cd644cd6e890">A Role for Piwi and piRNAs in Germ Cell Maintenance and Transposon Silencing in Zebrafish</a>
+<br>
+<font class="authorname">Houwing, S. / Kamminga, L.M. / Berezikov, E. / Cronembold, D. / Girard, A. / van den Elst, H. / Filippov, D.V. / (...) / Moens, C.B.
+				,
+				</font><font class="srctitle">Cell</font>,	
+	129
+			(1),
+	
+		p.69-82,
+	<font class="date">Apr 2007</font>
+<br>...apoptotic. (D) Whole mount in situ <b>hybridization</b> of wild-type andziwi(R561STOP/Y728STOP...blotting is shown. Sense indicates a <b>probe</b> with same sequence as the cloned...shows piR-31 and piR-80 in situ <b>hybridization</b> on ovary. Open arrows indicate stage...except for sperm. (D) GypsyDR1 in situ <b>hybridization</b> on ovary is shown. Nuclear staining...The right panel shows the same blot <b>probed</b> for piR-80. (B) Ligation of a 17...</td>
+</tr>
+<tr>
+<td valign="top" colspan="2"><img width="1" src="/images/sp.gif" height="1" alt=""></td><td width="10%" valign="middle" nowrap="nowrap"><b>Published journal article available from</b></td><td valign="middle">&nbsp;
+						<img border="0" src="/images/logos/sd_logo.gif" width="123" height="20" alt="ScienceDirect" title="ScienceDirect"></td>
+</tr>
+<tr>
+<td valign="top" colspan="2"><img width="1" src="/images/sp.gif" height="1" alt=""></td><td colspan="2"><a href="search?q=((isolate*+AND+hybridiz*+AND+probe*)+AND+(microarray*+OR+%22genome-wide%22+OR+%22expression+profile*%22+OR+%22transcription+profil*%22)+)+(issn%3A1097-2765+OR+issn%3A0092-8674+OR+issn%3A0036-8075+OR+issn%3A0028-0836+OR+issn%3A1061-4036+OR+issn%3A1061-4036+OR+issn%3A1548-7091+OR+issn%3A1465-7392)&amp;t=all&amp;dt=fta&amp;ds=nature&amp;ds=sd&amp;fdt=2007&amp;tdt=2007&amp;sort=0&amp;drill=yes&amp;sr=%22germ+cells%22+%22zebrafish%22+%22germ+cell%22+%22transposon%22+%22apoptosis%22+%22transposons%22+%22zebrafish+genome%22+%22granules%22+%22transposon+silencing%22+%22caspase-3%22">similar results</a></td>
+</tr>
+<tr>
+<td width="1" height="8" colspan="4"><img width="1" src="/images/sp.gif" height="8" alt=""></td>
+</tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tr>
+<td class="searchresultscol1"><input type="checkbox" onclick="javascript:displayPerPageMessage();javascript:toggleMasterItem(this);" name="r" value="7xAxb3d2bf61c375646970afa9f94dff2bc9xcr1038"><input type="hidden" name="er" value="20071108@7xAxb3d2bf61c375646970afa9f94dff2bc9xcr1038|http://dx.doi.org/10.1038/nature06323|nature|Constraint and turnover in sex-biased gene expression in the genus Drosophila|10.1038/nature06323"></td><td class="searchresultscol2"><img width="1" src="/images/sp.gif" height="1" alt=""><br>
+<b>14.
+						</b></td><td valign="top" colspan="2"><a name="url" href="/srsapp/sciruslink?src=nature&amp;url=http%3A%2F%2Fdx.doi.org%2F10.1038%2Fnature06323">Constraint and turnover in sex-biased gene expression in the genus Drosophila</a>
+<br>
+<font class="authorname">Zhang, Yu  /  Sturgill, David  /  Parisi, Michael  /  Kumar, Sudhir  /  Oliver, Brian
+				,
+				</font><font class="srctitle">Nature</font>,	
+	450
+			(7167),
+	
+		p.233-237,
+	<font class="date">Nov 2007</font>
+<br>
+			doi:10.1038/nature06323<br>...designed species-specific <b>microarrays</b> to examine sex-biased expression...designed species-specific <b>microarrays</b> to examine sex-biased expression...genus using species-specific <b>microarrays</b> designed for the closely...of sequence divergence on <b>hybridization</b> and allowed us to assay the...</td>
+</tr>
+<tr>
+<td valign="top" colspan="2"><img width="1" src="/images/sp.gif" height="1" alt=""></td><td width="10%" valign="middle" nowrap="nowrap"><b>Published journal article available from </b></td><td valign="middle">&nbsp;
+						<img border="0" src="/images/logos/nature_logo.gif" width="216" height="48" alt="Nature Publishing Group" title="Nature Publishing Group"></td>
+</tr>
+<tr>
+<td valign="top" colspan="2"><img width="1" src="/images/sp.gif" height="1" alt=""></td><td colspan="2"><a href="search?q=((isolate*+AND+hybridiz*+AND+probe*)+AND+(microarray*+OR+%22genome-wide%22+OR+%22expression+profile*%22+OR+%22transcription+profil*%22)+)+(issn%3A1097-2765+OR+issn%3A0092-8674+OR+issn%3A0036-8075+OR+issn%3A0028-0836+OR+issn%3A1061-4036+OR+issn%3A1061-4036+OR+issn%3A1548-7091+OR+issn%3A1465-7392)&amp;t=all&amp;dt=fta&amp;ds=nature&amp;ds=sd&amp;fdt=2007&amp;tdt=2007&amp;sort=0&amp;drill=yes&amp;sr=%22sequence+divergence%22+%22species-specific%22+%22variable+expression%22+%22chi-squared+test%22+%22drosophila+species%22+%22ratio+standard%22+%22variance+stabilization%22+%22gene+content%22+%22genomes%22+%22basic+local+alignment+search+tool%22">similar results</a></td>
+</tr>
+<tr>
+<td width="1" height="8" colspan="4"><img width="1" src="/images/sp.gif" height="8" alt=""></td>
+</tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tr>
+<td class="searchresultscol1"><input type="checkbox" onclick="javascript:displayPerPageMessage();javascript:toggleMasterItem(this);" name="r" value="7xAxef413d3cf4ce2b01a69673533b34ab9cxcr1038"><input type="hidden" name="er" value="20071001@7xAxef413d3cf4ce2b01a69673533b34ab9cxcr1038|http://dx.doi.org/10.1038/nmeth1007-869|nature|PCR's next frontier|10.1038/nmeth1007-869"></td><td class="searchresultscol2"><img width="1" src="/images/sp.gif" height="1" alt=""><br>
+<b>15.
+						</b></td><td valign="top" colspan="2"><a name="url" href="/srsapp/sciruslink?src=nature&amp;url=http%3A%2F%2Fdx.doi.org%2F10.1038%2Fnmeth1007-869">PCR's next frontier</a>
+<br>
+<font class="authorname">Blow, Nathan
+				,
+				</font><font class="srctitle">Nature Methods</font>,	
+	4
+			(10),
+	
+		p.869-875,
+	<font class="date">Oct 2007</font>
+<br>
+			doi:10.1038/nmeth1007-869<br>...providing quantitative <b>transcription</b> <b>profiling</b> and serving as the basis...sequence-specificity of <b>probe</b>-based methods as any generated...can then be performed and <b>probes</b> added to each well, detecting...with template, primers and <b>probes</b> can be partitioned into...molecule, any enzymatic or <b>hybridization</b> reaction, you can do with...expression (PMAGE) 4 . PMAGE <b>isolates</b> short sequence tags from...</td>
+</tr>
+<tr>
+<td valign="top" colspan="2"><img width="1" src="/images/sp.gif" height="1" alt=""></td><td width="10%" valign="middle" nowrap="nowrap"><b>Published journal article available from </b></td><td valign="middle">&nbsp;
+						<img border="0" src="/images/logos/nature_logo.gif" width="216" height="48" alt="Nature Publishing Group" title="Nature Publishing Group"></td>
+</tr>
+<tr>
+<td valign="top" colspan="2"><img width="1" src="/images/sp.gif" height="1" alt=""></td><td colspan="2"><a href="search?q=((isolate*+AND+hybridiz*+AND+probe*)+AND+(microarray*+OR+%22genome-wide%22+OR+%22expression+profile*%22+OR+%22transcription+profil*%22)+)+(issn%3A1097-2765+OR+issn%3A0092-8674+OR+issn%3A0036-8075+OR+issn%3A0028-0836+OR+issn%3A1061-4036+OR+issn%3A1061-4036+OR+issn%3A1548-7091+OR+issn%3A1465-7392)&amp;t=all&amp;dt=fta&amp;ds=nature&amp;ds=sd&amp;fdt=2007&amp;tdt=2007&amp;sort=0&amp;drill=yes&amp;sr=%22real-time+pcr%22+%22amplification%22+%22single+molecules%22+%22genomics%22+%22water-in-oil+emulsion%22+%22publishing+group%22+%22double-stranded+dna%22+%22chemical+biology%22+%22doubling%22+%22analysis+of+gene+expression%22">similar results</a></td>
+</tr>
+<tr>
+<td width="1" height="8" colspan="4"><img width="1" src="/images/sp.gif" height="8" alt=""></td>
+</tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tr>
+<td class="searchresultscol1"><input type="checkbox" onclick="javascript:displayPerPageMessage();javascript:toggleMasterItem(this);" name="r" value="7xAx75c932bb117865e7f74815a9b83341fexcr1038"><input type="hidden" name="er" value="20070823@7xAx75c932bb117865e7f74815a9b83341fexcr1038|http://dx.doi.org/10.1038/448959a|nature|Tissue preparation: Tissue issues|10.1038/448959a"></td><td class="searchresultscol2"><img width="1" src="/images/sp.gif" height="1" alt=""><br>
+<b>16.
+						</b></td><td valign="top" colspan="2"><a name="url" href="/srsapp/sciruslink?src=nature&amp;url=http%3A%2F%2Fdx.doi.org%2F10.1038%2F448959a">Tissue preparation: Tissue issues</a>
+<br>
+<font class="authorname">Blow, Nathan
+				,
+				</font><font class="srctitle">Nature</font>,	
+	448
+			(7156),
+	
+		p.959-962,
+	<font class="date">Aug 2007</font>
+<br>
+			doi:10.1038/448959a<br>...the technology needed to <b>isolate</b> biomolecules and tap into...applications — such as PCR or <b>microarray</b> analysis — can arise...the biomolecules have been <b>isolated</b>. "Once you have the samples...without fail, the RNA or DNA <b>isolated</b> is degraded and chemically...system uses two gene-specific <b>probes</b> to amplify the cDNA. The resulting cDNA can be <b>hybridized</b> to a DASL-specific array...</td>
+</tr>
+<tr>
+<td valign="top" colspan="2"><img width="1" src="/images/sp.gif" height="1" alt=""></td><td width="10%" valign="middle" nowrap="nowrap"><b>Published journal article available from </b></td><td valign="middle">&nbsp;
+						<img border="0" src="/images/logos/nature_logo.gif" width="216" height="48" alt="Nature Publishing Group" title="Nature Publishing Group"></td>
+</tr>
+<tr>
+<td valign="top" colspan="2"><img width="1" src="/images/sp.gif" height="1" alt=""></td><td colspan="2"><a href="search?q=((isolate*+AND+hybridiz*+AND+probe*)+AND+(microarray*+OR+%22genome-wide%22+OR+%22expression+profile*%22+OR+%22transcription+profil*%22)+)+(issn%3A1097-2765+OR+issn%3A0092-8674+OR+issn%3A0036-8075+OR+issn%3A0028-0836+OR+issn%3A1061-4036+OR+issn%3A1061-4036+OR+issn%3A1548-7091+OR+issn%3A1465-7392)&amp;t=all&amp;dt=fta&amp;ds=nature&amp;ds=sd&amp;fdt=2007&amp;tdt=2007&amp;sort=0&amp;drill=yes&amp;sr=%22microarrays%22+%22microarray+analysis%22+%22high-throughput+analysis%22+%22tissue+preparation%22+%22microarray%22+%22degraded%22+%22branched+dna%22+%22amplification%22+%22histology%22+%22real-time+pcr%22">similar results</a></td>
+</tr>
+<tr>
+<td width="1" height="8" colspan="4"><img width="1" src="/images/sp.gif" height="8" alt=""></td>
+</tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tr>
+<td class="searchresultscol1"><input type="checkbox" onclick="javascript:displayPerPageMessage();javascript:toggleMasterItem(this);" name="r" value="7xAxb7fea105a166713b9c53cfac8d10e43bxsciencedirect"><input type="hidden" name="er" value="20071228@7xAxb7fea105a166713b9c53cfac8d10e43bxsciencedirect|http://www.sciencedirect.com/science?_ob=GatewayURL&amp;_origin=ScienceSearch&amp;_method=citationSearch&amp;_piikey=S0092867407015413&amp;_version=1&amp;_returnURL=&amp;md5=7ac0975b5735dad860637e0530d3d9b3|sd|A DNA Replication Mechanism for Generating Nonrecurrent Rearrangements Associated with Genomic Disorders|"></td><td class="searchresultscol2"><img width="1" src="/images/sp.gif" height="1" alt=""><br>
+<b>17.
+						</b></td><td valign="top" colspan="2"><a name="url" href="/srsapp/sciruslink?src=sd&amp;url=http%3A%2F%2Fwww.sciencedirect.com%2Fscience%3F_ob%3DGatewayURL%26_origin%3DScienceSearch%26_method%3DcitationSearch%26_piikey%3DS0092867407015413%26_version%3D1%26_returnURL%3Dhttp%253A%252F%252Fwww.scirus.com%252Fsrsapp%252Fsearch%253Fq%253D%2528%2528isolate*%252BAND%252Bhybridiz*%252BAND%252Bprobe*%2529%252BAND%252B%2528microarray*%252BOR%252B%252522genome-wide%252522%252BOR%252B%252522expression%252Bprofile*%252522%252BOR%252B%252522transcription%252Bprofil*%252522%2529%252B%2529%252B%2528issn%25253A1097-2765%252BOR%252Bissn%25253A0092-8674%252BOR%252Bissn%25253A0036-8075%252BOR%252Bissn%25253A0028-0836%252BOR%252Bissn%25253A1061-4036%252BOR%252Bissn%25253A1061-4036%252BOR%252Bissn%25253A1548-7091%252BOR%252Bissn%25253A1465-7392%2529%2526t%253Dall%2526dt%253Dfta%2526ds%253Dnature%2526ds%253Dsd%2526fdt%253D2007%2526tdt%253D2007%2526sort%253D0%2526drill%253Dyes%2526p%253D0%26md5%3D38e7dd5d3af84d910add088e0848ae2a">A DNA Replication Mechanism for Generating Nonrecurrent Rearrangements Associated with Genomic Disorders</a>
+<br>
+<font class="authorname">Lee, J.A. / Carvalho, C.M.B. / Lupski, J.R.
+				,
+				</font><font class="srctitle">Cell</font>,	
+	131
+			(7),
+	
+		p.1235-1247,
+	<font class="date">Dec 2007</font>
+<br>...high-resolution oligonucleotide (oligo) array comparative genomic <b>hybridization</b> (CGH) and breakpoint sequence analyses of PMD-associatedPLP1nonrecurrent...using our previously published BAC array comparative genomic <b>hybridization</b> (CGH) data (Lee et al., 2006a) as a starting point, we delineatedPLP1duplication...</td>
+</tr>
+<tr>
+<td valign="top" colspan="2"><img width="1" src="/images/sp.gif" height="1" alt=""></td><td width="10%" valign="middle" nowrap="nowrap"><b>Published journal article available from</b></td><td valign="middle">&nbsp;
+						<img border="0" src="/images/logos/sd_logo.gif" width="123" height="20" alt="ScienceDirect" title="ScienceDirect"></td>
+</tr>
+<tr>
+<td valign="top" colspan="2"><img width="1" src="/images/sp.gif" height="1" alt=""></td><td colspan="2"><a href="search?q=((isolate*+AND+hybridiz*+AND+probe*)+AND+(microarray*+OR+%22genome-wide%22+OR+%22expression+profile*%22+OR+%22transcription+profil*%22)+)+(issn%3A1097-2765+OR+issn%3A0092-8674+OR+issn%3A0036-8075+OR+issn%3A0028-0836+OR+issn%3A1061-4036+OR+issn%3A1061-4036+OR+issn%3A1548-7091+OR+issn%3A1465-7392)&amp;t=all&amp;dt=fta&amp;ds=nature&amp;ds=sd&amp;fdt=2007&amp;tdt=2007&amp;sort=0&amp;drill=yes&amp;sr=%22humdisease%22+%22dna%22+%22rearrangements%22+%22pelizaeus-merzbacher+disease%22+%22genomic+rearrangements%22+%22replication+fork%22+%22junctional+sequences%22+%22complex+rearrangements%22+%22rearrangement%22+%22multiplex+pcr%22+%22breakpoint%22+%22tandem+duplication%22">similar results</a></td>
+</tr>
+<tr>
+<td width="1" height="8" colspan="4"><img width="1" src="/images/sp.gif" height="8" alt=""></td>
+</tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tr>
+<td class="searchresultscol1"><input type="checkbox" onclick="javascript:displayPerPageMessage();javascript:toggleMasterItem(this);" name="r" value="7xAxd5b0d41488306180d302740092032193xsciencedirect"><input type="hidden" name="er" value="20071130@7xAxd5b0d41488306180d302740092032193xsciencedirect|http://www.sciencedirect.com/science?_ob=GatewayURL&amp;_origin=ScienceSearch&amp;_method=citationSearch&amp;_piikey=S0092867407014717&amp;_version=1&amp;_returnURL=&amp;md5=f48341a8a3f57811497cd323fec08e01|sd|Induction of Pluripotent Stem Cells from Adult Human Fibroblasts by Defined Factors|"></td><td class="searchresultscol2"><img width="1" src="/images/sp.gif" height="1" alt=""><br>
+<b>18.
+						</b></td><td valign="top" colspan="2"><a name="url" href="/srsapp/sciruslink?src=sd&amp;url=http%3A%2F%2Fwww.sciencedirect.com%2Fscience%3F_ob%3DGatewayURL%26_origin%3DScienceSearch%26_method%3DcitationSearch%26_piikey%3DS0092867407014717%26_version%3D1%26_returnURL%3Dhttp%253A%252F%252Fwww.scirus.com%252Fsrsapp%252Fsearch%253Fq%253D%2528%2528isolate*%252BAND%252Bhybridiz*%252BAND%252Bprobe*%2529%252BAND%252B%2528microarray*%252BOR%252B%252522genome-wide%252522%252BOR%252B%252522expression%252Bprofile*%252522%252BOR%252B%252522transcription%252Bprofil*%252522%2529%252B%2529%252B%2528issn%25253A1097-2765%252BOR%252Bissn%25253A0092-8674%252BOR%252Bissn%25253A0036-8075%252BOR%252Bissn%25253A0028-0836%252BOR%252Bissn%25253A1061-4036%252BOR%252Bissn%25253A1061-4036%252BOR%252Bissn%25253A1548-7091%252BOR%252Bissn%25253A1465-7392%2529%2526t%253Dall%2526dt%253Dfta%2526ds%253Dnature%2526ds%253Dsd%2526fdt%253D2007%2526tdt%253D2007%2526sort%253D0%2526drill%253Dyes%2526p%253D0%26md5%3D10b2cab2a672fed845dc330ef810489b">Induction of Pluripotent Stem Cells from Adult Human Fibroblasts by Defined Factors</a>
+<br>
+<font class="authorname">Takahashi, K. / Tanabe, K. / Ohnuki, M. / Narita, M. / Ichisaka, T. / Tomoda, K. / Yamanaka, S.
+				,
+				</font><font class="srctitle">Cell</font>,	
+	131
+			(5),
+	
+		p.861-872,
+	<font class="date">Nov 2007</font>
+<br>...H9) with oligonucleotide DNA <b>microarrays</b>. Arrows indicate the expression...Nanog, endogenous Oct3/4 (the <b>probe</b> derived from the 3' untranslated...cells, but it was difficult to <b>isolate</b> hES cell-like colonies because...analysis with a c-Myc cDNA <b>probe</b> revealed that each clone had...</td>
+</tr>
+<tr>
+<td valign="top" colspan="2"><img width="1" src="/images/sp.gif" height="1" alt=""></td><td width="10%" valign="middle" nowrap="nowrap"><b>Published journal article available from</b></td><td valign="middle">&nbsp;
+						<img border="0" src="/images/logos/sd_logo.gif" width="123" height="20" alt="ScienceDirect" title="ScienceDirect"></td>
+</tr>
+<tr>
+<td valign="top" colspan="2"><img width="1" src="/images/sp.gif" height="1" alt=""></td><td colspan="2"><a href="search?q=((isolate*+AND+hybridiz*+AND+probe*)+AND+(microarray*+OR+%22genome-wide%22+OR+%22expression+profile*%22+OR+%22transcription+profil*%22)+)+(issn%3A1097-2765+OR+issn%3A0092-8674+OR+issn%3A0036-8075+OR+issn%3A0028-0836+OR+issn%3A1061-4036+OR+issn%3A1061-4036+OR+issn%3A1548-7091+OR+issn%3A1465-7392)&amp;t=all&amp;dt=fta&amp;ds=nature&amp;ds=sd&amp;fdt=2007&amp;tdt=2007&amp;sort=0&amp;drill=yes&amp;sr=%22cell-like%22+%22embryonic+stem%22+%22embryonic%22+%22fibroblasts%22+%22pluripotent%22+%22embryonic+stem+cells%22+%22alpha-smooth+muscle+actin%22+%22somatic+cells%22+%22retroviral+transduction%22+%22germ+layers%22">similar results</a></td>
+</tr>
+<tr>
+<td width="1" height="8" colspan="4"><img width="1" src="/images/sp.gif" height="8" alt=""></td>
+</tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tr>
+<td class="searchresultscol1"><input type="checkbox" onclick="javascript:displayPerPageMessage();javascript:toggleMasterItem(this);" name="r" value="7xAx6aec2ea564a05de8c25d972547523e51xsciencedirect"><input type="hidden" name="er" value="20071130@7xAx6aec2ea564a05de8c25d972547523e51xsciencedirect|http://www.sciencedirect.com/science?_ob=GatewayURL&amp;_origin=ScienceSearch&amp;_method=citationSearch&amp;_piikey=S0092867407012780&amp;_version=1&amp;_returnURL=&amp;md5=cf1e6a5863483d6da14fc02de95fc339|sd|Impaired tRNA Nuclear Export Links DNA Damage and Cell-Cycle Checkpoint|"></td><td class="searchresultscol2"><img width="1" src="/images/sp.gif" height="1" alt=""><br>
+<b>19.
+						</b></td><td valign="top" colspan="2"><a name="url" href="/srsapp/sciruslink?src=sd&amp;url=http%3A%2F%2Fwww.sciencedirect.com%2Fscience%3F_ob%3DGatewayURL%26_origin%3DScienceSearch%26_method%3DcitationSearch%26_piikey%3DS0092867407012780%26_version%3D1%26_returnURL%3Dhttp%253A%252F%252Fwww.scirus.com%252Fsrsapp%252Fsearch%253Fq%253D%2528%2528isolate*%252BAND%252Bhybridiz*%252BAND%252Bprobe*%2529%252BAND%252B%2528microarray*%252BOR%252B%252522genome-wide%252522%252BOR%252B%252522expression%252Bprofile*%252522%252BOR%252B%252522transcription%252Bprofil*%252522%2529%252B%2529%252B%2528issn%25253A1097-2765%252BOR%252Bissn%25253A0092-8674%252BOR%252Bissn%25253A0036-8075%252BOR%252Bissn%25253A0028-0836%252BOR%252Bissn%25253A1061-4036%252BOR%252Bissn%25253A1061-4036%252BOR%252Bissn%25253A1548-7091%252BOR%252Bissn%25253A1465-7392%2529%2526t%253Dall%2526dt%253Dfta%2526ds%253Dnature%2526ds%253Dsd%2526fdt%253D2007%2526tdt%253D2007%2526sort%253D0%2526drill%253Dyes%2526p%253D0%26md5%3Ddbb8984a83b17357236dc3bcca2e3b32">Impaired tRNA Nuclear Export Links DNA Damage and Cell-Cycle Checkpoint</a>
+<br>
+<font class="authorname">Ghavidel, A. / Kislinger, T. / Pogoutse, O. / Sopko, R. / Jurisica, I. / Emili, A.
+				,
+				</font><font class="srctitle">Cell</font>,	
+	131
+			(5),
+	
+		p.915-926,
+	<font class="date">Nov 2007</font>
+<br>...and splicing by using oligonucleotide <b>probes</b> that <b>hybridize</b> specifically to the 5' or 3' splicing...Abelson et al., 1998), we similarly <b>probed</b> several other intron-containing tRNAs...DNA damage. In a fluorescence in situ <b>hybridization</b> assay (FISH), the newly transcribed...</td>
+</tr>
+<tr>
+<td valign="top" colspan="2"><img width="1" src="/images/sp.gif" height="1" alt=""></td><td width="10%" valign="middle" nowrap="nowrap"><b>Published journal article available from</b></td><td valign="middle">&nbsp;
+						<img border="0" src="/images/logos/sd_logo.gif" width="123" height="20" alt="ScienceDirect" title="ScienceDirect"></td>
+</tr>
+<tr>
+<td valign="top" colspan="2"><img width="1" src="/images/sp.gif" height="1" alt=""></td><td colspan="2"><a href="search?q=((isolate*+AND+hybridiz*+AND+probe*)+AND+(microarray*+OR+%22genome-wide%22+OR+%22expression+profile*%22+OR+%22transcription+profil*%22)+)+(issn%3A1097-2765+OR+issn%3A0092-8674+OR+issn%3A0036-8075+OR+issn%3A0028-0836+OR+issn%3A1061-4036+OR+issn%3A1061-4036+OR+issn%3A1548-7091+OR+issn%3A1465-7392)&amp;t=all&amp;dt=fta&amp;ds=nature&amp;ds=sd&amp;fdt=2007&amp;tdt=2007&amp;sort=0&amp;drill=yes&amp;sr=%22cellbio%22+%22rna%22+%22cellcycle%22+%22wild-type+cells%22+%22cell-cycle%22+%22g1+progression%22+%22cell-cycle+progression%22+%22beta-galactosidase+activity%22+%22nuclear+export%22+%22beta-galactosidase%22+%22protein+translation%22+%22situ+localization%22+%22g1+cyclins%22">similar results</a></td>
+</tr>
+<tr>
+<td width="1" height="8" colspan="4"><img width="1" src="/images/sp.gif" height="8" alt=""></td>
+</tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tr>
+<td class="searchresultscol1"><input type="checkbox" onclick="javascript:displayPerPageMessage();javascript:toggleMasterItem(this);" name="r" value="7xAx1d2795fddc2c29e367dfc4a63885f38bxcr1038"><input type="hidden" name="er" value="20070101@7xAx1d2795fddc2c29e367dfc4a63885f38bxcr1038|http://dx.doi.org/10.1038/nmeth964|nature|Transposon-aided capture (TRACA) of plasmids resident in the human gut mobile metagenome|10.1038/nmeth964"></td><td class="searchresultscol2"><img width="1" src="/images/sp.gif" height="1" alt=""><br>
+<b>20.
+						</b></td><td valign="top" colspan="2"><a name="url" href="/srsapp/sciruslink?src=nature&amp;url=http%3A%2F%2Fdx.doi.org%2F10.1038%2Fnmeth964">Transposon-aided capture (TRACA) of plasmids resident in the human gut mobile metagenome</a>
+<br>
+<font class="authorname">Jones, Brian V  /  Marchesi, Julian R
+				,
+				</font><font class="srctitle">Nature Methods</font>,	
+	4
+			(1),
+	
+		p.55-61,
+	<font class="date">Jan 2007</font>
+<br>
+			doi:10.1038/nmeth964<br>...communities. Plasmids are typically <b>isolated</b> by endogenous approaches requiring...positive species, can be successfully <b>isolated</b> and maintained in an E. coli host...for the 18 clones examined. Southern <b>hybridization</b> with transposon-specific <b>probes</b> using BamHI-digested plasmid DNA confirmed...environments have previously been <b>isolated</b> using endogenous (culture-dependent...</td>
+</tr>
+<tr>
+<td valign="top" colspan="2"><img width="1" src="/images/sp.gif" height="1" alt=""></td><td width="10%" valign="middle" nowrap="nowrap"><b>Published journal article available from </b></td><td valign="middle">&nbsp;
+						<img border="0" src="/images/logos/nature_logo.gif" width="216" height="48" alt="Nature Publishing Group" title="Nature Publishing Group"></td>
+</tr>
+<tr>
+<td valign="top" colspan="2"><img width="1" src="/images/sp.gif" height="1" alt=""></td><td colspan="2"><a href="search?q=((isolate*+AND+hybridiz*+AND+probe*)+AND+(microarray*+OR+%22genome-wide%22+OR+%22expression+profile*%22+OR+%22transcription+profil*%22)+)+(issn%3A1097-2765+OR+issn%3A0092-8674+OR+issn%3A0036-8075+OR+issn%3A0028-0836+OR+issn%3A1061-4036+OR+issn%3A1061-4036+OR+issn%3A1548-7091+OR+issn%3A1465-7392)&amp;t=all&amp;dt=fta&amp;ds=nature&amp;ds=sd&amp;fdt=2007&amp;tdt=2007&amp;sort=0&amp;drill=yes&amp;sr=%22plasmids%22+%22plasmid%22+%22selectable+markers%22+%22transposon%22+%22gram+positive%22+%22gram-positive%22+%22host+species%22+%22epicentre%22+%22reading+frames%22+%22putative+functions%22">similar results</a></td>
+</tr>
+<tr>
+<td width="1" height="8" colspan="4"><img width="1" src="/images/sp.gif" height="8" alt=""></td>
+</tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tr>
+<td class="searchresultscol1"><input type="checkbox" onclick="javascript:displayPerPageMessage();javascript:toggleMasterItem(this);" name="r" value="7xAx6d9e38f8616856189dfa5d6cfb2b21c6xsciencedirect"><input type="hidden" name="er" value="20070907@7xAx6d9e38f8616856189dfa5d6cfb2b21c6xsciencedirect|http://www.sciencedirect.com/science?_ob=GatewayURL&amp;_origin=ScienceSearch&amp;_method=citationSearch&amp;_piikey=S1097276507004467&amp;_version=1&amp;_returnURL=&amp;md5=fd21b8e761b27df91f5480084692636b|sd|Arx1 Functions as an Unorthodox Nuclear Export Receptor for the 60S Preribosomal Subunit|"></td><td class="searchresultscol2"><img width="1" src="/images/sp.gif" height="1" alt=""><br>
+<b>21.
+						</b></td><td valign="top" colspan="2"><a name="url" href="/srsapp/sciruslink?src=sd&amp;url=http%3A%2F%2Fwww.sciencedirect.com%2Fscience%3F_ob%3DGatewayURL%26_origin%3DScienceSearch%26_method%3DcitationSearch%26_piikey%3DS1097276507004467%26_version%3D1%26_returnURL%3Dhttp%253A%252F%252Fwww.scirus.com%252Fsrsapp%252Fsearch%253Fq%253D%2528%2528isolate*%252BAND%252Bhybridiz*%252BAND%252Bprobe*%2529%252BAND%252B%2528microarray*%252BOR%252B%252522genome-wide%252522%252BOR%252B%252522expression%252Bprofile*%252522%252BOR%252B%252522transcription%252Bprofil*%252522%2529%252B%2529%252B%2528issn%25253A1097-2765%252BOR%252Bissn%25253A0092-8674%252BOR%252Bissn%25253A0036-8075%252BOR%252Bissn%25253A0028-0836%252BOR%252Bissn%25253A1061-4036%252BOR%252Bissn%25253A1061-4036%252BOR%252Bissn%25253A1548-7091%252BOR%252Bissn%25253A1465-7392%2529%2526t%253Dall%2526dt%253Dfta%2526ds%253Dnature%2526ds%253Dsd%2526fdt%253D2007%2526tdt%253D2007%2526sort%253D0%2526drill%253Dyes%2526p%253D0%26md5%3Df916d9d45176b80c6c4feea0c3240df6">Arx1 Functions as an Unorthodox Nuclear Export Receptor for the 60S Preribosomal Subunit</a>
+<br>
+<font class="authorname">Bradatsch, B. / Katahira, J. / Kowalinski, E. / Bange, G. / Yao, W. / Sekimoto, T. / Baumgartel, V. / (...) / Wild, K.
+				,
+				</font><font class="srctitle">Molecular Cell</font>,	
+	27
+			(5),
+	
+		p.767-779,
+	<font class="date">Sep 2007</font>
+<br>...interact withARX1. Twoslmutants were <b>isolated</b> that exhibited a nonsectoring red phenotype...intracellular localization studies of the <b>isolated</b> preribosomes allowed grouping of the...Previously,mex67mutant alleles were <b>isolated</b> that specifically impaired 60S subunit...</td>
+</tr>
+<tr>
+<td valign="top" colspan="2"><img width="1" src="/images/sp.gif" height="1" alt=""></td><td width="10%" valign="middle" nowrap="nowrap"><b>Published journal article available from</b></td><td valign="middle">&nbsp;
+						<img border="0" src="/images/logos/sd_logo.gif" width="123" height="20" alt="ScienceDirect" title="ScienceDirect"></td>
+</tr>
+<tr>
+<td valign="top" colspan="2"><img width="1" src="/images/sp.gif" height="1" alt=""></td><td colspan="2"><a href="search?q=((isolate*+AND+hybridiz*+AND+probe*)+AND+(microarray*+OR+%22genome-wide%22+OR+%22expression+profile*%22+OR+%22transcription+profil*%22)+)+(issn%3A1097-2765+OR+issn%3A0092-8674+OR+issn%3A0036-8075+OR+issn%3A0028-0836+OR+issn%3A1061-4036+OR+issn%3A1061-4036+OR+issn%3A1548-7091+OR+issn%3A1465-7392)&amp;t=all&amp;dt=fta&amp;ds=nature&amp;ds=sd&amp;fdt=2007&amp;tdt=2007&amp;sort=0&amp;drill=yes&amp;sr=%22rna%22+%22nuclear+export%22+%22methionine+aminopeptidase%22+%22export+receptor%22+%22central+cavity%22+%22nuclear+pore%22+%22methionine%22+%22subunits%22+%22mrna+export%22+%22ribosomal+subunits%22+%22aminopeptidase%22">similar results</a></td>
+</tr>
+<tr>
+<td width="1" height="8" colspan="4"><img width="1" src="/images/sp.gif" height="8" alt=""></td>
+</tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tr>
+<td class="searchresultscol1"><input type="checkbox" onclick="javascript:displayPerPageMessage();javascript:toggleMasterItem(this);" name="r" value="7xAx97e24aa9dd1e926e8639bb6961732491xsciencedirect"><input type="hidden" name="er" value="20070803@7xAx97e24aa9dd1e926e8639bb6961732491xsciencedirect|http://www.sciencedirect.com/science?_ob=GatewayURL&amp;_origin=ScienceSearch&amp;_method=citationSearch&amp;_piikey=S1097276507004145&amp;_version=1&amp;_returnURL=&amp;md5=edd38764a7af794c171704ff45ec14a9|sd|Active and Repressive Chromatin Are Interspersed without Spreading in an Imprinted Gene Cluster in the Mammalian Genome|"></td><td class="searchresultscol2"><img width="1" src="/images/sp.gif" height="1" alt=""><br>
+<b>22.
+						</b></td><td valign="top" colspan="2"><a name="url" href="/srsapp/sciruslink?src=sd&amp;url=http%3A%2F%2Fwww.sciencedirect.com%2Fscience%3F_ob%3DGatewayURL%26_origin%3DScienceSearch%26_method%3DcitationSearch%26_piikey%3DS1097276507004145%26_version%3D1%26_returnURL%3Dhttp%253A%252F%252Fwww.scirus.com%252Fsrsapp%252Fsearch%253Fq%253D%2528%2528isolate*%252BAND%252Bhybridiz*%252BAND%252Bprobe*%2529%252BAND%252B%2528microarray*%252BOR%252B%252522genome-wide%252522%252BOR%252B%252522expression%252Bprofile*%252522%252BOR%252B%252522transcription%252Bprofil*%252522%2529%252B%2529%252B%2528issn%25253A1097-2765%252BOR%252Bissn%25253A0092-8674%252BOR%252Bissn%25253A0036-8075%252BOR%252Bissn%25253A0028-0836%252BOR%252Bissn%25253A1061-4036%252BOR%252Bissn%25253A1061-4036%252BOR%252Bissn%25253A1548-7091%252BOR%252Bissn%25253A1465-7392%2529%2526t%253Dall%2526dt%253Dfta%2526ds%253Dnature%2526ds%253Dsd%2526fdt%253D2007%2526tdt%253D2007%2526sort%253D0%2526drill%253Dyes%2526p%253D0%26md5%3Da983a5cd516210538a8c9e3ab34afd3a">Active and Repressive Chromatin Are Interspersed without Spreading in an Imprinted Gene Cluster in the Mammalian Genome</a>
+<br>
+<font class="authorname">Regha, K. / Sloane, M.A. / Huang, R. / Pauler, F.M. / Warczok, K.E. / Melikant, B. / Radolf, M. / (...) / Jenuwein, T.
+				,
+				</font><font class="srctitle">Molecular Cell</font>,	
+	27
+			(3),
+	
+		p.353-366,
+	<font class="date">Aug 2007</font>
+<br>...Elsevier Inc. Figure 1 <b>Expression</b> <b>Profile</b> of theIgf2rImprinted...MEFF) rows show cDNA <b>hybridization</b> to a custom PCR tiling...chromosome. Results <b>Expression</b> <b>Profile</b> of theIgf2rImprinted...determined by cDNA <b>hybridization</b> to a custom PCR tiling...chromosome in MEF cells. <b>Hybridization</b> signals were detected...</td>
+</tr>
+<tr>
+<td valign="top" colspan="2"><img width="1" src="/images/sp.gif" height="1" alt=""></td><td width="10%" valign="middle" nowrap="nowrap"><b>Published journal article available from</b></td><td valign="middle">&nbsp;
+						<img border="0" src="/images/logos/sd_logo.gif" width="123" height="20" alt="ScienceDirect" title="ScienceDirect"></td>
+</tr>
+<tr>
+<td valign="top" colspan="2"><img width="1" src="/images/sp.gif" height="1" alt=""></td><td colspan="2"><a href="search?q=((isolate*+AND+hybridiz*+AND+probe*)+AND+(microarray*+OR+%22genome-wide%22+OR+%22expression+profile*%22+OR+%22transcription+profil*%22)+)+(issn%3A1097-2765+OR+issn%3A0092-8674+OR+issn%3A0036-8075+OR+issn%3A0028-0836+OR+issn%3A1061-4036+OR+issn%3A1061-4036+OR+issn%3A1548-7091+OR+issn%3A1465-7392)&amp;t=all&amp;dt=fta&amp;ds=nature&amp;ds=sd&amp;fdt=2007&amp;tdt=2007&amp;sort=0&amp;drill=yes&amp;sr=%22dna%22+%22repressive%22+%22chromatin%22+%22heterochromatin%22+%22histone%22+%22silencing%22+%22paternal%22+%22dna+methylation%22+%22imprinted+genes%22+%22mammalian+genome%22+%22pericentric%22">similar results</a></td>
+</tr>
+<tr>
+<td width="1" height="8" colspan="4"><img width="1" src="/images/sp.gif" height="8" alt=""></td>
+</tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tr>
+<td class="searchresultscol1"><input type="checkbox" onclick="javascript:displayPerPageMessage();javascript:toggleMasterItem(this);" name="r" value="7xAx3bad4be48f1193b8fca752d98ad58586xsciencedirect"><input type="hidden" name="er" value="20070803@7xAx3bad4be48f1193b8fca752d98ad58586xsciencedirect|http://www.sciencedirect.com/science?_ob=GatewayURL&amp;_origin=ScienceSearch&amp;_method=citationSearch&amp;_piikey=S1097276507004881&amp;_version=1&amp;_returnURL=&amp;md5=9723bcdb53d37f850a28fca5d28b20cb|sd|The MicroRNA miR-124 Promotes Neuronal Differentiation by Triggering Brain-Specific Alternative Pre-mRNA Splicing|"></td><td class="searchresultscol2"><img width="1" src="/images/sp.gif" height="1" alt=""><br>
+<b>23.
+						</b></td><td valign="top" colspan="2"><a name="url" href="/srsapp/sciruslink?src=sd&amp;url=http%3A%2F%2Fwww.sciencedirect.com%2Fscience%3F_ob%3DGatewayURL%26_origin%3DScienceSearch%26_method%3DcitationSearch%26_piikey%3DS1097276507004881%26_version%3D1%26_returnURL%3Dhttp%253A%252F%252Fwww.scirus.com%252Fsrsapp%252Fsearch%253Fq%253D%2528%2528isolate*%252BAND%252Bhybridiz*%252BAND%252Bprobe*%2529%252BAND%252B%2528microarray*%252BOR%252B%252522genome-wide%252522%252BOR%252B%252522expression%252Bprofile*%252522%252BOR%252B%252522transcription%252Bprofil*%252522%2529%252B%2529%252B%2528issn%25253A1097-2765%252BOR%252Bissn%25253A0092-8674%252BOR%252Bissn%25253A0036-8075%252BOR%252Bissn%25253A0028-0836%252BOR%252Bissn%25253A1061-4036%252BOR%252Bissn%25253A1061-4036%252BOR%252Bissn%25253A1548-7091%252BOR%252Bissn%25253A1465-7392%2529%2526t%253Dall%2526dt%253Dfta%2526ds%253Dnature%2526ds%253Dsd%2526fdt%253D2007%2526tdt%253D2007%2526sort%253D0%2526drill%253Dyes%2526p%253D0%26md5%3Da9885e9e28038056d1276643a8188184">The MicroRNA miR-124 Promotes Neuronal Differentiation by Triggering Brain-Specific Alternative Pre-mRNA Splicing</a>
+<br>
+<font class="authorname">Makeyev, E.V. / Zhang, J. / Carrasco, M.A. / Maniatis, T.
+				,
+				</font><font class="srctitle">Molecular Cell</font>,	
+	27
+			(3),
+	
+		p.435-448,
+	<font class="date">Aug 2007</font>
+<br>...control. (B) Table based on <b>microarray</b> data listing genes upregulated...with an miR-124-specific LNA <b>probe</b>. (B) ISH of E10.5 transverse...analyzed using gene expression <b>microarrays</b>. The expression of miR-124...systematic analysis of the <b>microarray</b> data identified six additional...</td>
+</tr>
+<tr>
+<td valign="top" colspan="2"><img width="1" src="/images/sp.gif" height="1" alt=""></td><td width="10%" valign="middle" nowrap="nowrap"><b>Published journal article available from</b></td><td valign="middle">&nbsp;
+						<img border="0" src="/images/logos/sd_logo.gif" width="123" height="20" alt="ScienceDirect" title="ScienceDirect"></td>
+</tr>
+<tr>
+<td valign="top" colspan="2"><img width="1" src="/images/sp.gif" height="1" alt=""></td><td colspan="2"><a href="search?q=((isolate*+AND+hybridiz*+AND+probe*)+AND+(microarray*+OR+%22genome-wide%22+OR+%22expression+profile*%22+OR+%22transcription+profil*%22)+)+(issn%3A1097-2765+OR+issn%3A0092-8674+OR+issn%3A0036-8075+OR+issn%3A0028-0836+OR+issn%3A1061-4036+OR+issn%3A1061-4036+OR+issn%3A1548-7091+OR+issn%3A1465-7392)&amp;t=all&amp;dt=fta&amp;ds=nature&amp;ds=sd&amp;fdt=2007&amp;tdt=2007&amp;sort=0&amp;drill=yes&amp;sr=%22rna%22+%22molneuro%22+%22neuronal+differentiation%22+%22alternative+splicing%22+%22pre-mrna+splicing%22+%22alternative+pre-mrna%22+%22nonneuronal+cells%22+%22downregulation%22+%22repressor%22+%22wild-type+littermates%22+%22exon+skipping%22+%22alternative+exons%22">similar results</a></td>
+</tr>
+<tr>
+<td width="1" height="8" colspan="4"><img width="1" src="/images/sp.gif" height="8" alt=""></td>
+</tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tr>
+<td class="searchresultscol1"><input type="checkbox" onclick="javascript:displayPerPageMessage();javascript:toggleMasterItem(this);" name="r" value="7xAxaa43116602529fe0c711502492bcbd74xsciencedirect"><input type="hidden" name="er" value="20070706@7xAxaa43116602529fe0c711502492bcbd74xsciencedirect|http://www.sciencedirect.com/science?_ob=GatewayURL&amp;_origin=ScienceSearch&amp;_method=citationSearch&amp;_piikey=S1097276507003644&amp;_version=1&amp;_returnURL=&amp;md5=87d5e3c77bdd4eb243a5494f097a03fb|sd|Initiation of RNA Decay in Escherichia coli by 5' Pyrophosphate Removal|"></td><td class="searchresultscol2"><img width="1" src="/images/sp.gif" height="1" alt=""><br>
+<b>24.
+						</b></td><td valign="top" colspan="2"><a name="url" href="/srsapp/sciruslink?src=sd&amp;url=http%3A%2F%2Fwww.sciencedirect.com%2Fscience%3F_ob%3DGatewayURL%26_origin%3DScienceSearch%26_method%3DcitationSearch%26_piikey%3DS1097276507003644%26_version%3D1%26_returnURL%3Dhttp%253A%252F%252Fwww.scirus.com%252Fsrsapp%252Fsearch%253Fq%253D%2528%2528isolate*%252BAND%252Bhybridiz*%252BAND%252Bprobe*%2529%252BAND%252B%2528microarray*%252BOR%252B%252522genome-wide%252522%252BOR%252B%252522expression%252Bprofile*%252522%252BOR%252B%252522transcription%252Bprofil*%252522%2529%252B%2529%252B%2528issn%25253A1097-2765%252BOR%252Bissn%25253A0092-8674%252BOR%252Bissn%25253A0036-8075%252BOR%252Bissn%25253A0028-0836%252BOR%252Bissn%25253A1061-4036%252BOR%252Bissn%25253A1061-4036%252BOR%252Bissn%25253A1548-7091%252BOR%252Bissn%25253A1465-7392%2529%2526t%253Dall%2526dt%253Dfta%2526ds%253Dnature%2526ds%253Dsd%2526fdt%253D2007%2526tdt%253D2007%2526sort%253D0%2526drill%253Dyes%2526p%253D0%26md5%3Da5b1351dbb66f1760909d6824bb561a7">Initiation of RNA Decay in Escherichia coli by 5' Pyrophosphate Removal</a>
+<br>
+<font class="authorname">Celesnik, H. / Deana, A. / Belasco, J.G.
+				,
+				</font><font class="srctitle">Molecular Cell</font>,	
+	27
+			(1),
+	
+		p.79-90,
+	<font class="date">Jul 2007</font>
+<br>...inhibition. (Left) PABLO analysis of RNA I.613 <b>isolated</b> fromE. coliat time intervals after inhibiting...counterpart were detected with a radiolabeled <b>probe</b> complementary to a sequence tag inserted...inhibiting transcription, total RNA was <b>isolated</b> fromE. colicontaining plasmid pRPST1...northern blotting with a radiolabeled <b>probe</b> complementary to a 3'UTR sequence tag...</td>
+</tr>
+<tr>
+<td valign="top" colspan="2"><img width="1" src="/images/sp.gif" height="1" alt=""></td><td width="10%" valign="middle" nowrap="nowrap"><b>Published journal article available from</b></td><td valign="middle">&nbsp;
+						<img border="0" src="/images/logos/sd_logo.gif" width="123" height="20" alt="ScienceDirect" title="ScienceDirect"></td>
+</tr>
+<tr>
+<td valign="top" colspan="2"><img width="1" src="/images/sp.gif" height="1" alt=""></td><td colspan="2"><a href="search?q=((isolate*+AND+hybridiz*+AND+probe*)+AND+(microarray*+OR+%22genome-wide%22+OR+%22expression+profile*%22+OR+%22transcription+profil*%22)+)+(issn%3A1097-2765+OR+issn%3A0092-8674+OR+issn%3A0036-8075+OR+issn%3A0028-0836+OR+issn%3A1061-4036+OR+issn%3A1061-4036+OR+issn%3A1548-7091+OR+issn%3A1465-7392)&amp;t=all&amp;dt=fta&amp;ds=nature&amp;ds=sd&amp;fdt=2007&amp;tdt=2007&amp;sort=0&amp;drill=yes&amp;sr=%22rna%22+%22cleavage%22+%22phosphorylation+state%22+%22mrna+decay%22+%22rna+degradation%22+%22ligation%22+%22pyrophosphate%22+%22phosphorylation%22+%22in+vitro%22+%22plasmid%22+%22stem-loop+structure%22">similar results</a></td>
+</tr>
+<tr>
+<td width="1" height="8" colspan="4"><img width="1" src="/images/sp.gif" height="8" alt=""></td>
+</tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tr>
+<td class="searchresultscol1"><input type="checkbox" onclick="javascript:displayPerPageMessage();javascript:toggleMasterItem(this);" name="r" value="7xAx1aa943d40da192549fa870a51cd53578xsciencedirect"><input type="hidden" name="er" value="20070629@7xAx1aa943d40da192549fa870a51cd53578xsciencedirect|http://www.sciencedirect.com/science?_ob=GatewayURL&amp;_origin=ScienceSearch&amp;_method=citationSearch&amp;_piikey=S0092867407006046&amp;_version=1&amp;_returnURL=&amp;md5=9fbdcc11db9a5594a46a4b4598e7cd0a|sd|A Mammalian microRNA Expression Atlas Based on Small RNA Library Sequencing|"></td><td class="searchresultscol2"><img width="1" src="/images/sp.gif" height="1" alt=""><br>
+<b>25.
+						</b></td><td valign="top" colspan="2"><a name="url" href="/srsapp/sciruslink?src=sd&amp;url=http%3A%2F%2Fwww.sciencedirect.com%2Fscience%3F_ob%3DGatewayURL%26_origin%3DScienceSearch%26_method%3DcitationSearch%26_piikey%3DS0092867407006046%26_version%3D1%26_returnURL%3Dhttp%253A%252F%252Fwww.scirus.com%252Fsrsapp%252Fsearch%253Fq%253D%2528%2528isolate*%252BAND%252Bhybridiz*%252BAND%252Bprobe*%2529%252BAND%252B%2528microarray*%252BOR%252B%252522genome-wide%252522%252BOR%252B%252522expression%252Bprofile*%252522%252BOR%252B%252522transcription%252Bprofil*%252522%2529%252B%2529%252B%2528issn%25253A1097-2765%252BOR%252Bissn%25253A0092-8674%252BOR%252Bissn%25253A0036-8075%252BOR%252Bissn%25253A0028-0836%252BOR%252Bissn%25253A1061-4036%252BOR%252Bissn%25253A1061-4036%252BOR%252Bissn%25253A1548-7091%252BOR%252Bissn%25253A1465-7392%2529%2526t%253Dall%2526dt%253Dfta%2526ds%253Dnature%2526ds%253Dsd%2526fdt%253D2007%2526tdt%253D2007%2526sort%253D0%2526drill%253Dyes%2526p%253D0%26md5%3D18520e98b0fa705c66ef64a502381bb5">A Mammalian microRNA Expression Atlas Based on Small RNA Library Sequencing</a>
+<br>
+<font class="authorname">Landgraf, P. / Rusu, M. / Sheridan, R. / Sewer, A. / Iovino, N. / Aravin, A. / Pfeffer, S. / (...) / Landthaler, M.
+				,
+				</font><font class="srctitle">Cell</font>,	
+	129
+			(7),
+	
+		p.1401-1414,
+	<font class="date">Jun 2007</font>
+<br>...Expression in the Nervous System <b>Expression</b> <b>profiles</b> of miRNA precursor clusters with...induction of a chimeric RAS protein. <b>Expression</b> <b>profiles</b> for orthologous miRNA precursor...visualize and analyze the miRNA <b>expression</b> <b>profiles</b> across individual samples or groups...signal intensities from miRNA <b>microarrays</b> using the same input total RNA...</td>
+</tr>
+<tr>
+<td valign="top" colspan="2"><img width="1" src="/images/sp.gif" height="1" alt=""></td><td width="10%" valign="middle" nowrap="nowrap"><b>Published journal article available from</b></td><td valign="middle">&nbsp;
+						<img border="0" src="/images/logos/sd_logo.gif" width="123" height="20" alt="ScienceDirect" title="ScienceDirect"></td>
+</tr>
+<tr>
+<td valign="top" colspan="2"><img width="1" src="/images/sp.gif" height="1" alt=""></td><td colspan="2"><a href="search?q=((isolate*+AND+hybridiz*+AND+probe*)+AND+(microarray*+OR+%22genome-wide%22+OR+%22expression+profile*%22+OR+%22transcription+profil*%22)+)+(issn%3A1097-2765+OR+issn%3A0092-8674+OR+issn%3A0036-8075+OR+issn%3A0028-0836+OR+issn%3A1061-4036+OR+issn%3A1061-4036+OR+issn%3A1548-7091+OR+issn%3A1465-7392)&amp;t=all&amp;dt=fta&amp;ds=nature&amp;ds=sd&amp;fdt=2007&amp;tdt=2007&amp;sort=0&amp;drill=yes&amp;sr=%22moleneuro%22+%22molimmuno%22+%22rna%22+%22precursors%22+%22tissue+type%22+%22tissue+types%22+%22cell-type-specific+expression%22+%22nucleotide+changes%22+%22tissue+specificity%22+%22cloned+sequence%22+%22specificity%22+%22sequence+variations%22+%22enriched%22">similar results</a></td>
+</tr>
+<tr>
+<td width="1" height="8" colspan="4"><img width="1" src="/images/sp.gif" height="8" alt=""></td>
+</tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tr>
+<td class="searchresultscol1"><input type="checkbox" onclick="javascript:displayPerPageMessage();javascript:toggleMasterItem(this);" name="r" value="7xAx1e4e960c67390cae8ad1d747acc45d2axsciencedirect"><input type="hidden" name="er" value="20070504@7xAx1e4e960c67390cae8ad1d747acc45d2axsciencedirect|http://www.sciencedirect.com/science?_ob=GatewayURL&amp;_origin=ScienceSearch&amp;_method=citationSearch&amp;_piikey=S0092867407003844&amp;_version=1&amp;_returnURL=&amp;md5=8244ece96f345a8fcc8909c804d3624e|sd|p63 Is Essential for the Proliferative Potential of Stem Cells in Stratified Epithelia|"></td><td class="searchresultscol2"><img width="1" src="/images/sp.gif" height="1" alt=""><br>
+<b>26.
+						</b></td><td valign="top" colspan="2"><a name="url" href="/srsapp/sciruslink?src=sd&amp;url=http%3A%2F%2Fwww.sciencedirect.com%2Fscience%3F_ob%3DGatewayURL%26_origin%3DScienceSearch%26_method%3DcitationSearch%26_piikey%3DS0092867407003844%26_version%3D1%26_returnURL%3Dhttp%253A%252F%252Fwww.scirus.com%252Fsrsapp%252Fsearch%253Fq%253D%2528%2528isolate*%252BAND%252Bhybridiz*%252BAND%252Bprobe*%2529%252BAND%252B%2528microarray*%252BOR%252B%252522genome-wide%252522%252BOR%252B%252522expression%252Bprofile*%252522%252BOR%252B%252522transcription%252Bprofil*%252522%2529%252B%2529%252B%2528issn%25253A1097-2765%252BOR%252Bissn%25253A0092-8674%252BOR%252Bissn%25253A0036-8075%252BOR%252Bissn%25253A0028-0836%252BOR%252Bissn%25253A1061-4036%252BOR%252Bissn%25253A1061-4036%252BOR%252Bissn%25253A1548-7091%252BOR%252Bissn%25253A1465-7392%2529%2526t%253Dall%2526dt%253Dfta%2526ds%253Dnature%2526ds%253Dsd%2526fdt%253D2007%2526tdt%253D2007%2526sort%253D0%2526drill%253Dyes%2526p%253D0%26md5%3De600bfc15bd2345712a2764d3830b546">p63 Is Essential for the Proliferative Potential of Stem Cells in Stratified Epithelia</a>
+<br>
+<font class="authorname">Senoo, M. / Pinto, F. / Crum, C.P. / McKeon, F.
+				,
+				</font><font class="srctitle">Cell</font>,	
+	129
+			(3),
+	
+		p.523-536,
+	<font class="date">May 2007</font>
+<br>...thymic T cells from newborn mice. (I) DNA <b>microarray</b> analysis of E18 thymus. Two-dimensional...dysgenesis inp63null mice to further <b>probe</b> the function of p63 in epithelial stem...markers using antibodies and expression <b>microarrays</b> (Table S1), these results indicate that...</td>
+</tr>
+<tr>
+<td valign="top" colspan="2"><img width="1" src="/images/sp.gif" height="1" alt=""></td><td width="10%" valign="middle" nowrap="nowrap"><b>Published journal article available from</b></td><td valign="middle">&nbsp;
+						<img border="0" src="/images/logos/sd_logo.gif" width="123" height="20" alt="ScienceDirect" title="ScienceDirect"></td>
+</tr>
+<tr>
+<td valign="top" colspan="2"><img width="1" src="/images/sp.gif" height="1" alt=""></td><td colspan="2"><a href="search?q=((isolate*+AND+hybridiz*+AND+probe*)+AND+(microarray*+OR+%22genome-wide%22+OR+%22expression+profile*%22+OR+%22transcription+profil*%22)+)+(issn%3A1097-2765+OR+issn%3A0092-8674+OR+issn%3A0036-8075+OR+issn%3A0028-0836+OR+issn%3A1061-4036+OR+issn%3A1061-4036+OR+issn%3A1548-7091+OR+issn%3A1465-7392)&amp;t=all&amp;dt=fta&amp;ds=nature&amp;ds=sd&amp;fdt=2007&amp;tdt=2007&amp;sort=0&amp;drill=yes&amp;sr=%22cellbio%22+%22devbio%22+%22stemcells%22+%22epithelial%22+%22proliferative+potential%22+%22thymic+epithelial+cells%22+%22thymic+hypoplasia%22+%22epithelial+stem+cells%22+%22thymus%22+%22stratified+epithelia%22+%22thymic+development%22+%22epidermis%22+%22epithelia%22">similar results</a></td>
+</tr>
+<tr>
+<td width="1" height="8" colspan="4"><img width="1" src="/images/sp.gif" height="8" alt=""></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tr>
+<td width="28" valign="bottom" align="center"><img src="/images/checkboxfalse.gif" onclick="javascript:toggleAllItems(this);" id="masterCheckZ" alt="Click checkbox to select all results on this page"></td><td valign="bottom"><img width="10" src="/images/sp.gif" height="1" alt=""><a href="javascript:EmailResults();">Email</a>,&nbsp;<a href="javascript:SaveResults();">Save</a>&nbsp;or&nbsp;<a href="javascript:ExportResults();">Export</a>&nbsp;checked results
+														</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td><td><img width="10" src="/images/sp.gif" height="1" border="0"></td>
+</tr>
+</table>
+<img width="1" src="/images/sp.gif" height="23" border="0"><table width="100%" summary="Google Adsense" style="border-right:silver 1px solid;" cellspacing="0" cellpadding="0" border="0">
+<tr>
+<td valign="top"></td>
+</tr>
+</table><?xml version="1.0" encoding="UTF-8"?>
+<br/><table width="100%" cellspacing="0" cellpadding="0" border="0"><tr><td align="right"><img width="60" src="images/logos/fast.gif" height="22" alt="FAST Logo"/></td></tr><tr><td><img width="650" src="images/sp.gif" height="14" border="0" alt=""/></td></tr></table><table class="pagenav" cellspacing="0" cellpadding="0" border="0"><tr><td/></tr></table><input name="q" type="hidden" value="((isolate* AND hybridiz* AND probe*) AND (microarray* OR &quot;genome-wide&quot; OR &quot;expression profile*&quot; OR &quot;transcription profil*&quot;) ) (issn:1097-2765 OR issn:0092-8674 OR issn:0036-8075 OR issn:0028-0836 OR issn:1061-4036 OR issn:1061-4036 OR issn:1548-7091 OR issn:1465-7392)"><input name="t" type="hidden" value="all"><input name="dt" type="hidden" value="fta"><input name="ds" type="hidden" value="nature"><input name="ds" type="hidden" value="sd"><input name="fdt" type="hidden" value="2007"><input name="tdt" type="hidden" value="2007"><input name="sort" type="hidden" value="0"><input name="drill" type="hidden" value="yes"></form>
+</td><td valign="top" class="resultscol3"><img width="1" src="/images/sp.gif" height="3" border="0" alt=""><br>
+<table width="120" summary="Skyscraper Ad" cellspacing="0" cellpadding="0" border="0" align="center">
+<tr>
+<td align="center"><script src="http://m.2mdn.net/879366/DartRichMedia_1_03.js"></script><a target="new" href="http://ad.uk.doubleclick.net/click;h=v8/386f/0/0/%2a/c;44306;0-0;0;11646598;933-120/600;0/0/0;;~sscs=%3f"><img src="http://m1.emea.2mdn.net/viewad/817-grey.gif" border=0 alt="Click here to find out more!"></a></td>
+</tr>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<br xmlns:nav="com.elsevier.scirus.search.results.SearchNavigator">
+<div xmlns:nav="com.elsevier.scirus.search.results.SearchNavigator" class="bottomsearchcontainer">
+<div class="bottomsearchright">
+<a href="#top">Back to top</a>
+</div>
+<div class="bottomsearchmiddle">
+<div class="bottomsearchmiddleSub">
+<form name="search1" method="get" action="./search">
+<input type="text" size="40" name="q" maxlength="255" id="q" value="((isolate* AND hybridiz* AND probe*) AND (microarray* OR &quot;genome-wide&quot; OR &quot;expression profile*&quot; OR &quot;transcription profil*&quot;) ) (issn:1097-2765 OR issn:0092-8674 OR issn:0036-8075 OR issn:0028-0836 OR issn:1061-4036 OR issn:1061-4036 OR issn:1548-7091 OR issn:1465-7392)"><img width="10" src="/images/sp.gif" height="1" alt=""><input value="Search" type="submit"><input value="all" type="hidden" name="t"><input value="0" type="hidden" name="sort">
+</form>
+</div>
+</div>
+</div>
+<div class="graybarrev"></div>
+<div class="footerMiddleColumn">
+<div align="center" class="footerLinks">
+<font class="bottomLinks"><a title="Downloads" href="/srsapp/downloads/">Downloads</a><span class="pinkSeparator"> | </span><a title="Submit website" href="/srsapp/submiturl/">Submit website</a><span class="pinkSeparator"> | </span><a title="Scirus newsletter" href="javascript:openNewsSubscribeWindow('/srsapp/sciruslink?src=web&amp;url=http://mail.elsevier-alerts.com/go.asp?/mHWAT13/bESR001');">Scirus newsletter</a><span class="pinkSeparator"> | </span><a href="javascript:openHelpWindow('/html/help/index.htm')" title="Help">Help</a><span class="pinkSeparator"> | </span><a title="Library partners" href="/srsapp/librarypartners/">Library partners</a><span class="pinkSeparator"> | </span><a title="Contact us" href="/srsapp/contactus/">Contact us</a>
+<BR>
+<a title="About us" href="/srsapp/aboutus/">About us</a><span class="pinkSeparator"> | </span><a title="Advisory board" href="/srsapp/board/">Advisory board</a><span class="pinkSeparator"> | </span><a href="javascript:openPrivacyWindow('/srsapp/privacy/')" title="Privacy policy">Privacy policy</a><span class="pinkSeparator"> | </span><a title="Terms &amp; Conditions" href="/srsapp/termsofservice/">Terms &amp; Conditions</a><span class="pinkSeparator"> | </span><a title="Newsroom" href="/srsapp/newsroom/">Newsroom</a></font>
+</div>
+<div align="center">
+<font class="bottomLinks">Powered by <a target="_blank" class="fast" href="http://www.fastsearch.com/" title="Fastsearch">FAST</a> &copy; Elsevier 2009</font>
+</div>
+</div>
+</body></html>
+

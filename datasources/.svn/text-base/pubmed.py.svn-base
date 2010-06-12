@@ -1,0 +1,287 @@
+import time
+import re
+import urllib2
+from utils.urllib2cache import Urllib2CacheHandler
+from utils.cache import TimedCache
+import pyparsing
+from BeautifulSoup import BeautifulStoneSoup, BeautifulSoup
+import EUtils
+from EUtils import HistoryClient, ThinClient
+from datasources import fieldname, datasourcesError
+from datasources import DataSource
+from datasources import urlopener
+
+__metaclass__ = type
+EMAIL_CONTACT = "hpiwowar@gmail.com"
+VERBOSE = True
+
+
+class PubMed(DataSource):
+    def __init__(self, ids=[]):
+        super(PubMed, self).__init__(ids, "pubmed")
+        
+    def geo_accession_numbers(self):
+        geo_accessions = linked_geo_dataset_accessions(self.ids)
+        return(geo_accessions)
+
+        
+@TimedCache(timeout_in_seconds=60*60*24*7)        
+def linked_geo_dataset_accessions(pmids):
+    response = []
+    eutils = get_eutils_client()
+    for pmid in pmids:
+        if not pmid:
+            gds_ids = None
+        else:
+            raw_xml = _get_gds_links_from_pmid(pmid)
+            gds_ids = _extract_gds_ids_from_xml(raw_xml)
+
+        if not gds_ids:
+            response.append(None)
+        else:
+            raw_html = _get_doc_summary_from_gds_ids(gds_ids)
+            response.append(_extract_gds_accession_from_html(raw_html))
+        time.sleep(1/3)
+    return(response)
+
+
+@TimedCache(timeout_in_seconds=60*60*24*7)
+def _get_pmc_links_from_pmid(pmid):
+    eutils = get_eutils_client()
+    pmids_dbids = EUtils.DBIds("pubmed", pmid)
+    raw_xml = eutils.elink_using_dbids(pmids_dbids, db="pmc").read()
+    return(raw_xml)
+        
+@TimedCache(timeout_in_seconds=60*60*24*7)
+def _get_gds_links_from_pmid(pmid):
+    eutils = get_eutils_client()
+    pmids_dbids = EUtils.DBIds("pubmed", pmid)
+    xml = eutils.elink_using_dbids(pmids_dbids, db="gds").read()            
+    return(xml)
+
+@TimedCache(timeout_in_seconds=60*60*24*7)
+def _get_doc_summary_from_gds_ids(gds_ids):
+    eutils = get_eutils_client()    
+    gds_dbids = EUtils.DBIds("gds", gds_ids)        
+    raw_html = eutils.efetch_using_dbids(gds_dbids, rettype="docsum", retmode="html").read()
+    return(raw_html)
+                
+
+def get_eutils_client():
+    if VERBOSE:
+        ThinClient.DUMP_URL = True
+        #ThinClient.DUMP_RESULT = True    
+
+    eutils=EUtils.ThinClient.ThinClient(email=EMAIL_CONTACT, 
+                                        opener=urlopener)
+    return(eutils)
+    
+@TimedCache(timeout_in_seconds=60*60*24*7)
+def get_summary_xml(pmid):
+    if VERBOSE:
+        print "get_summary_xml for %s" %pmid
+
+    eutils = get_eutils_client()
+    pmids_dbids = EUtils.DBIds("pubmed", pmid)
+    summary_xml = eutils.esummary_using_dbids(pmids_dbids).read()
+    time.sleep(1/3)
+    return(summary_xml)
+
+
+def get_pattern():
+    itemStart,itemEnd = pyparsing.makeHTMLTags("Item")
+    contents_pattern = pyparsing.OneOrMore(pyparsing.Word(pyparsing.alphanums))
+    contents_pattern = contents_pattern.setParseAction( lambda tokens: " ".join(tokens) )
+    pattern = itemStart + contents_pattern("contents_pattern") + itemEnd
+    return(pattern)
+
+# Do it here so it is done once
+pattern = get_pattern()
+    
+@TimedCache(timeout_in_seconds=60*60*24*7)
+def get_fields(raw_xml):
+    fields = [dict(token) for token,s,e in pattern.scanString(raw_xml)]
+    return(fields)
+    
+@TimedCache(timeout_in_seconds=60*60*24*7)
+def parse_summary(raw_xml, tag):
+    if VERBOSE:
+        print "parse_summary for %s" %tag
+    fields = get_fields(raw_xml)
+    values = [a['contents_pattern'] for a in fields if a['name']==tag]
+    return(values)
+    
+def pubdate_from_medline(pmid):
+    summary_xml = get_summary_xml(pmid)
+    response = parse_summary(summary_xml, "PubDate")
+    return(response[0])
+    
+def journal_from_medline(pmid):
+    summary_xml = get_summary_xml(pmid)
+    response = parse_summary(summary_xml, "Source")
+    return(response[0])
+
+def authors_from_medline(pmid):
+    summary_xml = get_summary_xml(pmid)
+    response = parse_summary(summary_xml, "Author")
+    return(", ".join(response))
+    
+@fieldname("pmid")
+def pubmed_id(pmids):
+    """Returns a list of PubMed IDs"""
+    return(pmids)
+
+@fieldname("pubmed_date_published")
+def date_published(pmids):
+    response = [pubdate_from_medline(pmid) for pmid in pmids]
+    return(response)
+
+@fieldname("pubmed_journal")
+def journal(pmids):
+    response = [journal_from_medline(pmid) for pmid in pmids]
+    return(response)
+
+@fieldname("pubmed_authors")
+def authors(pmids):
+    response = [authors_from_medline(pmid) for pmid in pmids]
+    return(response)
+
+def list_of_tag_contents(my_soup, my_tag):
+    return [hit.string for hit in my_soup(my_tag)]
+    
+def _extract_num_pmc_citations_from_xml(raw_xml):
+    try:
+        soup = BeautifulStoneSoup(raw_xml)
+        # Verify we got a valid page
+        assert(soup.find("elinkresult"))  
+        # Now get the linkset part
+        linksetdb_soup = BeautifulStoneSoup(str(soup.find(text="pubmed_pmc_refs").findParents('linksetdb'))[1:-1])
+        num_pmc_citations = len(list_of_tag_contents(linksetdb_soup, "id"))
+    except AttributeError:
+        # No links found
+        num_pmc_citations = 0
+    return(num_pmc_citations)
+
+@fieldname("pubmed_number_times_cited_in_pmc")
+def number_times_cited_in_pmc(pmids):
+    response = []
+    for pmid in pmids:
+        raw_xml = _get_pmc_links_from_pmid(pmid)
+        response.append(_extract_num_pmc_citations_from_xml(raw_xml))
+        time.sleep(1/3)
+    return(response)
+
+@TimedCache(timeout_in_seconds=60*60*24*7)
+def _extract_gds_ids_from_xml(raw_xml):
+    try:
+        soup = BeautifulStoneSoup(raw_xml)
+        #print soup.prettify()
+        # Verify we got a valid page
+        assert(soup.find("elinkresult"))  
+        # Now get the linkset part
+        linksetdb_soup = BeautifulStoneSoup(str(soup.find(text="pubmed_gds").findParents('linksetdb'))[1:-1])
+        gds_ids = list_of_tag_contents(linksetdb_soup, "id")
+    except AttributeError:
+        # No links found
+        gds_ids = []
+    return(gds_ids)
+
+def _extract_gds_accession_from_html(raw_html):
+    pattern = "\n\d+: (?P<accession>[GSE0-9]+) record:"
+    gds_accessions = re.findall(pattern, raw_html)
+    first_accession = gds_accessions[0]
+    return(first_accession)
+        
+@fieldname("pubmed_is_cancer")    
+def is_cancer(query_pmids):
+    matching_pattern = "cancer[sb]"
+    flag_pmid_passes_filter = _get_flags_for_pattern(query_pmids, matching_pattern)
+    return(flag_pmid_passes_filter)
+
+@fieldname("pubmed_is_humans")    
+def is_humans(query_pmids):
+    matching_pattern = "humans[mesh]"
+    flag_pmid_passes_filter = _get_flags_for_pattern(query_pmids, matching_pattern)
+    return(flag_pmid_passes_filter)
+
+@fieldname("pubmed_is_animals")    
+def is_animals(query_pmids):
+    matching_pattern = "animals[mesh:noexp]"
+    flag_pmid_passes_filter = _get_flags_for_pattern(query_pmids, matching_pattern)
+    return(flag_pmid_passes_filter)
+
+@fieldname("pubmed_is_viruses")    
+def is_viruses(query_pmids):
+    matching_pattern = "viruses[mesh]"
+    flag_pmid_passes_filter = _get_flags_for_pattern(query_pmids, matching_pattern)
+    return(flag_pmid_passes_filter)
+
+@fieldname("pubmed_is_plants")    
+def is_plants(query_pmids):
+    matching_pattern = "plants[mesh]"
+    flag_pmid_passes_filter = _get_flags_for_pattern(query_pmids, matching_pattern)
+    return(flag_pmid_passes_filter)
+
+@fieldname("pubmed_is_fungi")    
+def is_fungi(query_pmids):
+    matching_pattern = "fungi[mesh]"
+    flag_pmid_passes_filter = _get_flags_for_pattern(query_pmids, matching_pattern)
+    return(flag_pmid_passes_filter)
+
+@fieldname("pubmed_is_mice")    
+def is_mice(query_pmids):
+    matching_pattern = "mice[mesh]"
+    flag_pmid_passes_filter = _get_flags_for_pattern(query_pmids, matching_pattern)
+    return(flag_pmid_passes_filter)
+    
+@fieldname("pubmed_is_bacteria")    
+def is_bacteria(query_pmids):
+    matching_pattern = "bacteria[mesh]"
+    flag_pmid_passes_filter = _get_flags_for_pattern(query_pmids, matching_pattern)
+    return(flag_pmid_passes_filter)
+
+@fieldname("pubmed_is_cultured_cells")    
+def is_cultured_cells(query_pmids):
+    matching_pattern = '"cells,cultured"[mesh]'
+    flag_pmid_passes_filter = _get_flags_for_pattern(query_pmids, matching_pattern)
+    return(flag_pmid_passes_filter)
+    
+# Too many duplicates of this.  Need to refactor duplicate code!
+def _map_booleans_to_flags(list_of_True_False):
+    mapping = {True:'1', False:'0'}
+    list_of_flags = [mapping[i] for i in list_of_True_False]
+    return(list_of_flags)
+
+# Too many duplicates of this.  Need to refactor duplicate code!
+def _get_flags_for_pattern(query_pmids, data_location_query_string):
+    if not query_pmids:
+        return([])
+    filtered_pmids = filter_pmids(query_pmids, data_location_query_string)
+    pmid_passes_filter = [(pmid in filtered_pmids) for pmid in query_pmids]   
+    flag_pmid_passes_filter = _map_booleans_to_flags(pmid_passes_filter)
+    return(flag_pmid_passes_filter)
+    
+@TimedCache(timeout_in_seconds=60*60*24*7)
+def filter_pmids(query_pmids, pubmed_filter_string):
+    if VERBOSE:
+        print "filter_pmids for %s" %query_pmids
+        
+    if not query_pmids:
+        return([])
+    try:
+        entrez = HistoryClient.HistoryClient(eutils=get_eutils_client())
+        pmids_dbids = EUtils.DBIds("pubmed", query_pmids)
+        pmids_records = entrez.post(pmids_dbids)
+        filtered_pmid_records = entrez.search(
+                    '#%s AND %s' %(pmids_records.query_key, pubmed_filter_string), 
+                    db="pubmed") 
+        filtered_pmids = filtered_pmid_records.dbids.ids
+    except AttributeError:
+        filtered_pmids = []
+    except EUtils.EUtilsError, e:
+        if e.args[0].strip() == "Empty result - nothing todo":
+            filtered_pmids = []
+        else:
+            raise datasourcesError(e) 
+    time.sleep(1/3)
+    return(filtered_pmids)

@@ -1,0 +1,326 @@
+<PubmedArticle>
+    <MedlineCitation Owner="NLM" Status="In-Process">
+        <PMID>20080736</PMID>
+        <DateCreated>
+            <Year>2010</Year>
+            <Month>01</Month>
+            <Day>18</Day>
+        </DateCreated>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1091-6490</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>107</Volume>
+                    <Issue>2</Issue>
+                    <PubDate>
+                        <Year>2010</Year>
+                        <Month>Jan</Month>
+                        <Day>12</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Proceedings of the National Academy of Sciences of the United States of America</Title>
+                <ISOAbbreviation>Proc. Natl. Acad. Sci. U.S.A.</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>The quorum-quenching N-acyl homoserine lactone acylase PvdQ is an Ntn-hydrolase with an unusual substrate-binding pocket.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>686-91</MedlinePgn>
+            </Pagination>
+            <Abstract>
+                <AbstractText>In many Gram-negative pathogens, their virulent behavior is regulated by quorum sensing, in which diffusible signals such as N-acyl homoserine lactones (AHLs) act as chemical messaging compounds. Enzymatic degradation of these diffusible signals by, e.g., lactonases or amidohydrolases abolishes AHL regulated virulence, a process known as quorum quenching. Here we report the first crystal structure of an AHL amidohydrolase, the AHL acylase PvdQ from Pseudomonas aeruginosa. PvdQ has a typical alpha/beta heterodimeric Ntn-hydrolase fold, similar to penicillin G acylase and cephalosporin acylase. However, it has a distinct, unusually large, hydrophobic binding pocket, ideally suited to recognize C12 fatty acid-like chains of AHLs. Binding of a C12 fatty acid or a 3-oxo-C12 fatty acid induces subtle conformational changes to accommodate the aliphatic chain. Furthermore, the structure of a covalent ester intermediate identifies Serbeta1 as the nucleophile and Asnbeta269 and Valbeta70 as the oxyanion hole residues in the AHL degradation process. Our structures show the versatility of the Ntn-hydrolase scaffold and can serve as a structural paradigm for Ntn-hydrolases with similar substrate preference. Finally, the quorum-quenching capabilities of PvdQ may be utilized to suppress the quorum-sensing machinery of pathogens.</AbstractText>
+            </Abstract>
+            <Affiliation>Laboratory of Biophysical Chemistry, University of Groningen, Nijenborgh 4, 9747 AG Groningen, The Netherlands.</Affiliation>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Bokhove</LastName>
+                    <ForeName>Marcel</ForeName>
+                    <Initials>M</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Jimenez</LastName>
+                    <ForeName>Pol Nadal</ForeName>
+                    <Initials>PN</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Quax</LastName>
+                    <ForeName>Wim J</ForeName>
+                    <Initials>WJ</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Dijkstra</LastName>
+                    <ForeName>Bauke W</ForeName>
+                    <Initials>BW</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <DataBankList CompleteYN="Y">
+                <DataBank>
+                    <DataBankName>PDB</DataBankName>
+                    <AccessionNumberList>
+                        <AccessionNumber>2WYB</AccessionNumber>
+                        <AccessionNumber>2WYC</AccessionNumber>
+                        <AccessionNumber>2WYD</AccessionNumber>
+                        <AccessionNumber>2WYE</AccessionNumber>
+                    </AccessionNumberList>
+                </DataBank>
+            </DataBankList>
+            <PublicationTypeList>
+                <PublicationType>Journal Article</PublicationType>
+                <PublicationType>Research Support, Non-U.S. Gov't</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2009</Year>
+                <Month>12</Month>
+                <Day>22</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>Proc Natl Acad Sci U S A</MedlineTA>
+            <NlmUniqueID>7505876</NlmUniqueID>
+            <ISSNLinking>0027-8424</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="aheadofprint">
+                <Year>2009</Year>
+                <Month>12</Month>
+                <Day>22</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2010</Year>
+                <Month>1</Month>
+                <Day>19</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2010</Year>
+                <Month>1</Month>
+                <Day>19</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2010</Year>
+                <Month>1</Month>
+                <Day>19</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pii">0911839107</ArticleId>
+            <ArticleId IdType="doi">10.1073/pnas.0911839107</ArticleId>
+            <ArticleId IdType="pubmed">20080736</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Owner="NLM" Status="MEDLINE">
+        <PMID>19861542</PMID>
+        <DateCreated>
+            <Year>2009</Year>
+            <Month>11</Month>
+            <Day>06</Day>
+        </DateCreated>
+        <DateCompleted>
+            <Year>2010</Year>
+            <Month>01</Month>
+            <Day>12</Day>
+        </DateCompleted>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1940-6215</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>2</Volume>
+                    <Issue>11</Issue>
+                    <PubDate>
+                        <Year>2009</Year>
+                        <Month>Nov</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Cancer prevention research (Philadelphia, Pa.)</Title>
+                <ISOAbbreviation>Cancer Prev Res (Phila Pa)</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Deguelin inhibits growth of breast cancer cells by modulating the expression of key members of the Wnt signaling pathway.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>942-50</MedlinePgn>
+            </Pagination>
+            <Abstract>
+                <AbstractText>An emphasis in early detection and more effective treatments has decreased the mortality rate of breast cancer. Despite this decrease, breast cancer continues to be the leading cause of death among women between 40 and 55 years of age and is the second overall cause of death among women. Hence, the aim of the present study was to assess the therapeutic efficacy of deguelin, a rotenoid isolated from several plant species, which has been reported to have chemopreventive and/or chemotherapeutic effects in skin, mammary, colon, and lung cancers. The effect of deguelin on cell proliferation was evaluated using four human breast carcinoma cell lines (MCF-7, BT474, T47D, and MDA-MB-231) by cell count and MTT. Moreover, apoptosis was evaluated by acridine/ethidium staining and DNA laddering. Gene expression changes following deguelin treatment in MDA-MB-231 cells was assessed through microarray analysis. Deguelin at 1 mumol/L was found to inhibit the growth of the breast cancer cell lines tested with a range of 37% to 87%. The highest inhibition was noted for the MDA-MB-231 cell line (MDA-MB-231&gt;BT474&gt;MCF7&gt;T47D&gt;MCF12F). An arrest at the S phase of the cell cycle and apoptosis were shown in the MDA-MB-231 cells treated with deguelin. The microarray profile indicated differential expression of two independent pathways, including clusters of apoptosis and Wnt/beta-catenin signaling genes in cells as a result of deguelin treatment. These studies support the antiproliferative effects of deguelin in human breast cancer cells and, perhaps more importantly, illustrate novel actions by deguelin in the Wnt signaling pathway.</AbstractText>
+            </Abstract>
+            <Affiliation>Division of Carcinogenesis and Chemoprevention, IIT Research Institute, Chicago, Illinois 60616, USA.</Affiliation>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Murillo</LastName>
+                    <ForeName>Genoveva</ForeName>
+                    <Initials>G</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Peng</LastName>
+                    <ForeName>Xinjian</ForeName>
+                    <Initials>X</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Torres</LastName>
+                    <ForeName>Karen E O</ForeName>
+                    <Initials>KE</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Mehta</LastName>
+                    <ForeName>Rajendra G</ForeName>
+                    <Initials>RG</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType>Journal Article</PublicationType>
+                <PublicationType>Research Support, Non-U.S. Gov't</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2009</Year>
+                <Month>10</Month>
+                <Day>27</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>Cancer Prev Res (Phila Pa)</MedlineTA>
+            <NlmUniqueID>101479409</NlmUniqueID>
+        </MedlineJournalInfo>
+        <ChemicalList>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance>RNA, Messenger</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance>Tumor Markers, Biological</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance>Wnt Proteins</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>522-17-8</RegistryNumber>
+                <NameOfSubstance>deguelin</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>83-79-4</RegistryNumber>
+                <NameOfSubstance>Rotenone</NameOfSubstance>
+            </Chemical>
+        </ChemicalList>
+        <CitationSubset>IM</CitationSubset>
+        <CommentsCorrectionsList>
+            <CommentsCorrections RefType="CommentIn">
+                <RefSource>Cancer Prev Res (Phila Pa). 2009 Nov;2(11):915-8</RefSource>
+                <PMID>19861544</PMID>
+            </CommentsCorrections>
+        </CommentsCorrectionsList>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Apoptosis</DescriptorName>
+                <QualifierName MajorTopicYN="N">drug effects</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Blotting, Western</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Breast Neoplasms</DescriptorName>
+                <QualifierName MajorTopicYN="N">metabolism</QualifierName>
+                <QualifierName MajorTopicYN="Y">pathology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Cell Cycle</DescriptorName>
+                <QualifierName MajorTopicYN="N">drug effects</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Cell Proliferation</DescriptorName>
+                <QualifierName MajorTopicYN="Y">drug effects</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Female</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Gene Expression Profiling</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Oligonucleotide Array Sequence Analysis</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">RNA, Messenger</DescriptorName>
+                <QualifierName MajorTopicYN="N">genetics</QualifierName>
+                <QualifierName MajorTopicYN="N">metabolism</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Reverse Transcriptase Polymerase Chain Reaction</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Rotenone</DescriptorName>
+                <QualifierName MajorTopicYN="Y">analogs &amp; derivatives</QualifierName>
+                <QualifierName MajorTopicYN="N">pharmacology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Signal Transduction</DescriptorName>
+                <QualifierName MajorTopicYN="Y">drug effects</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Tumor Cells, Cultured</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Tumor Markers, Biological</DescriptorName>
+                <QualifierName MajorTopicYN="N">metabolism</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Wnt Proteins</DescriptorName>
+                <QualifierName MajorTopicYN="N">genetics</QualifierName>
+                <QualifierName MajorTopicYN="Y">metabolism</QualifierName>
+            </MeshHeading>
+        </MeshHeadingList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="aheadofprint">
+                <Year>2009</Year>
+                <Month>10</Month>
+                <Day>27</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2009</Year>
+                <Month>10</Month>
+                <Day>29</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2009</Year>
+                <Month>10</Month>
+                <Day>29</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2010</Year>
+                <Month>1</Month>
+                <Day>13</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pii">1940-6207.CAPR-08-0232</ArticleId>
+            <ArticleId IdType="doi">10.1158/1940-6207.CAPR-08-0232</ArticleId>
+            <ArticleId IdType="pubmed">19861542</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
