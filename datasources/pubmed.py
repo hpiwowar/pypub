@@ -15,7 +15,7 @@ from datasources import urlopener
 
 __metaclass__ = type
 EMAIL_CONTACT = "hpiwowar@gmail.com"
-VERBOSE = False
+VERBOSE = True
 
 
 class PubMed(DataSource):
@@ -74,8 +74,9 @@ def get_eutils_client():
     else:
         ThinClient.DUMP_URL = False    
             
-    eutils_client=EUtils.ThinClient.ThinClient(email=EMAIL_CONTACT, 
-                                        opener=urlopener)
+    eutils_client=EUtils.ThinClient.ThinClient(email=EMAIL_CONTACT)
+#    eutils_client=EUtils.ThinClient.ThinClient(email=EMAIL_CONTACT, 
+#                                        opener=urlopener)
     return(eutils_client)
 
 def get_eutils_history_client():
@@ -111,6 +112,8 @@ def get_uncached_eutils_history_client():
 def get_summary_xml(pmids):
     if VERBOSE:
         print "get_summary_xml for %s" %pmids
+    if not pmids:
+        return("")
     (client, the_post) = get_history_client_post(pmids)
     the_esummary = the_post.esummary()
     summary_xml = the_esummary.read()
@@ -123,6 +126,8 @@ def get_summary_xml(pmids):
 def get_medline_citation_xml(pmids):
     if VERBOSE:
         print "get_medline_citation_xml for %s" %pmids
+    if not pmids:
+        return("")    
     (client, the_post) = get_history_client_post(pmids)
     the_efetch = the_post.efetch(retmode="xml")
     medline_citation_xml = the_efetch.read()
@@ -408,14 +413,16 @@ def _get_flags_for_pattern(query_pmids, data_location_query_string):
     flag_pmid_passes_filter = _map_booleans_to_flags(pmid_passes_filter)
     return(flag_pmid_passes_filter)
     
-@TimedCache(timeout_in_seconds=60*60*24*7)
+###@TimedCache(timeout_in_seconds=60*60*24*7)
 def filter_pmids(query_pmids, pubmed_filter_string):
+    print "filter_pmids for %s" %query_pmids
     if VERBOSE:
         print "filter_pmids for %s" %query_pmids
         
     if not query_pmids:
         return([])
     try:
+        time.sleep(1/3)
         (client, the_post) = get_history_client_post(query_pmids)
         filtered_pmid_records = client.search(
                     '#%s AND (%s)' %(the_post.query_key, pubmed_filter_string), 
@@ -429,7 +436,6 @@ def filter_pmids(query_pmids, pubmed_filter_string):
             filtered_pmids = []
         else:
             raise datasourcesError(e) 
-    time.sleep(1/3)
     return(filtered_pmids)
 
 @TimedCache(timeout_in_seconds=60*60*24*7)
@@ -437,6 +443,7 @@ def search(pubmed_filter_string):
     if VERBOSE:
         print "filter_pmids for %s" %pubmed_filter_string
     try:
+        time.sleep(1/3)
         entrez = get_eutils_history_client()
         filtered_pmid_records = entrez.search(pubmed_filter_string, db="pubmed") 
         filtered_pmids = filtered_pmid_records.dbids.ids
@@ -447,7 +454,6 @@ def search(pubmed_filter_string):
             filtered_pmids = []
         else:
             raise datasourcesError(e) 
-    time.sleep(1/3)
     return(filtered_pmids)
     
 def get_pmid_from_citation(journal="", year="", volume="", firstpage="", firstauthor="", key=""):
@@ -931,6 +937,7 @@ def get_year_groups(query_pmids, years):
     for year in years:
         pubmed_filter_string = "1[PDAT]:%d/12/31[PDAT]" %(year)
         try:
+            time.sleep(1/3)
             filtered_pmid_records = the_post.search(
                         '#%s AND (%s)' %(the_post.query_key, pubmed_filter_string), 
                         db="pubmed") 
@@ -942,7 +949,6 @@ def get_year_groups(query_pmids, years):
                 filtered_pmids = []
             else:
                 raise datasourcesError(e) 
-        time.sleep(1/3)
 
         pmid_passes_filter = [(pmid in filtered_pmids) for pmid in query_pmids]   
         flags[year] = _map_booleans_to_flags(pmid_passes_filter)

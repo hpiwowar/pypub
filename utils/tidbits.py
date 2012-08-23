@@ -18,6 +18,11 @@ def flat_list(lst):
     response = list(flatten(lst))
     return response
     
+def flatten_unique(lst):
+    flat = flatten(lst)
+    flat_unique = list(set(flat))
+    return(flat_unique)
+    
 # From http://www.daniweb.com/code/snippet649.html#
 def flatten(lst):
     for elem in lst:

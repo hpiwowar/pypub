@@ -52,6 +52,11 @@ class GEO(DataSource):
             pmid = None
         return(pmid)
 
+    @fieldname("geo_pmids")
+    def pmids(self, id):
+        pmids = self.pmids_from_links(id)
+        return(pmids)
+        
     def citation(self, id):
         if not id:
             return(None)
@@ -87,6 +92,8 @@ class GEO(DataSource):
         extracted_text = self.query_geo(id, ["Status"])
         if extracted_text:
             extracted_text = extracted_text.replace(u"Public on ", u"")
+        else:
+            extracted_text = ""
         return(extracted_text)
 
     @fieldname("geo_submitter")
@@ -105,6 +112,8 @@ class GEO(DataSource):
         if extracted_text:
             soup = BeautifulSoup(extracted_text)
             extracted_text = soup.a.string
+        else:
+            extracted_text = ""
         return(extracted_text)
 
     @fieldname("geo_contributors")
@@ -112,7 +121,9 @@ class GEO(DataSource):
         extracted_text = self.query_geo(id, ["Contributor(s)"])
         if extracted_text:
             soup = BeautifulSoup(extracted_text)
-            extracted_text = soup.a.string
+            extracted_text = [b.string for b in soup.findAll("a")]
+        else:
+            extracted_text = ""
         return(extracted_text)
         
     @fieldname("geo_dataset_in_ochsner")
@@ -153,7 +164,7 @@ class GEO(DataSource):
                 soup = BeautifulSoup(raw_html)
                 # Verify we got a valid page
                 try:
-                    assert(soup.find(text="Status")) 
+                    #assert(soup.find(text="Title")) 
                     success = True
                     print("Got geo page for %s" %geo_query_string)
                 except:
@@ -196,6 +207,13 @@ def has_data_submission(query_pmids):
     flag_pmid_passes_filter = map_booleans_to_flags(pmid_passes_filter)
     return(flag_pmid_passes_filter)
 
+@TimedCache(timeout_in_seconds=60*60*24*7)
+def search_gds_for_ids(query_string, retmax=100000):
+    eutils = get_eutils_client()
+    raw_xml = eutils.esearch(query_string, db="gds", retmax=retmax).read()
+    ids = re.findall("""<Id>(\d*)</Id>""", raw_xml)
+    time.sleep(1/3)
+    return(ids)
 
 @TimedCache(timeout_in_seconds=60*60*24*7)
 def get_geo_page(query_string):
@@ -222,7 +240,15 @@ def query_geo_for_pmid(pmid):
         search_found_pmid = '0'
     return(search_found_pmid)
 
-
+def get_stripped_accession(id):
+    id_int = int(id)
+    if (id_int > 200000000):
+        id_stripped = str(id_int - 200000000)
+    else:
+        id_stripped = id
+    return(id_stripped)
+    
+    
 def get_eutils_client():
     if VERBOSE:
         ThinClient.DUMP_URL = True
@@ -232,23 +258,35 @@ def get_eutils_client():
     eutils_client=EUtils.ThinClient.ThinClient(email=EMAIL_CONTACT, opener=urlopener)
     return(eutils_client)
 
-def get_ids_from_gds(query, retmax=100000):
-    eutils = get_eutils_client()
-    raw_xml = eutils.esearch(query, db="gds", retmax=retmax).read()
-    ids = re.findall("""<Id>(\d*)</Id>""", raw_xml)
+def get_ids_from_gds(query):
+    ids = search_gds_for_ids(query)
     return(ids)
     
-def get_all_gds():
-    ids = get_ids_from_gds("GDS[ETYP]")
+def get_all_ids(id_type):
+    ids = get_ids_from_gds(id_type + "[ETYP]")
     return(ids)
 
 def get_all_gse():
-    ids = get_ids_from_gds("GSE[ETYP]")
+    ids = get_all_ids("GSE")
+    return(ids)
+
+def get_all_gds():
+    ids = get_all_ids("GDS")
     return(ids)
     
+def get_ids_by_year(id_type, year):
+    query = id_type + "[ETYP]"
+    if year:
+        query += " AND " + year + "[Publication Date]"
+    ids = get_ids_from_gds(query)
+    return(ids)
 
+def get_gse_from_gds(gse_accession, retmax=100000):
+    gse_ids = search_gds_for_ids(gse_accession + '[Accession]+AND+"gse"[Filter]')
+    return(gse_ids)
 
-
-
+def get_gds_from_gse(gds_accession, retmax=100000):
+    gds_ids = search_gds_for_ids(gds_accession + '[Accession]+AND+"gds"[Filter]')
+    return(gds_ids)
 
 

@@ -6,7 +6,8 @@ import datasources
 from datasources import fieldname, datasourcesError, DataSource
 from collections import defaultdict
 
-accession_pattern = re.compile("db=PubMed&term=(?P<accession>\d+)")
+#accession_pattern = re.compile("db=PubMed&term=(?P<accession>\d+)")
+accession_pattern = re.compile("www.ncbi.nlm.nih.gov.pubmed.(?P<accession>\d+)")
 
 class GeoReuse(DataSource):
     def __init__(self, ids=[], filename=""):
@@ -23,7 +24,7 @@ class GeoReuse(DataSource):
 #@TimedCache(timeout_in_seconds=60*60*24*7)
 def get_geo_reuse_pmids(filename=None):    
     # downloaded from http://www.ncbi.nlm.nih.gov/projects/geo/info/ucitations.html
-    scrape_filename = "/Users/hpiwowar/Documents/Code/hpiwowar/pypub/trunk/src/rawdata/geo_reuse/geo_usage_citations.html"
+    scrape_filename = "/Users/hpiwowar/Documents/oldmac/Code/hpiwowar/pypub/trunk/src/rawdata/geo_reuse/geo_usage_citations.html"
     if not filename:
         filename = scrape_filename
     scrape = GeoReuse(filename = filename)

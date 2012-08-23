@@ -87,6 +87,9 @@ class TestGEO(object):
     def test_geo_contributors(self):
         response = [self.geo_source.contributors(id) for id in self.gold_geo_ids]        
         assert_equals(response, test_data_geo_contributors)
+        
+        response = self.geo_source.contributors("GSE2192")
+        assert_equals(response, "hi heather")
 
     def test_geo_submission_date(self):
         response = [self.geo_source.submission_date(id) for id in self.gold_geo_ids]        

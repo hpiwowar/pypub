@@ -1,7 +1,7 @@
 import os
 import sys
-from sqlalchemy import create_engine, MetaData
-from sqlalchemy.orm import sessionmaker, scoped_session
+#from sqlalchemy import create_engine, MetaData
+#from sqlalchemy.orm import sessionmaker, scoped_session
 import utils
 from utils.urllib2cache import Urllib2CacheHandler
 import urllib2
